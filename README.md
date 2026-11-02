@@ -54,9 +54,9 @@ The tray, mini window, configurable global shortcut, and Windows startup prefere
 
 ## In-app updates
 
-The app includes a manual update check in Settings > App updates. Updates are downloaded and installed by the app, then it restarts. The first install of this updater-enabled build must still be done with its installer.
+The app checks the public GitHub Releases page for `AndrezinhoLuz/Pro-Activity-Tracker` on startup and automatically downloads available updates. Choose **Install and restart** in Settings > App updates, or quit the app from its tray menu to install the downloaded update. The first install of this updater-enabled build must still be done with its installer.
 
-Updates need a public HTTPS release feed; this project does not have a hosting account or release repository configured. In Settings, enter the URL of a folder that serves latest.yml and the release files. For GitHub Releases, upload the generated files as release assets and use the release download URL ending in /latest/download/.
+Updates are published as GitHub Releases. Each release must be public and include the generated `latest.yml`, versioned Windows installer `.exe`, and corresponding `.blockmap` as release assets. Publish a version higher than the installed app version; prereleases are not used by the configured stable release channel.
 
 For each code update, run:
 
@@ -64,4 +64,4 @@ For each code update, run:
 npm run release
 ```
 
-This increments the patch version, builds the installer, and writes the update manifest. Upload all three generated files from release to the feed: latest.yml, PRO Activity Tracker Setup <version>.exe, and its .blockmap. Then users can click Check for updates, Download update, and Install and restart in the app. Do not reuse a version number; the release command increments it automatically.
+This increments the patch version, builds the installer, and writes the update manifest. Upload all three generated files from `release` as assets on the matching GitHub Release. Updates are checked automatically at launch; the app downloads them and offers **Install and restart**. Do not reuse a version number; the release command increments it automatically.
