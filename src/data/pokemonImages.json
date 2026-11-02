@@ -1,0 +1,458 @@
+{
+  "Diglett": {
+    "dex": 50,
+    "src": "./images/pokemon/50.png"
+  },
+  "Dugtrio": {
+    "dex": 51,
+    "src": "./images/pokemon/51.png"
+  },
+  "Drilbur": {
+    "dex": 529,
+    "src": "./images/pokemon/529.png"
+  },
+  "Geodude": {
+    "dex": 74,
+    "src": "./images/pokemon/74.png"
+  },
+  "Rhyhorn": {
+    "dex": 111,
+    "src": "./images/pokemon/111.png"
+  },
+  "Aron": {
+    "dex": 304,
+    "src": "./images/pokemon/304.png"
+  },
+  "Graveler": {
+    "dex": 75,
+    "src": "./images/pokemon/75.png"
+  },
+  "Trapinch": {
+    "dex": 328,
+    "src": "./images/pokemon/328.png"
+  },
+  "Onix": {
+    "dex": 95,
+    "src": "./images/pokemon/95.png"
+  },
+  "Bronzor": {
+    "dex": 436,
+    "src": "./images/pokemon/436.png"
+  },
+  "Honedge": {
+    "dex": 679,
+    "src": "./images/pokemon/679.png"
+  },
+  "Stunfisk": {
+    "dex": 618,
+    "src": "./images/pokemon/618.png"
+  },
+  "Larvitar": {
+    "dex": 246,
+    "src": "./images/pokemon/246.png"
+  },
+  "Baltoy": {
+    "dex": 343,
+    "src": "./images/pokemon/343.png"
+  },
+  "Nosepass": {
+    "dex": 299,
+    "src": "./images/pokemon/299.png"
+  },
+  "Roggenrola": {
+    "dex": 524,
+    "src": "./images/pokemon/524.png"
+  },
+  "Phanpy": {
+    "dex": 231,
+    "src": "./images/pokemon/231.png"
+  },
+  "Hippopotas": {
+    "dex": 449,
+    "src": "./images/pokemon/449.png"
+  },
+  "Sandshrew": {
+    "dex": 27,
+    "src": "./images/pokemon/27.png"
+  },
+  "Gastly": {
+    "dex": 92,
+    "src": "./images/pokemon/92.png"
+  },
+  "Alolan Rattata": {
+    "dex": 10091,
+    "src": "./images/pokemon/10091.png"
+  },
+  "Alolan Marowak": {
+    "dex": 10115,
+    "src": "./images/pokemon/10115.png"
+  },
+  "Dhelmise": {
+    "dex": 781,
+    "src": "./images/pokemon/781.png"
+  },
+  "Phantump": {
+    "dex": 708,
+    "src": "./images/pokemon/708.png"
+  },
+  "Rotom": {
+    "dex": 479,
+    "src": "./images/pokemon/479.png"
+  },
+  "Sandygast": {
+    "dex": 769,
+    "src": "./images/pokemon/769.png"
+  },
+  "Alolan Geodude": {
+    "dex": 10109,
+    "src": "./images/pokemon/10109.png"
+  },
+  "Beldum": {
+    "dex": 374,
+    "src": "./images/pokemon/374.png"
+  },
+  "Durant": {
+    "dex": 632,
+    "src": "./images/pokemon/632.png"
+  },
+  "Mudbray": {
+    "dex": 749,
+    "src": "./images/pokemon/749.png"
+  },
+  "Rockruff": {
+    "dex": 744,
+    "src": "./images/pokemon/744.png"
+  },
+  "Togedemaru": {
+    "dex": 777,
+    "src": "./images/pokemon/777.png"
+  },
+  "Alolan Grimer": {
+    "dex": 10112,
+    "src": "./images/pokemon/10112.png"
+  },
+  "Alolan Meowth": {
+    "dex": 10107,
+    "src": "./images/pokemon/10107.png"
+  },
+  "Houndour": {
+    "dex": 228,
+    "src": "./images/pokemon/228.png"
+  },
+  "Litten": {
+    "dex": 725,
+    "src": "./images/pokemon/725.png"
+  },
+  "Numel": {
+    "dex": 322,
+    "src": "./images/pokemon/322.png"
+  },
+  "Salandit": {
+    "dex": 757,
+    "src": "./images/pokemon/757.png"
+  },
+  "Stunky": {
+    "dex": 434,
+    "src": "./images/pokemon/434.png"
+  },
+  "Turtonator": {
+    "dex": 776,
+    "src": "./images/pokemon/776.png"
+  },
+  "Alolan Sandshrew": {
+    "dex": 10101,
+    "src": "./images/pokemon/10101.png"
+  },
+  "Alolan Vulpix": {
+    "dex": 10103,
+    "src": "./images/pokemon/10103.png"
+  },
+  "Crabrawler": {
+    "dex": 739,
+    "src": "./images/pokemon/739.png"
+  },
+  "Popplio": {
+    "dex": 728,
+    "src": "./images/pokemon/728.png"
+  },
+  "Shellder": {
+    "dex": 90,
+    "src": "./images/pokemon/90.png"
+  },
+  "Snorunt": {
+    "dex": 361,
+    "src": "./images/pokemon/361.png"
+  },
+  "Snover": {
+    "dex": 459,
+    "src": "./images/pokemon/459.png"
+  },
+  "Vanillite": {
+    "dex": 582,
+    "src": "./images/pokemon/582.png"
+  },
+  "Alolan Exeggutor": {
+    "dex": 10114,
+    "src": "./images/pokemon/10114.png"
+  },
+  "Bounsweet": {
+    "dex": 761,
+    "src": "./images/pokemon/761.png"
+  },
+  "Fomantis": {
+    "dex": 753,
+    "src": "./images/pokemon/753.png"
+  },
+  "Petilil": {
+    "dex": 548,
+    "src": "./images/pokemon/548.png"
+  },
+  "Pineco": {
+    "dex": 204,
+    "src": "./images/pokemon/204.png"
+  },
+  "Rowlet": {
+    "dex": 722,
+    "src": "./images/pokemon/722.png"
+  },
+  "Sewaddle": {
+    "dex": 540,
+    "src": "./images/pokemon/540.png"
+  },
+  "Weedle": {
+    "dex": 13,
+    "src": "./images/pokemon/13.png"
+  },
+  "Alolan Diglett": {
+    "dex": 10105,
+    "src": "./images/pokemon/10105.png"
+  },
+  "Mankey": {
+    "dex": 56,
+    "src": "./images/pokemon/56.png"
+  },
+  "Meditite": {
+    "dex": 307,
+    "src": "./images/pokemon/307.png"
+  },
+  "Mienfoo": {
+    "dex": 619,
+    "src": "./images/pokemon/619.png"
+  },
+  "Passimian": {
+    "dex": 766,
+    "src": "./images/pokemon/766.png"
+  },
+  "Scraggy": {
+    "dex": 559,
+    "src": "./images/pokemon/559.png"
+  },
+  "Stufful": {
+    "dex": 759,
+    "src": "./images/pokemon/759.png"
+  },
+  "Yungoos": {
+    "dex": 734,
+    "src": "./images/pokemon/734.png"
+  },
+  "Alolan Raichu": {
+    "dex": 10100,
+    "src": "./images/pokemon/10100.png"
+  },
+  "Clefairy": {
+    "dex": 35,
+    "src": "./images/pokemon/35.png"
+  },
+  "Comfey": {
+    "dex": 764,
+    "src": "./images/pokemon/764.png"
+  },
+  "Jigglypuff": {
+    "dex": 39,
+    "src": "./images/pokemon/39.png"
+  },
+  "Morelull": {
+    "dex": 755,
+    "src": "./images/pokemon/755.png"
+  },
+  "Oranguru": {
+    "dex": 765,
+    "src": "./images/pokemon/765.png"
+  },
+  "Ralts": {
+    "dex": 280,
+    "src": "./images/pokemon/280.png"
+  },
+  "Togepi": {
+    "dex": 175,
+    "src": "./images/pokemon/175.png"
+  },
+  "Barboach": {
+    "dex": 339,
+    "src": "./images/pokemon/339.png"
+  },
+  "Binacle": {
+    "dex": 688,
+    "src": "./images/pokemon/688.png"
+  },
+  "Lotad": {
+    "dex": 270,
+    "src": "./images/pokemon/270.png"
+  },
+  "Mareanie": {
+    "dex": 747,
+    "src": "./images/pokemon/747.png"
+  },
+  "Pyukumuku": {
+    "dex": 771,
+    "src": "./images/pokemon/771.png"
+  },
+  "Staryu": {
+    "dex": 120,
+    "src": "./images/pokemon/120.png"
+  },
+  "Surskit": {
+    "dex": 283,
+    "src": "./images/pokemon/283.png"
+  },
+  "Wimpod": {
+    "dex": 767,
+    "src": "./images/pokemon/767.png"
+  },
+  "Drampa": {
+    "dex": 780,
+    "src": "./images/pokemon/780.png"
+  },
+  "Goomy": {
+    "dex": 704,
+    "src": "./images/pokemon/704.png"
+  },
+  "Horsea": {
+    "dex": 116,
+    "src": "./images/pokemon/116.png"
+  },
+  "Jangmo-o": {
+    "dex": 782,
+    "src": "./images/pokemon/782.png"
+  },
+  "Skrelp": {
+    "dex": 690,
+    "src": "./images/pokemon/690.png"
+  },
+  "Swablu": {
+    "dex": 333,
+    "src": "./images/pokemon/333.png"
+  },
+  "Grubbin": {
+    "dex": 736,
+    "src": "./images/pokemon/736.png"
+  },
+  "Dewpider": {
+    "dex": 751,
+    "src": "./images/pokemon/751.png"
+  },
+  "Heracross": {
+    "dex": 214,
+    "src": "./images/pokemon/214.png"
+  },
+  "Pinsir": {
+    "dex": 127,
+    "src": "./images/pokemon/127.png"
+  },
+  "Scyther": {
+    "dex": 123,
+    "src": "./images/pokemon/123.png"
+  },
+  "Venipede": {
+    "dex": 543,
+    "src": "./images/pokemon/543.png"
+  },
+  "Shelmet": {
+    "dex": 616,
+    "src": "./images/pokemon/616.png"
+  },
+  "Shuppet": {
+    "dex": 353,
+    "src": "./images/pokemon/353.png"
+  },
+  "Yamask": {
+    "dex": 562,
+    "src": "./images/pokemon/562.png"
+  },
+  "Solrock": {
+    "dex": 338,
+    "src": "./images/pokemon/338.png"
+  },
+  "Cubone": {
+    "dex": 104,
+    "src": "./images/pokemon/104.png"
+  },
+  "Growlithe": {
+    "dex": 58,
+    "src": "./images/pokemon/58.png"
+  },
+  "Swinub": {
+    "dex": 220,
+    "src": "./images/pokemon/220.png"
+  },
+  "Burmy": {
+    "dex": 412,
+    "src": "./images/pokemon/412.png"
+  },
+  "Karrablast": {
+    "dex": 588,
+    "src": "./images/pokemon/588.png"
+  },
+  "Tangela": {
+    "dex": 114,
+    "src": "./images/pokemon/114.png"
+  },
+  "Machop": {
+    "dex": 66,
+    "src": "./images/pokemon/66.png"
+  },
+  "Alomomola": {
+    "dex": 594,
+    "src": "./images/pokemon/594.png"
+  },
+  "Omanyte": {
+    "dex": 138,
+    "src": "./images/pokemon/138.png"
+  },
+  "Kabuto": {
+    "dex": 140,
+    "src": "./images/pokemon/140.png"
+  },
+  "Aerodactyl": {
+    "dex": 142,
+    "src": "./images/pokemon/142.png"
+  },
+  "Anorith": {
+    "dex": 347,
+    "src": "./images/pokemon/347.png"
+  },
+  "Lileep": {
+    "dex": 345,
+    "src": "./images/pokemon/345.png"
+  },
+  "Cranidos": {
+    "dex": 408,
+    "src": "./images/pokemon/408.png"
+  },
+  "Shieldon": {
+    "dex": 410,
+    "src": "./images/pokemon/410.png"
+  },
+  "Tyrunt": {
+    "dex": 696,
+    "src": "./images/pokemon/696.png"
+  },
+  "Amaura": {
+    "dex": 698,
+    "src": "./images/pokemon/698.png"
+  },
+  "Mimikyu": {
+    "dex": 778,
+    "src": "./images/pokemon/778.png"
+  }
+}
