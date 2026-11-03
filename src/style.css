@@ -32,7 +32,7 @@ body:has(.mini){min-width:0!important;width:100%;height:100%;overflow:hidden;bac
 .mushroom-info{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:8px 0 12px;padding:14px 16px;border:1px solid #263442;border-radius:8px;background:#111923}.mushroom-info h2{font:600 16px 'Space Grotesk';margin:0 0 6px}.mushroom-info p{max-width:850px;margin:5px 0;color:#aab7c6;font-size:10px;line-height:1.5}.mushroom-reward{display:flex;align-items:center;gap:8px;flex:none;padding:8px 10px;border:1px solid #293847;border-radius:7px;background:#101822}.mushroom-reward .item-image{width:34px;height:34px}.mushroom-reward b,.mushroom-reward small{display:block}.mushroom-reward b{font:600 15px 'Space Grotesk';color:var(--accent)}.mushroom-reward small{font-size:8px;color:#8796a9}body[data-theme=light] .mushroom-info,body[data-theme=light] .mushroom-reward{background:#fff;border-color:#d6dfe8}body[data-theme=light] .mushroom-info p,body[data-theme=light] .mushroom-reward small{color:#526174}@media(max-width:700px){.mushroom-info{align-items:flex-start;flex-direction:column}.mushroom-reward{align-self:flex-start}}
 
 /* Readability pass: raise low-contrast microcopy while keeping dense cards compact. */
-.location,.reward,.requirement,.note-hint,.note-input,.setting-card label,.setting-card>p,.setting-card label small,.data-path,.region-heading small,.mushroom-info p,.mushroom-reward small,.bug-tier-pokemon-row,.bug-tier-note,.bug-special-card p,.reward-item,.reward-pokemon>div>span,.loot-chip,.excavation-item-label,.excavation-item-label small,.no-species,.drop-copy h4,.site-points,.site-points small{font-size:11px}
+.location,.reward,.requirement,.note-hint,.setting-card label,.setting-card>p,.setting-card label small,.data-path,.region-heading small,.mushroom-info p,.mushroom-reward small,.bug-tier-pokemon-row,.bug-tier-note,.bug-special-card p,.reward-item,.reward-pokemon>div>span,.loot-chip,.excavation-item-label,.excavation-item-label small,.no-species,.drop-copy h4,.site-points,.site-points small{font-size:11px}
 .pill,.timer-label,.card-side small,.nav-label,.brand small,.sidebar-foot small,.stat small,.section-caption,.eyebrow,.bug-tier-card header span{font-size:10px}
 body[data-theme=light] .location,body[data-theme=light] .reward,body[data-theme=light] .requirement,body[data-theme=light] .note-hint,body[data-theme=light] .setting-card label small{color:#59697d}
 
@@ -133,3 +133,24 @@ body[data-theme=light] .mini-always-top{border-color:#d6dfe8}
 .mini-row-timer{align-self:center}
 .sidebar-foot .sidebar-version{margin-top:8px;color:#8291a5;font:600 10px 'Space Grotesk';letter-spacing:.5px}
 @media(max-width:820px){.app aside .sidebar-foot{position:fixed;left:8px;bottom:8px;z-index:5;display:block;margin:0;padding:0;border:0}.app aside .sidebar-foot>.offline,.app aside .sidebar-foot>small:not(.sidebar-version){display:none}.app aside .sidebar-foot>.sidebar-version{display:block;margin:0;padding:4px 6px;border:1px solid #263442;border-radius:5px;background:#0c121b;color:#8291a5;font-size:9px}}
+.navigation-help{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;margin-top:8px;padding:8px 10px;border:1px solid #263541;border-radius:6px;background:#0e1721;color:#aab8c7;font-size:10px;line-height:1.45}
+.navigation-help>span{display:flex;align-items:flex-start;gap:6px;min-width:0}
+.navigation-help>span svg{flex:none;margin-top:1px;color:#63ddb0}
+.navigation-help>span b{flex:none;color:#8edfc1}
+.navigation-help>button{flex:none;border:0;padding:0;background:none;color:#7fdcb8;font-size:9px;font-weight:600;white-space:nowrap}
+.navigation-help>button:hover{text-decoration:underline}
+.mini-navigation-help{margin-top:3px;padding:5px 6px;font-size:9px;line-height:1.35}
+body[data-theme=light] .navigation-help{background:#f5f8fa;border-color:#d6dfe8;color:#526174}
+body[data-theme=light] .navigation-help>span b,body[data-theme=light] .navigation-help>button{color:#267d60}
+
+/* Slightly larger supporting text for easier reading. */
+.location,.reward,.requirement,.note-hint,.setting-card label,.setting-card>p,.setting-card label small,.data-path,.region-heading small,.mushroom-info p,.mushroom-reward small,.bug-tier-pokemon-row,.bug-tier-note,.bug-special-card p,.reward-item,.reward-pokemon>div>span,.loot-chip,.excavation-item-label,.excavation-item-label small,.no-species,.drop-copy h4,.site-points,.site-points small{font-size:12px}
+.pill,.timer-label,.card-side small,.nav-label,.brand small,.sidebar-foot small,.stat small,.section-caption,.eyebrow,.bug-tier-card header span{font-size:11px}
+.navigation-help{font-size:11px}
+.navigation-help>button{font-size:10px}
+.mini-select-label{font-size:10px}
+.mini-select-label select,.mini-row-copy strong{font-size:11px}
+.mini-row-copy small,.mini-row-timer b,.mini-row-mark,.mini-row-undo,.mini-always-top{font-size:10px}
+.mini-overview-title small,.mini-always-top small{font-size:9px}
+.mini-overview-counts{font-size:10px}
+.mini-navigation-help{font-size:10px}
