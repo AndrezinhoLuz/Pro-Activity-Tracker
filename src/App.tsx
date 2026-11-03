@@ -17,20 +17,21 @@ useEffect(()=>{activities.forEach(markNotif)},[now]);const activityCard=(a:Activ
 const dashboardSections=kinds.map(kind=>{const group=list.filter(a=>a.kind===kind);if(!group.length)return null;const Icon=icons[kind];const readyCount=group.filter(a=>status(a)==='available').length;return <section className={`dashboard-task-group task-${kind}`} key={kind}><header className="dashboard-task-heading"><span className="dashboard-task-icon"><Icon size={16}/></span><span className="dashboard-task-heading-copy"><strong>{labels[kind]}</strong><small>{group.length} {group.length===1?'task':'tasks'} · {readyCount} ready</small></span></header>{kind==='digging'||kind==='pokestops'? [...new Set(group.map(a=>a.region))].map(region=>{const regionalTasks=group.filter(a=>a.region===region);return <section className="dashboard-region" key={region}><div className="dashboard-region-heading">{region}<span>{regionalTasks.length}</span></div><div className="cards">{regionalTasks.map(activityCard)}</div></section>}):<div className="cards">{group.map(activityCard)}</div>}</section>});
 const legacyMiniActivity=activities.find(a=>a.id===progress.settings.mini.selectedActivity);
 const miniKind=(progress.settings.mini.selectedKind??legacyMiniActivity?.kind??'digging') as Kind;
+const prepareMiniFocus=()=>{void window.desktop?.prepareMiniFocus().catch(()=>setToast('Could not activate mini-window controls.'))};
 const releaseMiniFocus=()=>{void window.desktop?.releaseMiniFocus().catch(()=>setToast('Could not return focus to the game.'))};
 const miniRegion=progress.settings.mini.selectedRegion??'All regions';
 const miniRegions=['All regions',...new Set(activities.filter(a=>a.kind===miniKind).map(a=>a.region))];
 const miniActivities=activities.filter(a=>a.kind===miniKind&&(miniRegion==='All regions'||a.region===miniRegion)).sort((a,b)=>miniKind==='digging'?activities.indexOf(a)-activities.indexOf(b):(remaining(a)??Infinity)-(remaining(b)??Infinity));
 const miniReadyCount=miniActivities.filter(a=>remaining(a)===0).length;
 const miniCooldownCount=miniActivities.filter(a=>{const rem=remaining(a);return rem!==null&&rem>0}).length;
-if(mini)return <main className="mini">
+if(mini)return <main className="mini" onMouseEnter={prepareMiniFocus} onClick={e=>{const target=e.target;if(target instanceof Element&&target.closest('select, .mini-open, .mini-close'))return;releaseMiniFocus()}}>
   <header className="mini-topbar">
     <div className="mini-brand"><img className="app-logo mini-logo" src="./logo.png" alt="PRO Activity Tracker"/><div><strong>PRO tracker</strong><small>QUICK TASKS</small></div></div>
     <div className="mini-head-actions"><button className="mini-open" onClick={()=>window.desktop?.main()}>Open app</button><button className="mini-close" aria-label="Close mini window" title="Close" onClick={()=>window.desktop?.closeMini()}><X size={15}/></button></div>
   </header>
   <div className="mini-select-grid">
-    <label className="mini-select-label">Dailies<select value={miniKind} onChange={e=>{const kind=e.target.value as Kind;setProgress(p=>({...p,settings:{...p.settings,mini:{...p.settings.mini,selectedKind:kind,selectedRegion:activities.some(a=>a.kind===kind&&a.region===p.settings.mini.selectedRegion)?p.settings.mini.selectedRegion:'All regions'}}}));releaseMiniFocus()}}>{kinds.map(kind=><option key={kind} value={kind}>{labels[kind]}</option>)}</select></label>
-    <label className="mini-select-label">Region<select value={miniRegion} onChange={e=>{setProgress(p=>({...p,settings:{...p.settings,mini:{...p.settings.mini,selectedRegion:e.target.value}}}));releaseMiniFocus()}}>{miniRegions.map(r=><option key={r} value={r}>{r}</option>)}</select></label>
+    <label className="mini-select-label">Dailies<select value={miniKind} onBlur={releaseMiniFocus} onChange={e=>{const kind=e.target.value as Kind;setProgress(p=>({...p,settings:{...p.settings,mini:{...p.settings.mini,selectedKind:kind,selectedRegion:activities.some(a=>a.kind===kind&&a.region===p.settings.mini.selectedRegion)?p.settings.mini.selectedRegion:'All regions'}}}));releaseMiniFocus()}}>{kinds.map(kind=><option key={kind} value={kind}>{labels[kind]}</option>)}</select></label>
+    <label className="mini-select-label">Region<select value={miniRegion} onBlur={releaseMiniFocus} onChange={e=>{setProgress(p=>({...p,settings:{...p.settings,mini:{...p.settings.mini,selectedRegion:e.target.value}}}));releaseMiniFocus()}}>{miniRegions.map(r=><option key={r} value={r}>{r}</option>)}</select></label>
   </div>
   <section className="mini-overview">
     <div className="mini-overview-title"><small>SHOWING</small><strong>{labels[miniKind]}{miniRegion!=='All regions'?' · '+miniRegion:''}</strong></div>
