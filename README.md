@@ -58,12 +58,14 @@ The app checks the public GitHub Releases page for `AndrezinhoLuz/Pro-Activity-T
 
 Updates are published as public GitHub Releases with plain version tags (for example, `1.0.49`). The installer name is `PRO.Activity.Tracker.Setup.<version>.exe`; ensure `latest.yml` uses that exact filename in both its `url` and `path` fields. Prereleases are not used by the configured stable release channel.
 
-To increment the patch version and build a release locally, run:
+To increment the patch version, build the Windows installer, and publish a GitHub Release with the installer, blockmap, and `latest.yml`, run:
 
 ```powershell
-npm run release
+npm.cmd run release
 ```
 
-This increments the patch version in `package.json` and `package-lock.json`, then builds the Windows installer and update files into `release`. It does not publish a GitHub Release or push/commit changes. To publish, create a public GitHub Release with the new version as its tag, then upload the installer `.exe`, its `.blockmap`, and `latest.yml` from `release`. Do not reuse a version number, rename the installer, or upload a manifest whose `url` and `path` do not match the installer.
+If neither `GH_TOKEN` nor `GITHUB_TOKEN` is set, the command securely prompts for a GitHub token (input is hidden). It verifies that the token can write to this repository before changing the version; if a configured token is rejected, it prompts for a replacement. Create a fine-grained token with **Contents: Read and write** access to this repository. The release script skips version tags already present on GitHub, builds without parallel publishing, creates or resumes the release using the default branch as the tag target, then uploads the installer, blockmap, and a version-matched `latest.yml` sequentially. It does not commit or push source changes. Keep the token private and do not save it in project files.
 
-Updates are checked automatically at launch; the app downloads them and offers **Install and restart**. For an existing release with an incorrect `latest.yml`, replace that release's manifest with one whose `url` and `path` match the uploaded installer; rebuilding is unnecessary when its checksum and size are correct.
+To finish uploading assets for an existing release that already has local installer and blockmap files in `release`, run `npm.cmd run publish:release -- 1.0.59` with the version you want to resume. This does not rebuild or increment the app version.
+
+Updates are checked automatically at launch; the app downloads them and offers **Install and restart**. If a release upload fails after creating the GitHub release, use the `publish:release` command above to resume its missing or stale assets without rebuilding.

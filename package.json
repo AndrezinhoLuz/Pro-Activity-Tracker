@@ -1,6 +1,6 @@
 {
   "name": "pro-activity-tracker",
-  "version": "1.0.56",
+  "version": "1.0.60",
   "private": true,
   "description": "Offline PRO activity tracker",
   "main": "dist-electron/main.js",
@@ -8,7 +8,8 @@
     "dev": "concurrently -k \"vite --host 127.0.0.1\" \"wait-on http://127.0.0.1:5173 && electron .\"",
     "build": "tsc -b && tsc -p electron/tsconfig.json && vite build && electron-builder --win nsis",
     "build:dir": "tsc -b && tsc -p electron/tsconfig.json && vite build && electron-builder --dir",
-    "release": "npm version patch --no-git-tag-version && npm run build"
+    "release": "node scripts/release.js",
+    "publish:release": "node scripts/release.js --publish-existing"
   },
   "dependencies": {
     "electron-updater": "^6.8.11",

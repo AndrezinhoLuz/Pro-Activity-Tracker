@@ -154,7 +154,7 @@ body[data-theme=light] .navigation-help>span b,body[data-theme=light] .navigatio
 .mini-overview-title small,.mini-always-top small{font-size:9px}
 .mini-overview-counts{font-size:10px}
 .mini-navigation-help{font-size:10px}
-.mini-topbar{width:100%;min-width:0;overflow:hidden}
+.mini-topbar{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;width:100%;min-width:0;overflow:hidden;box-sizing:border-box;padding-right:10px}
 .mini-brand{flex:1;min-width:0;overflow:hidden}
 .mini-brand>div{min-width:0;overflow:hidden}
 .mini-brand strong{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
