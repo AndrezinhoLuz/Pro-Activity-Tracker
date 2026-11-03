@@ -35,9 +35,9 @@ if(mini)return <main className="mini">
     <div className="mini-overview-title"><small>SHOWING</small><strong>{labels[miniKind]}{miniRegion!=='All regions'?' · '+miniRegion:''}</strong></div>
     <div className="mini-overview-counts"><span className="mini-ready-count"><b>{miniReadyCount}</b> ready</span><span><b>{miniCooldownCount}</b> cooling</span></div>
   </section>
-  <div className="mini-task-list">{miniActivities.map(a=>{const rem=remaining(a);const done=!!progress.records[a.id]?.doneAt&&rem!==null&&rem>0;const state=done?'done':rem===0?'ready':rem===null?'unknown':'cooldown';return <article className={`mini-task-row ${state}`} key={a.id}>
+  <div className="mini-task-list">{miniActivities.map(a=>{const rem=remaining(a);const done=!!progress.records[a.id]?.doneAt&&rem!==null&&rem>0;const state=done?'done':rem===0?'ready':rem===null?'unknown':'cooldown';const showDigGuidance=miniKind==='digging'&&['dig-dark-cave-south','dig-mt-mortar','dig-rock-tunnel-1f'].includes(a.id);return <article className={`mini-task-row ${state}`} key={a.id}>
     <span className="mini-task-status" aria-hidden="true"/>
-    <div className="mini-row-copy"><strong>{a.name}</strong><small>{a.location}</small></div>
+    <div className="mini-row-copy"><strong>{a.name}</strong><small>{a.location}</small>{showDigGuidance&&<><small className="mini-row-detail">Requirement: {a.requirement}</small><small className="mini-row-detail">{a.note}</small></>}</div>
     <div className="mini-row-timer"><b className={rem===0?'ready':''}>{rem===null?'Unknown':countdown(rem)}</b><button disabled={rem===null||rem>0&&!done} className={done?'mini-row-undo':'mini-row-mark'} aria-label={done?'Undo completion for '+a.name:'Mark '+a.name+' done'} title={done?'Undo completion':'Mark as done'} onClick={()=>done?unmark(a):mark(a)}><Check size={14}/><span>{done?'Undo':'Mark'}</span></button></div>
   </article>})}</div>
   <label className="mini-always-top"><input type="checkbox" checked={progress.settings.mini.alwaysOnTop!==false} onChange={e=>{const enabled=e.target.checked;setProgress(p=>({...p,settings:{...p.settings,mini:{...p.settings.mini,alwaysOnTop:enabled}}}));window.desktop?.miniAlwaysOnTop(enabled)}}/><span>Keep mini window on top</span><small>Works in windowed or borderless mode. Exclusive fullscreen blocks desktop overlays.</small></label>
