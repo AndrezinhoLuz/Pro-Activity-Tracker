@@ -56,12 +56,14 @@ The tray, mini window, configurable global shortcut, and Windows startup prefere
 
 The app checks the public GitHub Releases page for `AndrezinhoLuz/Pro-Activity-Tracker` on startup and automatically downloads available updates. Choose **Install and restart** in Settings > App updates, or quit the app from its tray menu to install the downloaded update. The first install of this updater-enabled build must still be done with its installer.
 
-Updates are published as GitHub Releases. Each release must be public and include the generated `latest.yml`, versioned Windows installer `.exe`, and corresponding `.blockmap` as release assets. Publish a version higher than the installed app version; prereleases are not used by the configured stable release channel.
+Updates are published as public GitHub Releases with plain version tags (for example, `1.0.49`). The installer name is `PRO.Activity.Tracker.Setup.<version>.exe`; ensure `latest.yml` uses that exact filename in both its `url` and `path` fields. Prereleases are not used by the configured stable release channel.
 
-For each code update, run:
+To increment the patch version and build a release locally, run:
 
 ```powershell
 npm run release
 ```
 
-This increments the patch version, builds the installer, and writes the update manifest. Upload all three generated files from `release` as assets on the matching GitHub Release. Updates are checked automatically at launch; the app downloads them and offers **Install and restart**. Do not reuse a version number; the release command increments it automatically.
+This increments the patch version in `package.json` and `package-lock.json`, then builds the Windows installer and update files into `release`. It does not publish a GitHub Release or push/commit changes. To publish, create a public GitHub Release with the new version as its tag, then upload the installer `.exe`, its `.blockmap`, and `latest.yml` from `release`. Do not reuse a version number, rename the installer, or upload a manifest whose `url` and `path` do not match the installer.
+
+Updates are checked automatically at launch; the app downloads them and offers **Install and restart**. For an existing release with an incorrect `latest.yml`, replace that release's manifest with one whose `url` and `path` match the uploaded installer; rebuilding is unnecessary when its checksum and size are correct.

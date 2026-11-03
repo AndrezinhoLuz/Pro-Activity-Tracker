@@ -57,12 +57,14 @@
       "installerHeader": "build/installer-header.bmp"
     },
     "icon": "build/pro.ico",
+    "artifactName": "PRO.Activity.Tracker.Setup.${version}.${ext}",
     "publish": [
       {
         "provider": "github",
         "owner": "AndrezinhoLuz",
         "repo": "Pro-Activity-Tracker",
-        "releaseType": "release"
+        "releaseType": "release",
+        "vPrefixedTagName": false
       }
     ]
   },
