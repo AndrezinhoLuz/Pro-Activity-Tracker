@@ -1,7 +1,8 @@
-import React,{useEffect,useMemo,useRef,useState}from'react';import{Activity as ActivityIcon, Bell, Bug, CalendarDays, Check, ChevronDown, ImageOff, Sprout, CircleHelp, Clock3, Compass, Download, FileUp, FlaskConical, LayoutDashboard, MapPin, Minus, Newspaper, RotateCcw, Search, Settings as SettingsIcon, Shovel, Undo2, X}from'lucide-react';import{activities,navigationDevicesWiki,wiki}from'./data/gameData';import bossData from'./data/bossData.json';import newPhotoAssets from'./data/newPhotoAssets.json';import{drops,excavationSites,pokestopItems,celadonRewards,celadonQuantities,newsRewards,bugRewards,bugContestTiers,excavationItemPoints,diggingMembersOnly}from'./data/dropData';import{celadonSpecies,newsCommonSpecies,newsRareSpecies}from'./data/speciesData';import itemImages from'./data/itemImages.json';import pokemonImages from'./data/pokemonImages.json';import packageInfo from'../package.json';import type{Activity,Kind,Progress,Settings}from'./types';
+import React,{useEffect,useMemo,useRef,useState}from'react';import{Activity as ActivityIcon, Bell, Bug, CalendarDays, Check, ChevronDown, ImageOff, Sprout, CircleHelp, Clock3, Compass, Download, FileUp, FlaskConical, LayoutDashboard, MapPin, Minus, Newspaper, RotateCcw, Search, Settings as SettingsIcon, Shovel, Undo2, X}from'lucide-react';import{activities,navigationDevicesWiki,wiki}from'./data/gameData';import bossData from'./data/bossData.json';import bossPokemonTiers from'./data/bossPokemonTiers.json';import newPhotoAssets from'./data/newPhotoAssets.json';import{drops,excavationSites,pokestopItems,celadonRewards,celadonQuantities,newsRewards,bugRewards,bugContestTiers,excavationItemPoints,diggingMembersOnly}from'./data/dropData';import{celadonSpecies,newsCommonSpecies,newsRareSpecies}from'./data/speciesData';import itemImages from'./data/itemImages.json';import pokemonImages from'./data/pokemonImages.json';import packageInfo from'../package.json';import type{Activity,Kind,Progress,Settings}from'./types';
 const kinds:Kind[]=['digging','excavation','pokestops','mushrooms','bug','celadon','news','boss'];const labels:Record<string,string>={dashboard:'Dashboard',digging:'Digging',excavation:'Excavation',pokestops:'Pokéstops',mushrooms:'Mushrooms',bug:'Bug Contest',celadon:'Celadon Daily',news:'News Press',boss:'Boss',settings:'Settings'};const icons:Record<string,any>={dashboard:LayoutDashboard,digging:Shovel,excavation:FlaskConical,pokestops:MapPin,mushrooms:Sprout,bug:Bug,celadon:CalendarDays,news:Newspaper,boss:ActivityIcon,settings:SettingsIcon};
 type PhotoAssets={items:Record<string,string>;pokemon:Record<string,string>;tmTypes:Record<string,string>;tmIcons:Record<string,string>;bosses:Record<string,string>;missingItems:string[];missingPokemon:string[];missingBosses:string[]};
 const photoAssets=newPhotoAssets as PhotoAssets;
+const documentedBossPokemonTiers=bossPokemonTiers as Record<string,Record<string,number|string>>;
 const normalizePhotoName=(name:string)=>name.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
 const defaults:Settings={dailyReset:'00:00',timezone:Intl.DateTimeFormat().resolvedOptions().timeZone,clock24:false,theme:'dark',accent:'#63ddb0',notifications:{digging:true,excavation:true,pokestops:true,mushrooms:true,bug:true,celadon:true,news:true,boss:true},startWithWindows:false,shortcut:'',updateFeedUrl:'',backgroundImage:'',mini:{width:420,height:460,x:40,y:40,selectedActivity:"",selectedRegion:'All regions',alwaysOnTop:true}};const blank:Progress={records:{},excavationLog:[],bugLog:[],celadonTask:'',celadonStreak:0,celadonDay:1,newsTask:'',newsStreak:0,newsDay:1,settings:defaults};
 const migratedRecordIds:Record<string,string>={'dig-mt-moon-b2f':'dig-mt-moon-1f','dig-rock-tunnel-b1f':'dig-rock-tunnel-1f','dig-slowpoke-well-l1':'dig-slowpoke-well-1f','stop-diglett-s-cave-entrance-2':'stop-diglett-s-cave-entrance-route-11'};
@@ -67,8 +68,25 @@ function formatBossMoney(money:object){const minimum='minimum'in money&&typeof m
 function BossPortrait({boss}:{boss:(typeof bossData)[number]}){const src=photoAssets.bosses[boss.id]||photoAssets.bosses[boss.name];return src?<img className="boss-portrait" src={src} alt={boss.name} loading="lazy"/>:<span className="boss-photo-missing" role="img" aria-label={`Photo missing for ${boss.name}`} title={`Photo missing for ${boss.name}`}><ImageOff size={16}/><small>Photo missing</small></span>}
 function BossRewardDetails({boss}:{boss:(typeof bossData)[number]}){
   const items=new Map<string,{name:string;details:Map<string,Set<string>>}>();
-  const pokemon=new Map<string,{name:string;dexNumber:number;regularModes:Set<string>;streakModes:Set<string>}>();
-  for(const difficulty of boss.difficulties){
+  const normalPokemon=new Map<string,{name:string;dexNumber:number;tiers:Map<string,{tier:number|null;tierLabel:string|null;modes:Set<string>}>}>();
+  const streakPokemon=new Map<string,{name:string;dexNumber:number;tiers:Map<string,{tier:number|null;tierLabel:string|null;modes:Set<string>}>}>();
+  const availableModes=boss.difficulties.filter(difficulty=>!difficulty.unavailableMessage).map(difficulty=>difficulty.difficulty);
+  const modeOrder=['easy','medium','hard'];
+  const modeName=(mode:string)=>mode[0].toUpperCase()+mode.slice(1);
+  const restriction=(modes:Set<string>,allModes:string[])=>modes.size===allModes.length?'':` · ${modeOrder.filter(mode=>modes.has(mode)).map(modeName).join('/')} only`;
+  const addPokemonTier=(target:typeof normalPokemon,entry:(typeof boss)['difficulties'][number]['pokemon'][number],mode:string)=>{
+    const key=entry.name.toLowerCase();
+    const reward=target.get(key)??{name:entry.name,dexNumber:entry.dexNumber,tiers:new Map<string,{tier:number|null;tierLabel:string|null;modes:Set<string>}>()};
+    const documentedTier=documentedBossPokemonTiers[boss.id]?.[entry.name];
+    const tier=typeof documentedTier==='number'?documentedTier:null;
+    const tierLabel=typeof documentedTier==='string'?documentedTier:null;
+    const tierKey=tier?`tier-${tier}`:tierLabel?`label-${tierLabel}`:'unlisted';
+    const tierEntry=reward.tiers.get(tierKey)??{tier,tierLabel,modes:new Set<string>()};
+    tierEntry.modes.add(mode);
+    reward.tiers.set(tierKey,tierEntry);
+    target.set(key,reward);
+  };
+  for(const difficulty of boss.difficulties.filter(entry=>!entry.unavailableMessage)){
     for(const item of difficulty.items){
       const key=item.name.toLowerCase();
       const reward=items.get(key)??{name:item.name,details:new Map<string,Set<string>>()};
@@ -80,18 +98,19 @@ function BossRewardDetails({boss}:{boss:(typeof bossData)[number]}){
       items.set(key,reward);
     }
     for(const entry of difficulty.pokemon){
-      const key=entry.name.toLowerCase();
-      const reward=pokemon.get(key)??{name:entry.name,dexNumber:entry.dexNumber,regularModes:new Set<string>(),streakModes:new Set<string>()};
-      (entry.winStreakRequired?reward.streakModes:reward.regularModes).add(difficulty.difficulty);
-      pokemon.set(key,reward);
+      if('winStreakRequired' in entry&&entry.winStreakRequired){
+        if(difficulty.difficulty!=='easy')addPokemonTier(streakPokemon,entry,difficulty.difficulty);
+      }else addPokemonTier(normalPokemon,entry,difficulty.difficulty);
     }
   }
-  const hasStreakRewards=[...pokemon.values()].some(entry=>entry.streakModes.size>0);
+  const streakModes=modeOrder.filter(mode=>[...streakPokemon.values()].some(entry=>[...entry.tiers.values()].some(tier=>tier.modes.has(mode))));
+  const renderPokemon=(entries:typeof normalPokemon,allModes:string[])=><ul className="boss-reward-list">{[...entries.values()].map(entry=><li key={entry.name}><PokemonImage dex={entry.dexNumber} name={entry.name} size={24}/><span>{entry.name}{[...entry.tiers.values()].map((tier,index)=><small key={`${entry.name}-${index}`}>{tier.tier?`Tier ${tier.tier}`:tier.tierLabel??'Tier not listed'}{restriction(tier.modes,allModes)}</small>)}</span></li>)}</ul>;
   return <details className="drop-info boss-drop-info"><summary>All rewards by difficulty</summary><div className="drop-copy">
     <table className="boss-reward-table"><thead><tr><th rowSpan={2}>Mode</th><th rowSpan={2}>Pokémoney</th><th colSpan={3}>Tier chances</th><th rowSpan={2}>PvE Coins</th></tr><tr><th>1</th><th>2</th><th>3</th></tr></thead><tbody>{boss.difficulties.map(difficulty=>difficulty.unavailableMessage?<tr key={difficulty.difficulty}><th>{difficulty.difficulty}</th><td colSpan={5}>Not available: {difficulty.unavailableMessage}</td></tr>:<tr key={difficulty.difficulty}><th>{difficulty.difficulty}</th><td>{formatBossMoney(difficulty.money)}</td><td>{Object.entries(difficulty.tierChances).find(([tier])=>tier==='tier1')?.[1]??'—'}%</td><td>{Object.entries(difficulty.tierChances).find(([tier])=>tier==='tier2')?.[1]??'—'}%</td><td>{Object.entries(difficulty.tierChances).find(([tier])=>tier==='tier3')?.[1]??'—'}%</td><td>{difficulty.pveCoins===0?'None':difficulty.pveCoins??'—'}</td></tr>)}</tbody></table>
-    {items.size>0&&<><h5>Items (each listed once)</h5><ul className="boss-reward-list">{[...items.values()].map(item=><li key={item.name}><ItemIcon name={item.name}/><span>{item.name}{[...item.details].map(([detail,modes])=><small key={detail}>{detail} ({[...modes].join(', ')})</small>)}</span></li>)}</ul></>}
-    {pokemon.size>0&&<><h5>{hasStreakRewards?'Pokémon (3-win-streak rewards marked where required)':'Pokémon'}</h5><ul className="boss-reward-list">{[...pokemon.values()].map(entry=><li key={entry.name}><PokemonImage dex={entry.dexNumber} name={entry.name} size={24}/><span>{entry.name}<small>Tier 3{entry.regularModes.size&&entry.streakModes.size?` · Regular: ${[...entry.regularModes].join(', ')}`:''}{entry.streakModes.size?` · 3-win streak: ${[...entry.streakModes].join(', ')}`:''}</small></span></li>)}</ul></>}
-    {items.size===0&&pokemon.size===0&&<p>No item or Pokémon rewards listed.</p>}
+    {items.size>0&&<><h5>Items (each listed once)</h5><ul className="boss-reward-list">{[...items.values()].map(item=><li key={item.name}><ItemIcon name={item.name}/><span>{item.name}{[...item.details].map(([detail,modes])=><small key={detail}>{detail}{restriction(modes,availableModes)}</small>)}</span></li>)}</ul></>}
+    {normalPokemon.size>0&&<section className="boss-pokemon-section"><h5>Normal (random)</h5><p className="boss-reward-note">These Pokémon are random rewards; you do not choose them.</p>{renderPokemon(normalPokemon,availableModes)}</section>}
+    {streakPokemon.size>0&&<section className="boss-pokemon-section"><h5>3-win reward (guaranteed choice, {streakModes.map(modeName).join('/')} only)</h5><p className="boss-reward-note">Win 3 in a row to be guaranteed a Pokémon choice. The selection offered varies each time; these are possible options, not a fixed selection.</p>{renderPokemon(streakPokemon,streakModes)}</section>}
+    {items.size===0&&normalPokemon.size===0&&streakPokemon.size===0&&<p>No item or Pokémon rewards listed.</p>}
   </div></details>
 }
 function UpdatePanel({feed:_feed,onFeed:_onFeed}:any){const[state,setState]=useState({state:'idle',message:'Checks GitHub Releases automatically when the app starts.'} as any);useEffect(()=>window.desktop?.onUpdateStatus(setState),[]);const check=()=>window.desktop?.checkUpdates().catch(e=>setState({state:'error',message:e.message||'Could not check for updates.'}));return <section className="setting-card"><h3>App updates</h3><p>Updates are checked on launch and downloaded automatically from the GitHub repository.</p><div className="update-status">{state.message}{state.version&&<b> v{state.version}</b>}{state.percent!==undefined&&<progress max="100" value={state.percent}/>}</div><div className="data-actions"><button onClick={check} disabled={state.state==='checking'||state.state==='downloading'}>Check for updates</button>{state.state==='downloaded'&&<button onClick={()=>window.desktop?.installUpdate()}>Install and restart</button>}</div></section>}

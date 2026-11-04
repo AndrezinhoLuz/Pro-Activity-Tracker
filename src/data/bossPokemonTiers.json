@@ -1,0 +1,241 @@
+{
+  "ashwestbrook": {
+    "Chespin": 3,
+    "Emolga": 2,
+    "Vullaby": 2,
+    "Tympole": 2
+  },
+  "battlebot": {
+    "Phione": "25% Chance of spawning"
+  },
+  "bruno": {
+    "Meditite": 1,
+    "Throh": 2,
+    "Sawk": 2,
+    "Scraggy": 3
+  },
+  "bugsy": {
+    "Pinsir": 1,
+    "Scyther": 1,
+    "Ferroseed": 2,
+    "Snivy": 3
+  },
+  "chuck": {
+    "Shroomish": 1,
+    "Timburr": 2,
+    "Chimchar": 3,
+    "Mienfoo": 3
+  },
+  "cie": {
+    "Cleffa": 1,
+    "Marill": 1,
+    "Scyther": 2,
+    "Togepi": 2,
+    "Happiny": 3,
+    "Klefki": 3,
+    "Staryu": 3
+  },
+  "erika": {
+    "Lotad": 1,
+    "Tangela": 1,
+    "Turtwig": 2,
+    "Ferroseed": 2,
+    "Larvesta": 3
+  },
+  "gamerspewdieanddiepy": {
+    "Clefairy": 1,
+    "Natu": 1,
+    "Swirlix": 1,
+    "Munna": 2,
+    "Azurill": 2,
+    "Mime Jr.": 2,
+    "Beldum": 3,
+    "Dedenne": 3,
+    "Carbink": 3,
+    "Togepi": 3,
+    "Ralts": 3,
+    "Solosis": 3
+  },
+  "george": {
+    "Houndour": 1,
+    "Electrike": 2,
+    "Lillipup": 2,
+    "Furfrou": 3,
+    "Riolu": 3
+  },
+  "koichi": {
+    "Tyrogue": 1,
+    "Riolu": 2,
+    "Ralts": 3,
+    "Pancham": 3
+  },
+  "letrix": {
+    "Magikarp": 1,
+    "Wailmer": 1,
+    "Togepi": 2,
+    "Solosis": 3,
+    "Drilbur": 3
+  },
+  "link": {
+    "Voltorb": 1,
+    "Ponyta": 1,
+    "Bronzor": 1,
+    "Hitmontop": 2,
+    "Phanpy": 2,
+    "Skarmory": 2,
+    "Absol": 3,
+    "Tepig": 3,
+    "Honedge": 3
+  },
+  "lorelei": {
+    "Lapras": 1,
+    "Sneasel": 1,
+    "Snover": 1
+  },
+  "misty": {
+    "Wailmer": 1,
+    "Shellder": 2,
+    "Shellos": 2,
+    "Oshawott": 3
+  },
+  "morty": {
+    "Frillish": 1,
+    "Sableye": 1,
+    "Golett": 2,
+    "Pumpkaboo": 2,
+    "Phantump": 3,
+    "Rotom": 3
+  },
+  "naero": {
+    "Pichu": 1,
+    "Cleffa": 1,
+    "Igglybuff": 1,
+    "Tyrogue": 1,
+    "Togepi": 2,
+    "Bonsly": 2,
+    "Mime Jr.": 2,
+    "Munchlax": 2,
+    "Smoochum": 3,
+    "Elekid": 3,
+    "Magby": 3
+  },
+  "narutofanboy": {
+    "Cacnea": 2,
+    "Togepi": 3
+  },
+  "neroli": {
+    "Clefairy": 1,
+    "Budew": 1,
+    "Vulpix": 1,
+    "Phanpy": 2,
+    "Chikorita": 2,
+    "Sewaddle": 2,
+    "Petilil": 3,
+    "Litwick": 3,
+    "Flabebe": 3,
+    "Goomy": 3,
+    "Ralts": 3
+  },
+  "officerjenny": {
+    "Pidgey": 1,
+    "Growlithe": 1,
+    "Electrike": 1
+  },
+  "professorbirch": {
+    "Poochyena": 1,
+    "Taillow": 1,
+    "Trapinch": 2,
+    "Slakoth": 2,
+    "Mudkip": 3,
+    "Torchic": 3,
+    "Treecko": 3
+  },
+  "professorelm": {
+    "Chikorita": 2,
+    "Cyndaquil": 2,
+    "Totodile": 2,
+    "Togepi": 3,
+    "Larvitar": 3
+  },
+  "professoroak": {
+    "Bulbasaur": 2,
+    "Charmander": 2,
+    "Squirtle": 2,
+    "Dratini": 3,
+    "Rotom": 3
+  },
+  "professorrowan": {
+    "Starly": 1,
+    "Shinx": 1,
+    "Bronzor": 1,
+    "Buneary": 2,
+    "Gligar": 2,
+    "Turtwig": 3,
+    "Chimchar": 3,
+    "Piplup": 3
+  },
+  "saphirr": {
+    "Vulpix": 1,
+    "Growlithe": 1,
+    "Darumaka": 2,
+    "Larvesta": 2,
+    "Fletchling": 2,
+    "Charmander": 3,
+    "Cyndaquil": 3,
+    "Torchic": 3
+  },
+  "sharyandshaui": {
+    "Marill": 1,
+    "Trapinch": 1,
+    "Shinx": 1,
+    "Deino": 2,
+    "Pancham": 2,
+    "Purrloin": 3
+  },
+  "spectify": {
+    "Eevee": 1,
+    "Chikorita": 2,
+    "Cyndaquil": 2,
+    "Totodile": 2,
+    "Bagon": 3
+  },
+  "steven": {
+    "Aron": 1,
+    "Skarmory": 1,
+    "Shieldon": 1,
+    "Pawniard": 2,
+    "Mawile": 2,
+    "Beldum": 3,
+    "Drilbur": 3,
+    "Klefki": 3,
+    "Riolu": 3
+  },
+  "terminator": {
+    "Klink": 1,
+    "Magnemite": 1,
+    "Elgyem": 2,
+    "Alolan Grimer": 2,
+    "Solosis": 3,
+    "Rotom": 3,
+    "Porygon": 3
+  },
+  "thepumpking": {
+    "Shuckle": 1,
+    "Lotad": 1,
+    "Pawniard": 3
+  },
+  "thor": {
+    "Swinub": 1,
+    "Clefairy": 1,
+    "Larvitar": 2,
+    "Teddiursa": 2,
+    "Dratini": 3,
+    "Froakie": 3
+  },
+  "tigerous": {
+    "Starly": 1,
+    "Klefki": 2,
+    "Relicanth": 2,
+    "Rotom": 3
+  }
+}
