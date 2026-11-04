@@ -39,8 +39,10 @@ src/types.ts              Activity and local progress types
 - **Bug Catching Area:** Daily single player contest is available once per day for 20 minutes at the National Park southern Stop House. Score = level (capped at 25) + total IVs + tier bonus (50/75/100/130); shiny score is multiplied by 1.5. The weekly multiplayer contest lasts 60 minutes on Saturday at 12:00 or 00:00 GMT+0. The page does not clarify which weekly slot applies to a given player; left editable. Rewards include score thresholds, Genesect access at 140+ IVs, and placement prizes.
 - **Celadon Daily:** Freshly caught requested Pokémon, 48 hours to submit; cooldown resets on daily reset. Rewards cycle days 1–7 and repeat; select a day in the cycle panel to change the displayed reward and requested Pokémon pool without changing your completion streak. IV thresholds are 85, 115, 135, 150 for tiers 2–5. Every 25th task grants Trainer Tower Pass.
 - **Pokémon News Press:** The page could not be fetched reliably during research. Location/reward cycle and timing remain marked unknown and editable. Select a day in the cycle panel to change the displayed reward and eligible request pool.
+- **Bosses:** Individual entries for all 49 supplied boss records. Each boss has its own cooldown and mark, plus difficulty reward tables with money, tier chances, and tier-labeled items and Pokémon. Three-win-streak Pokémon rewards are shown separately when listed in the source data. The wiki limits repeatable bosses to 20 per week.
+- **Supplied photos:** Replacements from the provided image collection are bundled in `public/images/new-photos/`; `src/data/newPhotoAssets.json` records the mappings and missing-photo inventory. Unavailable item and boss photos are flagged in the UI; the supplied collection did not include boss portraits.
 
-The tray, mini window, configurable global shortcut, and Windows startup preference are wired through Electron. Notifications are local and checked while the app is open; OS scheduling while the app is closed is not supported. Mini-window task completions and its selected activity group and region are saved locally and synchronized with the main window. The mini window's size and position are also persisted. The wiki does not state a daily reset clock, so the default is explicitly unknown and editable.
+The tray, mini window, configurable global shortcut, and Windows startup preference are wired through Electron. Notifications are local and checked while the app is open; OS scheduling while the app is closed is not supported. Mini-window task completions and its selected activity group and region are saved locally and synchronized with the main window. The mini window shows the selected region as a badge and includes task reward quantities; its size and position are also persisted. The wiki does not state a daily reset clock, so the default is explicitly unknown and editable.
 
 ### Wiki source pages
 
@@ -50,6 +52,7 @@ The tray, mini window, configurable global shortcut, and Windows startup prefere
 - https://wiki.pokemonrevolution.net/Bug_Catching_Contest_(Multiplayer)
 - https://wiki.pokemonrevolution.net/Celadon_Daily_(task_system)
 - https://wiki.pokemonrevolution.net/Pok%C3%A9mon_News_Press
+- https://wiki.pokemonrevolution.net/Bosses
 
 
 ## In-app updates

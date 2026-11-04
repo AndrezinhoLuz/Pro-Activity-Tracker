@@ -183,3 +183,36 @@ body[data-theme=light] .navigation-help>span b,body[data-theme=light] .navigatio
 .mini-brand strong{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .mini-head-actions{flex:none}
 .mini-close{flex:none}
+.boss-drop-info{margin-top:10px}
+.boss-difficulty{border-top:1px solid #253141;padding:10px 0}
+.boss-difficulty:first-child{border-top:0;padding-top:0}
+.boss-difficulty h4{margin:0 0 7px;color:#dbe5f3;font-size:11px;text-transform:capitalize}
+.boss-difficulty h5{margin:9px 0 5px;color:#8492a6;font-size:9px;text-transform:uppercase;letter-spacing:.7px}
+.boss-tier-chances,.boss-reward-summary{margin:5px 0;color:#9eacc0;font-size:9px}
+.boss-reward-table{width:100%;border-collapse:collapse;margin:8px 0 14px;color:#c5cfdd;font-size:9px;text-align:center}
+.boss-reward-table th,.boss-reward-table td{border:1px solid #263343;padding:6px 5px}
+.boss-reward-table thead th{background:#16222f;color:#aab8c7;font-weight:700}
+.boss-reward-table tbody th{color:#dbe5f3;text-transform:capitalize}
+.boss-reward-table tbody td:nth-child(2){white-space:nowrap}
+.boss-reward-list{display:flex;flex-wrap:wrap;gap:6px;list-style:none;padding:0;margin:0}
+.boss-reward-list li{display:flex;align-items:center;gap:5px;border:1px solid #263343;background:#121c28;border-radius:5px;padding:4px 6px;color:#c5cfdd;font-size:9px}
+.boss-reward-list li small{display:block;color:#78879b;font-size:8px}
+.boss-reward-list .pokemon-image,.boss-reward-list .item-image{width:24px;height:24px;object-fit:contain}
+.item-quantity{display:block;margin-top:3px;color:#8594a8;font-size:8px;line-height:1.2}
+.mini-region-badge{display:inline-flex;align-items:center;width:max-content;max-width:100%;padding:2px 6px;border:1px solid color-mix(in srgb,var(--accent) 45%,#34414b);border-radius:999px;background:color-mix(in srgb,var(--accent) 13%,#101721);color:var(--accent);font-size:8px;font-weight:700;line-height:1.3}
+.mini-row-heading{display:flex;align-items:center;justify-content:space-between;gap:5px;min-width:0}
+.mini-row-heading strong{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mini-row-drops{display:block;margin-top:3px;color:#aab8c7;font-size:9px;line-height:1.4}
+.mini-row-drops b{margin-right:4px;color:#8293a8;font-size:8px;text-transform:uppercase;letter-spacing:.5px}
+.cycle-reward-entry,.cycle-reward-option{display:inline-flex;align-items:center;gap:4px}
+.cycle-reward-entry{flex-wrap:wrap}
+.cycle-reward-option{min-width:0}
+.cycle-reward-or{color:var(--accent);font-size:8px}
+.item-photo-missing{width:24px;min-height:24px;display:inline-flex;flex:none;flex-direction:column;align-items:center;justify-content:center;gap:1px;border:1px solid #735b32;border-radius:4px;background:#302818;color:#efc274;vertical-align:middle}
+.item-photo-missing small{display:block!important;margin:0;color:#efc274!important;font-size:5px!important;line-height:1;white-space:nowrap}
+.boss-portrait,.boss-photo-missing{width:60px;height:60px;flex:none;object-fit:contain}
+.boss-photo-missing{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;border:1px solid #735b32;border-radius:5px;background:#302818;color:#efc274}
+.boss-photo-missing small{font-size:5px;line-height:1;white-space:nowrap}
+body[data-theme=light] .mini-region-badge{background:color-mix(in srgb,var(--accent) 12%,#fff)}
+body[data-theme=light] .mini-row-drops{color:#526174}
+body[data-theme=light] .mini-row-drops b{color:#65758a}
