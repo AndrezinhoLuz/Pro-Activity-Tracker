@@ -55,6 +55,7 @@ export const bugRewards={
  extras:[{name:'Volcarona Wings',item:'Volcarona Wings',description:'One-time reward at 290+ score (400+ if the submitted Pokemon is shiny).'},{name:'Golden Bug Net',item:'Golden Bug Net',description:'Chance to receive it at 230+ score.'},{name:'Genesect',dex:649,description:'Chance to encounter it after submitting a Pokemon with 140+ total IVs.'},{name:'Mega Stones',items:['Beedrillite','Pinsirite','Heracronite'],description:'Requires the Mega Bracelet. Win 3 contests per stone; wins need not be consecutive. Each stone is a random, one-time reward.'}]
 };
 export const pokestopItems=['Poké Ball','Great Ball','Ultra Ball','Repel','Super Repel','Max Repel','Revive','Ether','Max Ether','PP Up','PP Max','Rare Candy','Potion','Super Potion','Hyper Potion','Max Potion','Full Heal','Full Restore','TM45 - Thunder Wave (Power Plant only)','TM24 - Thunderbolt (Power Plant only)','Exp. Candy XS','Exp. Candy S','Exp. Candy M','Exp. Candy L','Exp. Candy XL'];
+export const pokestopItemQuantities:Record<string,string>=Object.fromEntries(pokestopItems.map(item=>[item,item.startsWith('Exp. Candy L')||item.startsWith('Exp. Candy XL')?'1–3':item.startsWith('Exp. Candy')?'1–5':'1']));
 
 export const celadonRewards=[
  ['Focus Sash','Air Balloon','Red Card','Eject Button','Escape Rope','Repel','Revive'],
