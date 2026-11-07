@@ -2995,7 +2995,18 @@
           "maximum": 35000
         },
         "pveCoins": 3,
-        "items": [],
+        "items": [
+          {
+            "name": "Silver Disc",
+            "quantity": "",
+            "tier": 0
+          },
+          {
+            "name": "Team Rocket Clothes",
+            "quantity": "",
+            "tier": 0
+          }
+        ],
         "pokemon": [
           {
             "name": "Inkay",
@@ -5448,7 +5459,7 @@
             "tier": 1
           },
           {
-            "name": "Mini MS Medalion",
+            "name": "Mini MS Medallion",
             "quantity": "1",
             "tier": 2
           },
@@ -5519,7 +5530,7 @@
             "tier": 1
           },
           {
-            "name": "Mini MS Medalion",
+            "name": "Mini MS Medallion",
             "quantity": "1",
             "tier": 2
           },
@@ -5615,7 +5626,7 @@
             "tier": 1
           },
           {
-            "name": "Mini MS Medalion",
+            "name": "Mini MS Medallion",
             "quantity": "1",
             "tier": 2
           },
@@ -6882,7 +6893,7 @@
             "winStreakRequired": 0
           },
           {
-            "name": "Flababe",
+            "name": "Flabebe",
             "dexNumber": 669,
             "winStreakRequired": 0
           },
@@ -6912,7 +6923,7 @@
             "winStreakRequired": 3
           },
           {
-            "name": "Flababe",
+            "name": "Flabebe",
             "dexNumber": 669,
             "winStreakRequired": 3
           },
@@ -7050,7 +7061,7 @@
             "winStreakRequired": 0
           },
           {
-            "name": "Flababe",
+            "name": "Flabebe",
             "dexNumber": 669,
             "winStreakRequired": 0
           },
@@ -7080,7 +7091,7 @@
             "winStreakRequired": 3
           },
           {
-            "name": "Flababe",
+            "name": "Flabebe",
             "dexNumber": 669,
             "winStreakRequired": 3
           },
@@ -10948,6 +10959,11 @@
             "name": "Focus Sash",
             "quantity": "15-20",
             "tier": 2
+          },
+          {
+            "name": "Eumi Tokens",
+            "quantity": "",
+            "tier": 0
           }
         ],
         "pokemon": [
@@ -10996,6 +11012,11 @@
             "name": "Focus Sash",
             "quantity": "15-20",
             "tier": 2
+          },
+          {
+            "name": "Eumi Tokens",
+            "quantity": "",
+            "tier": 0
           }
         ],
         "pokemon": [
@@ -11059,6 +11080,11 @@
             "name": "Focus Sash",
             "quantity": "15-20",
             "tier": 2
+          },
+          {
+            "name": "Eumi Tokens",
+            "quantity": "",
+            "tier": 0
           }
         ],
         "pokemon": [
