@@ -1,0 +1,3742 @@
+{
+    "sourceIndexes":  [
+                          "src/data/newPhotoAssets.json",
+                          "src/data/itemImages.json",
+                          "src/data/pokemonImages.json"
+                      ],
+    "originalImageReferences":  468,
+    "uniqueSourcePaths":  466,
+    "contentDuplicateFilesRemoved":  0,
+    "duplicateReferencesRemoved":  2,
+    "finalImageCount":  466,
+    "images":  [
+                   {
+                       "file":  "Straw_Hat_1.png",
+                       "source":  "./images/new-photos/Straw_Hat_1.png",
+                       "sha256":  "3B55942753C2F9FEAB684A1D9696FAD0EE048B441F313359887F4B30632FF8A8",
+                       "width":  32,
+                       "height":  19,
+                       "sizeBytes":  871
+                   },
+                   {
+                       "file":  "Straw_Hat_2.png",
+                       "source":  "./images/new-photos/Straw_Hat_2.png",
+                       "sha256":  "8D212D47A2C13BEF2398101A81F49ACE541E831C4B9D54949FB8D93EA91AC801",
+                       "width":  32,
+                       "height":  19,
+                       "sizeBytes":  606
+                   },
+                   {
+                       "file":  "Chople_Berry.png",
+                       "source":  "./images/new-photos/Chople_Berry.png",
+                       "sha256":  "2CF37574B0667F2BFD15768300F8FBE07A177F3389544953943BCAD569D8BAF8",
+                       "width":  24,
+                       "height":  24,
+                       "sizeBytes":  327
+                   },
+                   {
+                       "file":  "Shuca_Berry.png",
+                       "source":  "./images/new-photos/Shuca_Berry.png",
+                       "sha256":  "BCFABF86081AD87236EB8471A1A0D3D0476E0D8969D67AC74A6EA624D2805199",
+                       "width":  19,
+                       "height":  20,
+                       "sizeBytes":  3299
+                   },
+                   {
+                       "file":  "Sitrus_Berry.png",
+                       "source":  "./images/new-photos/Sitrus_Berry.png",
+                       "sha256":  "ABA084B996FD3D43B93927B748624A1E9684370C6C51916FD5E6D180187383E4",
+                       "width":  18,
+                       "height":  20,
+                       "sizeBytes":  619
+                   },
+                   {
+                       "file":  "Rindo_Berry.png",
+                       "source":  "./images/new-photos/Rindo_Berry.png",
+                       "sha256":  "174B26CD0B46D8AC33552A59C99398105206BD2CA1FBB30C4DD7B4740DF47276",
+                       "width":  19,
+                       "height":  20,
+                       "sizeBytes":  3299
+                   },
+                   {
+                       "file":  "Lum_Berry.png",
+                       "source":  "./images/new-photos/Lum_Berry.png",
+                       "sha256":  "DE1964A437D8C68F975512D55801D8340782771BECC517A794C6AD93916F9054",
+                       "width":  18,
+                       "height":  17,
+                       "sizeBytes":  531
+                   },
+                   {
+                       "file":  "Tingle_Clothes.png",
+                       "source":  "./images/new-photos/Tingle_Clothes.png",
+                       "sha256":  "446797EDA5CC9761C07A830ED803934571A7792F901D5BB00BDC68B7FBEE61FD",
+                       "width":  26,
+                       "height":  18,
+                       "sizeBytes":  904
+                   },
+                   {
+                       "file":  "Tingle_Headgear.png",
+                       "source":  "./images/new-photos/Tingle_Headgear.png",
+                       "sha256":  "7DFF8BBB352850FA343EE772E038087CD0E8032FA91F3311E1760691898C2C2C",
+                       "width":  28,
+                       "height":  27,
+                       "sizeBytes":  1234
+                   },
+                   {
+                       "file":  "Logan_Mask.png",
+                       "source":  "./images/new-photos/Logan_Mask.png",
+                       "sha256":  "DEDB130A76D95295F27C8562F159C0B293D059AE7D69B912D3C49FABE57C404C",
+                       "width":  20,
+                       "height":  21,
+                       "sizeBytes":  1660
+                   },
+                   {
+                       "file":  "Yache_Berry.png",
+                       "source":  "./images/new-photos/Yache_Berry.png",
+                       "sha256":  "C31359E631250929B79CF3D0F42BFE0118C0D7C4C5DB007FC19456FDF10A95FE",
+                       "width":  20,
+                       "height":  21,
+                       "sizeBytes":  3407
+                   },
+                   {
+                       "file":  "Winter_Clothes_Blue.png",
+                       "source":  "./images/new-photos/Winter_Clothes_Blue.png",
+                       "sha256":  "620F7217EAC61801F97F529E8DB64DE7FFF30BB6D997C7B706403DCE8DA1E08B",
+                       "width":  26,
+                       "height":  21,
+                       "sizeBytes":  3632
+                   },
+                   {
+                       "file":  "Winter_Clothes_Grey.png",
+                       "source":  "./images/new-photos/Winter_Clothes_Grey.png",
+                       "sha256":  "C4067E1E7B10FF533519DA6058E143B8A15D238F9A43BDD7002AB9B5FB70DB41",
+                       "width":  26,
+                       "height":  19,
+                       "sizeBytes":  783
+                   },
+                   {
+                       "file":  "Winter_Clothes_Pink.png",
+                       "source":  "./images/new-photos/Winter_Clothes_Pink.png",
+                       "sha256":  "9C34347B585069EAF0245A0E649C699971DCBFB06E2F1C011EDF4CF241AB93BA",
+                       "width":  26,
+                       "height":  19,
+                       "sizeBytes":  981
+                   },
+                   {
+                       "file":  "Lapras_Mount.png",
+                       "source":  "./images/new-photos/Lapras_Mount.png",
+                       "sha256":  "E4120141C5162ED92C94F567F01A2867036E45BD48C76666DE30C74800C54329",
+                       "width":  27,
+                       "height":  32,
+                       "sizeBytes":  1338
+                   },
+                   {
+                       "file":  "Manectric_Mount.png",
+                       "source":  "./images/new-photos/Manectric_Mount.png",
+                       "sha256":  "8A68901AB63E734B47CA37DAB847E64F41934F80A64DBE4886ADD67B2F62B86E",
+                       "width":  19,
+                       "height":  20,
+                       "sizeBytes":  1309
+                   },
+                   {
+                       "file":  "Blue_Kimono.png",
+                       "source":  "./images/new-photos/Blue_Kimono.png",
+                       "sha256":  "408429D6F3830B3D172012F02924DC7A46344FE466A819ADD2A38EC47B393B8E",
+                       "width":  26,
+                       "height":  18,
+                       "sizeBytes":  939
+                   },
+                   {
+                       "file":  "Green_Kimono.png",
+                       "source":  "./images/new-photos/Green_Kimono.png",
+                       "sha256":  "4F161E6F61E1B1E3F30CA23704D69E5FD470229957BF51445887FF087A389B56",
+                       "width":  26,
+                       "height":  18,
+                       "sizeBytes":  708
+                   },
+                   {
+                       "file":  "Peach_Kimono.png",
+                       "source":  "./images/new-photos/Peach_Kimono.png",
+                       "sha256":  "5EF378106909E3E311206C05B7ED40BC3A6C950131F7E412559634F25BC29060",
+                       "width":  26,
+                       "height":  18,
+                       "sizeBytes":  692
+                   },
+                   {
+                       "file":  "Purple_Kimono.png",
+                       "source":  "./images/new-photos/Purple_Kimono.png",
+                       "sha256":  "52FB669E204935B32923B0F67721814469309B425D3B701EE260E51CC95681D4",
+                       "width":  26,
+                       "height":  18,
+                       "sizeBytes":  878
+                   },
+                   {
+                       "file":  "DC_Clothes.png",
+                       "source":  "./images/new-photos/DC_Clothes.png",
+                       "sha256":  "2208224FAAB1D6DFD590497A0E37432DB8A9BA866E94C2C8C0A890C467D51E2D",
+                       "width":  32,
+                       "height":  32,
+                       "sizeBytes":  1585
+                   },
+                   {
+                       "file":  "Ludicolo_Clothes.png",
+                       "source":  "./images/new-photos/Ludicolo_Clothes.png",
+                       "sha256":  "EA774DDB10500A386D7AF168FFFDF6DB3A67FFF1E55B1B1856ED344567719857",
+                       "width":  26,
+                       "height":  18,
+                       "sizeBytes":  1060
+                   },
+                   {
+                       "file":  "Ludicolo_Hat.png",
+                       "source":  "./images/new-photos/Ludicolo_Hat.png",
+                       "sha256":  "25D5884EDAD6F30FEE7BF82168F586B162265B598B7ED1D760D9915804A9DC4F",
+                       "width":  30,
+                       "height":  19,
+                       "sizeBytes":  903
+                   },
+                   {
+                       "file":  "Oran_Berry.png",
+                       "source":  "./images/new-photos/Oran_Berry.png",
+                       "sha256":  "640B91DDFBF318D58453B09EF7D6A91E6117F287FEF0E9C78CD8E7CDE61CBFA0",
+                       "width":  19,
+                       "height":  18,
+                       "sizeBytes":  604
+                   },
+                   {
+                       "file":  "Hibiscus_Hat.png",
+                       "source":  "./images/new-photos/Hibiscus_Hat.png",
+                       "sha256":  "DE676CF36A9234F4EF7143D531B05CF579F2AEBAE6DC10F00DAF5DE0ECF36EAB",
+                       "width":  11,
+                       "height":  14,
+                       "sizeBytes":  579
+                   },
+                   {
+                       "file":  "Pansy_Flower.png",
+                       "source":  "./images/new-photos/Pansy_Flower.png",
+                       "sha256":  "A21D6BBA3C7FC7CEDA20648D249D1EF9F3B44257D581115127794F5075D3C6FA",
+                       "width":  10,
+                       "height":  11,
+                       "sizeBytes":  340
+                   },
+                   {
+                       "file":  "Orchid_Flower.png",
+                       "source":  "./images/new-photos/Orchid_Flower.png",
+                       "sha256":  "E33E93047F24507F7E8657112697B47AF58425C119041567043FA3DF6E625B86",
+                       "width":  10,
+                       "height":  10,
+                       "sizeBytes":  333
+                   },
+                   {
+                       "file":  "Anemone_Flower.png",
+                       "source":  "./images/new-photos/Anemone_Flower.png",
+                       "sha256":  "0123A5C84D92D0B10E756CB95C8CF6E023A878E3FF2A7A7000E0E1B0D7E1DD9E",
+                       "width":  10,
+                       "height":  13,
+                       "sizeBytes":  399
+                   },
+                   {
+                       "file":  "Jasmine_Flower.png",
+                       "source":  "./images/new-photos/Jasmine_Flower.png",
+                       "sha256":  "E777E7F33DA470B8708EAE3E995C93995380FF5B3B7035DBFAE1756523EB0B72",
+                       "width":  11,
+                       "height":  13,
+                       "sizeBytes":  381
+                   },
+                   {
+                       "file":  "Haban_Berry.png",
+                       "source":  "./images/new-photos/Haban_Berry.png",
+                       "sha256":  "523E03C4F803064A7EBCEC4D313D8CB42625E115B7E3601E2FF094DE391483C3",
+                       "width":  20,
+                       "height":  20,
+                       "sizeBytes":  3394
+                   },
+                   {
+                       "file":  "Occa_Berry.png",
+                       "source":  "./images/new-photos/Occa_Berry.png",
+                       "sha256":  "8F7147E65FE255C978D754A81D6D9B13DF84779ADABF88592E3E7ACD6A1AF1DA",
+                       "width":  24,
+                       "height":  24,
+                       "sizeBytes":  303
+                   },
+                   {
+                       "file":  "Passho_Berry.png",
+                       "source":  "./images/new-photos/Passho_Berry.png",
+                       "sha256":  "91EAC833420E4892E8FDF32B41AD260F88A0C29E8E0ED89FF08D070628A9D7D8",
+                       "width":  20,
+                       "height":  18,
+                       "sizeBytes":  3355
+                   },
+                   {
+                       "file":  "Goomy_Hat.png",
+                       "source":  "./images/new-photos/Goomy_Hat.png",
+                       "sha256":  "54AF33A745B5F1736628BDD32A8B24B7AF60105C613A2FB305207DAE56D10F2F",
+                       "width":  27,
+                       "height":  25,
+                       "sizeBytes":  1258
+                   },
+                   {
+                       "file":  "Colbur_Berry.png",
+                       "source":  "./images/new-photos/Colbur_Berry.png",
+                       "sha256":  "D797C4ABEEAA3608399F4F3F4A54DC5D872DF0E3597BB6FCB1D8138DF109CAB2",
+                       "width":  20,
+                       "height":  20,
+                       "sizeBytes":  3442
+                   },
+                   {
+                       "file":  "Hollow_Mask.png",
+                       "source":  "./images/new-photos/Hollow_Mask.png",
+                       "sha256":  "96DD5EBB13173A7FB44111C2873D7D0C7B093904E3C735471A7EF8B815FF365B",
+                       "width":  32,
+                       "height":  32,
+                       "sizeBytes":  1161
+                   },
+                   {
+                       "file":  "Eviolite.png",
+                       "source":  "./images/new-photos/Eviolite.png",
+                       "sha256":  "E0A11A4E8000FB1E79723C31C9AC1F5598D5CED8D9EE226E078D3E04A78D4504",
+                       "width":  13,
+                       "height":  13,
+                       "sizeBytes":  963
+                   },
+                   {
+                       "file":  "Assault_Vest.png",
+                       "source":  "./images/new-photos/Assault_Vest.png",
+                       "sha256":  "6374D80383B915259AFB02DE6D7C267AF479A4054AEDB6C5252697C930D12898",
+                       "width":  21,
+                       "height":  18,
+                       "sizeBytes":  359
+                   },
+                   {
+                       "file":  "Silver_Powder.png",
+                       "source":  "./images/new-photos/Silver_Powder.png",
+                       "sha256":  "62AC6991402E8EE2C0518714B427AA2FB37CD3ACB086A67AD764D3B98910354F",
+                       "width":  22,
+                       "height":  13,
+                       "sizeBytes":  277
+                   },
+                   {
+                       "file":  "Weakness_Policy.png",
+                       "source":  "./images/new-photos/Weakness_Policy.png",
+                       "sha256":  "46C3B96925855A54FE701958773A0514CD1904CFF23DFD717DD9887D835C6902",
+                       "width":  20,
+                       "height":  17,
+                       "sizeBytes":  507
+                   },
+                   {
+                       "file":  "Black_Belt.png",
+                       "source":  "./images/new-photos/Black_Belt.png",
+                       "sha256":  "B89F21F73BE87D44987ABB9358797CE3825DDBFC97D5C88885275A2E2D6798A9",
+                       "width":  20,
+                       "height":  21,
+                       "sizeBytes":  680
+                   },
+                   {
+                       "file":  "Winter_Clothes_Green.png",
+                       "source":  "./images/new-photos/Winter_Clothes_Green.png",
+                       "sha256":  "67F5D938AD3B089B1868C55BE6BCDE4F33AEB4E505D4211FC2F0B462984DB37B",
+                       "width":  26,
+                       "height":  21,
+                       "sizeBytes":  3627
+                   },
+                   {
+                       "file":  "Mini_MS_Medalion.png",
+                       "source":  "./images/new-photos/Mini_MS_Medalion.png",
+                       "sha256":  "8F328E27564E494C3F14810E85C6F503119C463646E64AFF2610C6C90B7AE3FA",
+                       "width":  31,
+                       "height":  31,
+                       "sizeBytes":  3838
+                   },
+                   {
+                       "file":  "TZ_Clothes.png",
+                       "source":  "./images/new-photos/TZ_Clothes.png",
+                       "sha256":  "57D74F3541B81410050B67E6B1A61F4AF29F028A4151A1AC98F5A8A556FBA0B7",
+                       "width":  32,
+                       "height":  32,
+                       "sizeBytes":  15862
+                   },
+                   {
+                       "file":  "Rarecandy250.png",
+                       "source":  "./images/new-photos/Rarecandy250.png",
+                       "sha256":  "43CB9F8205F2D238EB0E47F9B0771CEA48720DA60E7ECB84E3B4B168D6A6D4F4",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  40393
+                   },
+                   {
+                       "file":  "Reroll_Ticket.png",
+                       "source":  "./images/new-photos/Reroll_Ticket.png",
+                       "sha256":  "94FBFB2836EB3FFD513A6125510215E5E8B2B9B29721FDDE72EC8B8649216F04",
+                       "width":  21,
+                       "height":  17,
+                       "sizeBytes":  3269
+                   },
+                   {
+                       "file":  "Nature_Reroll_Ticket.png",
+                       "source":  "./images/new-photos/Nature_Reroll_Ticket.png",
+                       "sha256":  "3A288CA97C73DE27B66120407F8B00E7A9076468B61C89144F6B3B3A2AF644BA",
+                       "width":  21,
+                       "height":  17,
+                       "sizeBytes":  3226
+                   },
+                   {
+                       "file":  "Small_Train_Ticket.png",
+                       "source":  "./images/new-photos/Small_Train_Ticket.png",
+                       "sha256":  "3AE80A7778E0DA8F829AEAEAD756F0D8E956CB0D365FA1241E2523C4DE693407",
+                       "width":  21,
+                       "height":  17,
+                       "sizeBytes":  3252
+                   },
+                   {
+                       "file":  "250px-0650Chespin.png",
+                       "source":  "./images/new-photos/250px-0650Chespin.png",
+                       "sha256":  "F424F13551765F8FAAE62E45BF5EED58EAD46BBE0179E40A1E597C7C8732325E",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  48932
+                   },
+                   {
+                       "file":  "250px-0629Vullaby.png",
+                       "source":  "./images/new-photos/250px-0629Vullaby.png",
+                       "sha256":  "EC051D146DFFCE956D1077AC7066DCEDBF093406F25415E2F8B53C68BC7BBC55",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  47851
+                   },
+                   {
+                       "file":  "250px-0147Dratini.png",
+                       "source":  "./images/new-photos/250px-0147Dratini.png",
+                       "sha256":  "2ED55502C2D71F3A18DF558E0520B2698D04E2CC66A94D81C5C60AD8DA262D4F",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  38886
+                   },
+                   {
+                       "file":  "250px-0443Gible.png",
+                       "source":  "./images/new-photos/250px-0443Gible.png",
+                       "sha256":  "055F611F5CA6CA5511F6A32DEDBAC5E6E5D7B2E2FB8C61A4EC6F83CF64A267F5",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  59426
+                   },
+                   {
+                       "file":  "250px-0489Phione.png",
+                       "source":  "./images/new-photos/250px-0489Phione.png",
+                       "sha256":  "820375C9FF40285FAC0DA39546383750161C571AB77C6A1C8C0E3C5AAA040786",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  40596
+                   },
+                   {
+                       "file":  "250px-0538Throh.png",
+                       "source":  "./images/new-photos/250px-0538Throh.png",
+                       "sha256":  "1FB3AA87674C84979BF2D80343D27D89C1DD68625F62787362FDF77E5D01691D",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  58656
+                   },
+                   {
+                       "file":  "250px-0597Ferroseed.png",
+                       "source":  "./images/new-photos/250px-0597Ferroseed.png",
+                       "sha256":  "5DBEA70F4CA41B51E1222A4AE9DDFE35C68979052CBF35A552329833102D865F",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  57662
+                   },
+                   {
+                       "file":  "250px-0495Snivy.png",
+                       "source":  "./images/new-photos/250px-0495Snivy.png",
+                       "sha256":  "76F9C378A389CB57D67B439C498D903268C7D9B91E1AAFC6047A2594548E6F25",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  54363
+                   },
+                   {
+                       "file":  "250px-0285Shroomish.png",
+                       "source":  "./images/new-photos/250px-0285Shroomish.png",
+                       "sha256":  "E53BB27800F32F965FE393D4C5CE282A65A902CCBAF18ED39590FFCDB61AD292",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  42891
+                   },
+                   {
+                       "file":  "250px-0390Chimchar.png",
+                       "source":  "./images/new-photos/250px-0390Chimchar.png",
+                       "sha256":  "C28542D448D58AD5F6B789745C4E04075D8F2C9F8B31F09AA5667831EFD92C64",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  45959
+                   },
+                   {
+                       "file":  "250px-0173Cleffa.png",
+                       "source":  "./images/new-photos/250px-0173Cleffa.png",
+                       "sha256":  "0F19819622DFA76B64F8FF22755B57109E297F2DC9F3C194B8178FAD89ED11D8",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  50109
+                   },
+                   {
+                       "file":  "250px-0183Marill.png",
+                       "source":  "./images/new-photos/250px-0183Marill.png",
+                       "sha256":  "0867BE95FD6AA22FA1328ADDB293647B7D0DDD805BC9612591F90639DAFDA307",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  47566
+                   },
+                   {
+                       "file":  "250px-0440Happiny.png",
+                       "source":  "./images/new-photos/250px-0440Happiny.png",
+                       "sha256":  "07A7E690114F4DB68133B4EA761133EBE5299C9E59374ADC67C6CFD543AB0E7F",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  44548
+                   },
+                   {
+                       "file":  "250px-0707Klefki.png",
+                       "source":  "./images/new-photos/250px-0707Klefki.png",
+                       "sha256":  "EBEE9376AD03404A0F2376BB5ED479121EFEBAA18D136CC82E8E311D51DD1A44",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  39337
+                   },
+                   {
+                       "file":  "250px-0387Turtwig.png",
+                       "source":  "./images/new-photos/250px-0387Turtwig.png",
+                       "sha256":  "3C2E9FBF3921EB4AB572E9FAE457FA3538CAE43A8B4188AFC873D91C016C6F4A",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  43809
+                   },
+                   {
+                       "file":  "250px-0177Natu.png",
+                       "source":  "./images/new-photos/250px-0177Natu.png",
+                       "sha256":  "D3F3BBD33C58413A517C0A02FFBA3F2FCA9045A30380B34D67B3BD6CB76D8591",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  53364
+                   },
+                   {
+                       "file":  "250px-0517Munna.png",
+                       "source":  "./images/new-photos/250px-0517Munna.png",
+                       "sha256":  "F380DA3A20C8910768633FFCCA09EE539CCE13FE7EEC2D059099F513752EA8D3",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  58088
+                   },
+                   {
+                       "file":  "250px-0439Mime_Jr.png",
+                       "source":  "./images/new-photos/250px-0439Mime_Jr.png",
+                       "sha256":  "659E5FED130EAD89649D065C0A76178811C84DEA05D21EDA2CFF30542B3C4D7F",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  36938
+                   },
+                   {
+                       "file":  "250px-0703Carbink.png",
+                       "source":  "./images/new-photos/250px-0703Carbink.png",
+                       "sha256":  "08A8D4FF99AE5973894BF3EE383DE674743FD02E69AB2A5D581D3456B058E710",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  59157
+                   },
+                   {
+                       "file":  "250px-0577Solosis.png",
+                       "source":  "./images/new-photos/250px-0577Solosis.png",
+                       "sha256":  "4A9641B7B2BA400D9C41233A2D9C0F02AF176D75D513A69B157ABB99504029D2",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  58817
+                   },
+                   {
+                       "file":  "250px-0506Lillipup.png",
+                       "source":  "./images/new-photos/250px-0506Lillipup.png",
+                       "sha256":  "8A3D0D4D7C3FC246771F25FDB45E57730FA2DC65B563216DB12893AA511B8F4A",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  55657
+                   },
+                   {
+                       "file":  "250px-0676Furfrou.png",
+                       "source":  "./images/new-photos/250px-0676Furfrou.png",
+                       "sha256":  "6D8E0B5512EC8ED43AC33816112BF948217DCD49EE4988BC64F04D9D7E143A9A",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  52507
+                   },
+                   {
+                       "file":  "250px-0447Riolu.png",
+                       "source":  "./images/new-photos/250px-0447Riolu.png",
+                       "sha256":  "93A2044DE444FF72BE6DC10232B55DAF25CBC754B5ACEFA8B58F39F8B96D66E1",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  48577
+                   },
+                   {
+                       "file":  "250px-0674Pancham.png",
+                       "source":  "./images/new-photos/250px-0674Pancham.png",
+                       "sha256":  "8C57C34D5B0035E6FB0AD82CD00C0D80AF34E2C52B710B7CBADD4C7599C9BF0E",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  45485
+                   },
+                   {
+                       "file":  "250px-0001Bulbasaur.png",
+                       "source":  "./images/new-photos/250px-0001Bulbasaur.png",
+                       "sha256":  "72CE843A2C4B1D38D8D6D6C694768B8DF0F1D64EF8D4B1E341CB2732C816E252",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  71195
+                   },
+                   {
+                       "file":  "250px-0498Tepig.png",
+                       "source":  "./images/new-photos/250px-0498Tepig.png",
+                       "sha256":  "6A195AF0D7748C37F003EE6FAE048FCEE92D93E64E9213C37821433889566162",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  48546
+                   },
+                   {
+                       "file":  "250px-0244Entei.png",
+                       "source":  "./images/new-photos/250px-0244Entei.png",
+                       "sha256":  "3A99A9E214474121ED857105F106B08C4FE6085B77BE47B82AFDFCA117E7F5FB",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  64618
+                   },
+                   {
+                       "file":  "250px-0522Blitzle.png",
+                       "source":  "./images/new-photos/250px-0522Blitzle.png",
+                       "sha256":  "4075C0DE66D75649A7635F893469FA557CA63DD6F2E0CDDE1493777D017CC667",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  39320
+                   },
+                   {
+                       "file":  "250px-0602Tynamo.png",
+                       "source":  "./images/new-photos/250px-0602Tynamo.png",
+                       "sha256":  "071B853BB77EEA8408FC958D1EF080E1C3B22CAEFC9B4143229DF8DD7A868FBF",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  41652
+                   },
+                   {
+                       "file":  "250px-0243Raikou.png",
+                       "source":  "./images/new-photos/250px-0243Raikou.png",
+                       "sha256":  "754DE09AD9239ED59FE0AD853F0D30CD2293C54127DFA1897360BFCB05856A62",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  60948
+                   },
+                   {
+                       "file":  "250px-0501Oshawott.png",
+                       "source":  "./images/new-photos/250px-0501Oshawott.png",
+                       "sha256":  "A7FC3F4F5784E6526B8F42CE91ACF8FF41A24B21BE643F3B1D3148C7D0D2C8C3",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  48669
+                   },
+                   {
+                       "file":  "250px-0245Suicune.png",
+                       "source":  "./images/new-photos/250px-0245Suicune.png",
+                       "sha256":  "81256D9431C4ED441858D6513D1A40878FFCDB91A2B6D96E5E0354A0452E3B0C",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  70476
+                   },
+                   {
+                       "file":  "250px-0686Inkay.png",
+                       "source":  "./images/new-photos/250px-0686Inkay.png",
+                       "sha256":  "02E5BB8A7B65A0A93DB6F49C8D8C1B844920C3C6DCCD8BD4043EE7EC1D95F1AF",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  56291
+                   },
+                   {
+                       "file":  "200px-Pokédex_Image_Frillish_USUM.png",
+                       "source":  "./images/new-photos/200px-Pokédex_Image_Frillish_USUM.png",
+                       "sha256":  "0D751C1A1937A7FB27BA201B44489E6524CD1D35F5AB0DCF1B9D1EFD617E7D07",
+                       "width":  200,
+                       "height":  200,
+                       "sizeBytes":  13078
+                   },
+                   {
+                       "file":  "250px-0590Foongus.png",
+                       "source":  "./images/new-photos/250px-0590Foongus.png",
+                       "sha256":  "6490B49F7C4D3FB325724B097EB2F2D4802E7075789B6DDB50713672495FDB41",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  50121
+                   },
+                   {
+                       "file":  "250px-0137Porygon.png",
+                       "source":  "./images/new-photos/250px-0137Porygon.png",
+                       "sha256":  "871BA27D09BDD98610050A4369F7C068A45F26F61727161F233A994B515CDB9C",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  56319
+                   },
+                   {
+                       "file":  "250px-0152Chikorita.png",
+                       "source":  "./images/new-photos/250px-0152Chikorita.png",
+                       "sha256":  "A26257354EAD5A23367D5ED3E967FD2151EE09FC6E61A08BDDDF150193B6578E",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  38763
+                   },
+                   {
+                       "file":  "250px-0610Axew.png",
+                       "source":  "./images/new-photos/250px-0610Axew.png",
+                       "sha256":  "EACFC2780681A18D621E65CE89FBB42D9313D50443A1C3FBBF0CF9FAA041ED54",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  39145
+                   },
+                   {
+                       "file":  "250px-0320Wailmer.png",
+                       "source":  "./images/new-photos/250px-0320Wailmer.png",
+                       "sha256":  "5386F1200D7622785CEE5B071A21BE29386A75007FE9E1CB5CC13398C30B9112",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  38343
+                   },
+                   {
+                       "file":  "250px-0100Voltorb.png",
+                       "source":  "./images/new-photos/250px-0100Voltorb.png",
+                       "sha256":  "AAB20175341A5FBC3F2E2F793CC8E1669C6360336A0E8FE32BED82AE66A50D2B",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  54265
+                   },
+                   {
+                       "file":  "250px-0237Hitmontop.png",
+                       "source":  "./images/new-photos/250px-0237Hitmontop.png",
+                       "sha256":  "33374A84CF734A71C042961C952B19E68309DDFF9898EE47DF555C57C8053427",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  56996
+                   },
+                   {
+                       "file":  "250px-0227Skarmory.png",
+                       "source":  "./images/new-photos/250px-0227Skarmory.png",
+                       "sha256":  "3A455166672F204A371D8893B2B8EDA6DE2722956AAA8E0F28BF6B8B88D5DA13",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  44570
+                   },
+                   {
+                       "file":  "250px-0207Gligar.png",
+                       "source":  "./images/new-photos/250px-0207Gligar.png",
+                       "sha256":  "ADDD4D44FA7DB9382DAF8CB8069FCF4D26E12ADA6333D568BA8294D4AF32EED2",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  65599
+                   },
+                   {
+                       "file":  "250px-0349Feebas.png",
+                       "source":  "./images/new-photos/250px-0349Feebas.png",
+                       "sha256":  "6755865474B72865B7F8F5F7A67D039B3D520DA23934E44B2AA8BE42BAC272C0",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  50898
+                   },
+                   {
+                       "file":  "250px-0060Poliwag.png",
+                       "source":  "./images/new-photos/250px-0060Poliwag.png",
+                       "sha256":  "5A4F664FA4638CBE6885A18F018A105C831D7D59DC28803BAF966B324ABD9A32",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  48899
+                   },
+                   {
+                       "file":  "250px-0354Banette.png",
+                       "source":  "./images/new-photos/250px-0354Banette.png",
+                       "sha256":  "27C8F69A5DB26808C8171E6516AB2D5A5514339E736E28CA817F2EF55DE44535",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  48249
+                   },
+                   {
+                       "file":  "250px-0302Sableye.png",
+                       "source":  "./images/new-photos/250px-0302Sableye.png",
+                       "sha256":  "11F0A1801047717BC3B5B9FDDED5C7DA2FE3D25A33C8F6789B1373EB50657566",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  44148
+                   },
+                   {
+                       "file":  "250px-0622Golett.png",
+                       "source":  "./images/new-photos/250px-0622Golett.png",
+                       "sha256":  "BEAE6A5511F632D6573329F0E854BCA53633566B25A2862225AB099563049020",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  75747
+                   },
+                   {
+                       "file":  "250px-0607Litwick.png",
+                       "source":  "./images/new-photos/250px-0607Litwick.png",
+                       "sha256":  "9FD4A94A2DE8B15A375072BDAFA5365CCC61B3E9FFD69A205E6FBCFC9370C717",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  36393
+                   },
+                   {
+                       "file":  "250px-0710Pumpkaboo.png",
+                       "source":  "./images/new-photos/250px-0710Pumpkaboo.png",
+                       "sha256":  "E86BFB599C57F20FCD0BB203E7FF3B6C8CA4E2C3C9692CEAF2D7CC36DA0B4CFA",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  50544
+                   },
+                   {
+                       "file":  "250px-0174Igglybuff.png",
+                       "source":  "./images/new-photos/250px-0174Igglybuff.png",
+                       "sha256":  "B7FB093EE777A291B239C0458C6350309D8547927610CB57385D3EDBADF32D0B",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  43478
+                   },
+                   {
+                       "file":  "250px-0331Cacnea.png",
+                       "source":  "./images/new-photos/250px-0331Cacnea.png",
+                       "sha256":  "7BDA5CBF3B2150BFCD70DD4B70497DA483B7C48E218CBBC8CA77017A68331F44",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  48127
+                   },
+                   {
+                       "file":  "250px-0287Slakoth.png",
+                       "source":  "./images/new-photos/250px-0287Slakoth.png",
+                       "sha256":  "C96ACDA9137E1C413C174FADAAEC703A03C113AF14BA9C1D653854CB2CEA3072",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  39550
+                   },
+                   {
+                       "file":  "250px-0007Squirtle.png",
+                       "source":  "./images/new-photos/250px-0007Squirtle.png",
+                       "sha256":  "652CF324B0FA218D949A89DBE87F61F6AF92728ED02395BEF7AC7667ECF2196A",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  55453
+                   },
+                   {
+                       "file":  "250px-0572Minccino.png",
+                       "source":  "./images/new-photos/250px-0572Minccino.png",
+                       "sha256":  "EA36ACCEDCACB6FE8521C3D2651AC0572E39631760048B75D2BBD533B9D6665B",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  53836
+                   },
+                   {
+                       "file":  "250px-0276Taillow.png",
+                       "source":  "./images/new-photos/250px-0276Taillow.png",
+                       "sha256":  "B9647AA25E05B56CD0B10023B35A08F0614B3B17524CE0649625D458E5FCE918",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  46140
+                   },
+                   {
+                       "file":  "250px-0155Cyndaquil.png",
+                       "source":  "./images/new-photos/250px-0155Cyndaquil.png",
+                       "sha256":  "04A049430DE24D360F40F5FBAACF15058ED49A7B0A2FC8E03C78A6CA0B3A77CF",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  43145
+                   },
+                   {
+                       "file":  "250px-0158Totodile.png",
+                       "source":  "./images/new-photos/250px-0158Totodile.png",
+                       "sha256":  "4BC61A66DED3A820FA0A365FCB9201ABCD8733DE472A301270A4AC83EADBF3C6",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  44400
+                   },
+                   {
+                       "file":  "250px-0427Buneary.png",
+                       "source":  "./images/new-photos/250px-0427Buneary.png",
+                       "sha256":  "2127F3A49EA7DD85C86E7E0F5EA234C28412889913642A42DEC896B6B38DE56B",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  34200
+                   },
+                   {
+                       "file":  "250px-0393Piplup.png",
+                       "source":  "./images/new-photos/250px-0393Piplup.png",
+                       "sha256":  "F66060BB3DD79CEB8CD89DB3514C6C1BFF6B0184B902E3755F215621BA2F41B2",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  49026
+                   },
+                   {
+                       "file":  "250px-0554Darumaka.png",
+                       "source":  "./images/new-photos/250px-0554Darumaka.png",
+                       "sha256":  "45CE564454023F2403A8F2F0678F42D5710AF7C675737D6DCFC671343556BCD1",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  55086
+                   },
+                   {
+                       "file":  "250px-0633Deino.png",
+                       "source":  "./images/new-photos/250px-0633Deino.png",
+                       "sha256":  "C5452EC4F3A4CFEDF4C0ED51773C931FFBA6383AA0440FA9A0AEFAF56697E51C",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  38159
+                   },
+                   {
+                       "file":  "250px-0509Purrloin.png",
+                       "source":  "./images/new-photos/250px-0509Purrloin.png",
+                       "sha256":  "5E2C2B5E355DDF51F89128ACE54B659FED39D70DD4D0A53E19602516E669F84B",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  41957
+                   },
+                   {
+                       "file":  "250px-0531Audino.png",
+                       "source":  "./images/new-photos/250px-0531Audino.png",
+                       "sha256":  "BF6683FBBF55344C9BE99416EDF61E5C55508BF344382E4FDC172AE1524CC470",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  51585
+                   },
+                   {
+                       "file":  "250px-0624Pawniard.png",
+                       "source":  "./images/new-photos/250px-0624Pawniard.png",
+                       "sha256":  "BAF1FA382A9162062978A5FBB0975C276E9F0D8072A60574A5D53857C4EF2001",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  39402
+                   },
+                   {
+                       "file":  "250px-0303Mawile.png",
+                       "source":  "./images/new-photos/250px-0303Mawile.png",
+                       "sha256":  "15D19725F0120204BF14DB70108EEA6AE350AA4AE18C4C2FE5B0089C772AC562",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  41208
+                   },
+                   {
+                       "file":  "250px-0599Klink.png",
+                       "source":  "./images/new-photos/250px-0599Klink.png",
+                       "sha256":  "12E71B79EE6D277BAC4C0326E5BFB3E8D7629A0CC75FC12624FD93408F744967",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  51692
+                   },
+                   {
+                       "file":  "250px-0605Elgyem.png",
+                       "source":  "./images/new-photos/250px-0605Elgyem.png",
+                       "sha256":  "AAFEC8FD2190643E9A07DBFFC243C44A6DA3B1164BB10C386B3F842E2F35DB2E",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  40903
+                   },
+                   {
+                       "file":  "250px-0213Shuckle.png",
+                       "source":  "./images/new-photos/250px-0213Shuckle.png",
+                       "sha256":  "62A255B45CA5E17F36F4923FA4873B93C6BAE42444F24A2F760F2D0EE5B931D9",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  43050
+                   },
+                   {
+                       "file":  "250px-0656Froakie.png",
+                       "source":  "./images/new-photos/250px-0656Froakie.png",
+                       "sha256":  "8F2D9F8C74E30282F29193104D44318C628578B47A88ED4063BEE99E626038C4",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  70150
+                   },
+                   {
+                       "file":  "250px-0369Relicanth.png",
+                       "source":  "./images/new-photos/250px-0369Relicanth.png",
+                       "sha256":  "877CB904321BA5CB93763BB890FDA9DCAF0563FFEB645B6360C302C04AE4C7EA",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  54539
+                   },
+                   {
+                       "file":  "96px-0135Jolteon.png",
+                       "source":  "./images/new-photos/96px-0135Jolteon.png",
+                       "sha256":  "ED11493888D64CBB9B9B15830A3454AA3A13893E120FF4B76930366ED368EDBA",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  14589
+                   },
+                   {
+                       "file":  "0136Flareon.png",
+                       "source":  "./images/new-photos/0136Flareon.png",
+                       "sha256":  "07B443FCBCB09274E55B242FDFBA4AF700BA5F22A5C06671A6C22A4555414D3B",
+                       "width":  540,
+                       "height":  540,
+                       "sizeBytes":  225833
+                   },
+                   {
+                       "file":  "0134Vaporeon.png",
+                       "source":  "./images/new-photos/0134Vaporeon.png",
+                       "sha256":  "9D59AF7B99D901B19D9EB9A893B01B387EFD2796EC44A9A86733A5E7A1FDFA4B",
+                       "width":  533,
+                       "height":  533,
+                       "sizeBytes":  234548
+                   },
+                   {
+                       "file":  "0470Leafeon.png",
+                       "source":  "./images/new-photos/0470Leafeon.png",
+                       "sha256":  "7587FC02BF482E37199CF6351C6993FD78360A9A0CE8752A58373F171E67C71B",
+                       "width":  519,
+                       "height":  519,
+                       "sizeBytes":  188523
+                   },
+                   {
+                       "file":  "0471Glaceon.png",
+                       "source":  "./images/new-photos/0471Glaceon.png",
+                       "sha256":  "D626B0E8765529B1CBEB73FC7570266D1E0978707215D4E70EDC3256E294D2CE",
+                       "width":  534,
+                       "height":  534,
+                       "sizeBytes":  134504
+                   },
+                   {
+                       "file":  "0197Umbreon.png",
+                       "source":  "./images/new-photos/0197Umbreon.png",
+                       "sha256":  "01644F74B86589D32CB253B058EBB0935B6368E24CB54F2A1B9D67B99AE4C5A6",
+                       "width":  531,
+                       "height":  531,
+                       "sizeBytes":  161059
+                   },
+                   {
+                       "file":  "600px-0700Sylveon.png",
+                       "source":  "./images/new-photos/600px-0700Sylveon.png",
+                       "sha256":  "463124DD3584ABB339AB0EC785087E8930AA720263A0B4553CB383290023EED3",
+                       "width":  600,
+                       "height":  600,
+                       "sizeBytes":  181181
+                   },
+                   {
+                       "file":  "250px-0359Absol.png",
+                       "source":  "./images/new-photos/250px-0359Absol.png",
+                       "sha256":  "8E496CD4EF06A61C47BE5667B16F9CA6BCE857D71DB759426F9963288E71A268",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  43776
+                   },
+                   {
+                       "file":  "250px-0532Timburr.png",
+                       "source":  "./images/new-photos/250px-0532Timburr.png",
+                       "sha256":  "71B81F2BE4C319D1F2CC5A173B8046064E125A337F61DE797C9FDA5F4D6DF8FC",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  43690
+                   },
+                   {
+                       "file":  "250px-0131Lapras.png",
+                       "source":  "./images/new-photos/250px-0131Lapras.png",
+                       "sha256":  "3D83B14361D561AD91DFC0EDAA9D220146393F93EB62B95F7975ACCDD7D4F151",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  53460
+                   },
+                   {
+                       "file":  "250px-0215Sneasel.png",
+                       "source":  "./images/new-photos/250px-0215Sneasel.png",
+                       "sha256":  "93216B94AF8EBE1DA0C4033F660C441E6682DA2CB0831D671042C3179A87B7C4",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  52633
+                   },
+                   {
+                       "file":  "250px-0025Pikachu.png",
+                       "source":  "./images/new-photos/250px-0025Pikachu.png",
+                       "sha256":  "980F84552D4FA6AC2423A83F6A3D566AEFBFA300841CF1D1037ECD5F6AE84CA3",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  42625
+                   },
+                   {
+                       "file":  "250px-0239Elekid.png",
+                       "source":  "./images/new-photos/250px-0239Elekid.png",
+                       "sha256":  "E51B25E836907034F6E38D4849B1206D2BD7217B062AD6209F62927B820924B1",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  35795
+                   },
+                   {
+                       "file":  "250px-0653Fennekin.png",
+                       "source":  "./images/new-photos/250px-0653Fennekin.png",
+                       "sha256":  "5E3020D13AA15C80671ACC1783AB194C9FE30A514F8D6F1BE227C9D8C336B983",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  49149
+                   },
+                   {
+                       "file":  "TM-Bug.png",
+                       "source":  "./images/new-photos/TM-Bug.png",
+                       "sha256":  "A1B41A702652273CD9D2089B6415D122D45AEAFF640E46C047C2B7842D0B80B7",
+                       "width":  24,
+                       "height":  24,
+                       "sizeBytes":  674
+                   },
+                   {
+                       "file":  "TM-Grass.png",
+                       "source":  "./images/new-photos/TM-Grass.png",
+                       "sha256":  "2BDE18E22C9BBBA4DF76515AC5072F27D556017C573953929A8FB23AC043F97E",
+                       "width":  24,
+                       "height":  24,
+                       "sizeBytes":  682
+                   },
+                   {
+                       "file":  "TM-Psychic.png",
+                       "source":  "./images/new-photos/TM-Psychic.png",
+                       "sha256":  "F6266420C2CC30B7A3FECC91FC35D2013A91CCDDA2C93E0650167829F5D8E015",
+                       "width":  24,
+                       "height":  24,
+                       "sizeBytes":  654
+                   },
+                   {
+                       "file":  "TM-Electric.png",
+                       "source":  "./images/new-photos/TM-Electric.png",
+                       "sha256":  "59964C72BBE5D356A4C3BDD56212B3D717CEEC59B5D0B508E4AF27BCFCC9AB11",
+                       "width":  24,
+                       "height":  24,
+                       "sizeBytes":  3696
+                   },
+                   {
+                       "file":  "TM-Water.png",
+                       "source":  "./images/new-photos/TM-Water.png",
+                       "sha256":  "E601729D86807A27AFA2EDCC622B7DA27A8970D0F2DADA6528D54297202526BB",
+                       "width":  24,
+                       "height":  24,
+                       "sizeBytes":  708
+                   },
+                   {
+                       "file":  "TM-Dark.png",
+                       "source":  "./images/new-photos/TM-Dark.png",
+                       "sha256":  "66DE1303E020617CF936D9D117780BAA4943C426D91EB6A61BABBA7106320BD4",
+                       "width":  24,
+                       "height":  24,
+                       "sizeBytes":  687
+                   },
+                   {
+                       "file":  "TM-Ice.png",
+                       "source":  "./images/new-photos/TM-Ice.png",
+                       "sha256":  "A66D3F6A635FA71BCAF91613FD0E537AB292709D7B400BDB923F9E841B139F88",
+                       "width":  24,
+                       "height":  24,
+                       "sizeBytes":  658
+                   },
+                   {
+                       "file":  "TM-Normal.png",
+                       "source":  "./images/new-photos/TM-Normal.png",
+                       "sha256":  "33C12343A20062B83370586922527CA930D7E01DFE300F9E5E8690E936F81F7D",
+                       "width":  24,
+                       "height":  24,
+                       "sizeBytes":  626
+                   },
+                   {
+                       "file":  "TM-Ghost.png",
+                       "source":  "./images/new-photos/TM-Ghost.png",
+                       "sha256":  "4740BF91DDD61E2A3146E4F945F9C3F51247B7AE3E226F4880B8C3F6011434FD",
+                       "width":  24,
+                       "height":  24,
+                       "sizeBytes":  3732
+                   },
+                   {
+                       "file":  "TM-Ground.png",
+                       "source":  "./images/new-photos/TM-Ground.png",
+                       "sha256":  "6410A359EA8921AFA62A97BC71E3EC14BD91C19149A5E57267C3537FE3D7E4C1",
+                       "width":  24,
+                       "height":  24,
+                       "sizeBytes":  664
+                   },
+                   {
+                       "file":  "TM-Fire.png",
+                       "source":  "./images/new-photos/TM-Fire.png",
+                       "sha256":  "1DEFEB89F1488D8C4EBD24A8F5770151385A97C660F3AE5075D843C86E7FB372",
+                       "width":  24,
+                       "height":  24,
+                       "sizeBytes":  688
+                   },
+                   {
+                       "file":  "TM-Dragon.png",
+                       "source":  "./images/new-photos/TM-Dragon.png",
+                       "sha256":  "A4DD6C3E097116D9E3871B639AFCAD5B21FB032F06E54AC5664DC5D5AD00BCBC",
+                       "width":  24,
+                       "height":  24,
+                       "sizeBytes":  3695
+                   },
+                   {
+                       "file":  "TM-Fairy.png",
+                       "source":  "./images/new-photos/TM-Fairy.png",
+                       "sha256":  "98A15A35B354EC28A052C62BCFCF0C0E5D51C8C61460108F3A4EF2EB6E0AC8D1",
+                       "width":  24,
+                       "height":  24,
+                       "sizeBytes":  3771
+                   },
+                   {
+                       "file":  "TM-Fighting.png",
+                       "source":  "./images/new-photos/TM-Fighting.png",
+                       "sha256":  "EDA819F352A4461603F9251CC2144F2FD9FBE9427A7D53E9D748BA07BACAF952",
+                       "width":  24,
+                       "height":  24,
+                       "sizeBytes":  681
+                   },
+                   {
+                       "file":  "TM-Flying.png",
+                       "source":  "./images/new-photos/TM-Flying.png",
+                       "sha256":  "D727C2A42EC6652B96F1E12BB5DA7B88EA1731A53665C7202E3F0437C32A340F",
+                       "width":  24,
+                       "height":  24,
+                       "sizeBytes":  3736
+                   },
+                   {
+                       "file":  "TM-Poison.png",
+                       "source":  "./images/new-photos/TM-Poison.png",
+                       "sha256":  "9DDDB1713DAA98F87FD2D2A14163D714A3928CD51A2A16E4F88A2318C47AA8CA",
+                       "width":  24,
+                       "height":  24,
+                       "sizeBytes":  697
+                   },
+                   {
+                       "file":  "TM-Rock.png",
+                       "source":  "./images/new-photos/TM-Rock.png",
+                       "sha256":  "1F0A4419995DD5EB8A9F9CAF6E3E723E5274773704007E5FBCDE62A27A51878D",
+                       "width":  24,
+                       "height":  24,
+                       "sizeBytes":  3764
+                   },
+                   {
+                       "file":  "TM-Steel.png",
+                       "source":  "./images/new-photos/TM-Steel.png",
+                       "sha256":  "06CC55904AB124E250807632B8DA7B029388D4EB1F5DE79C2B8DCF1E87213AFA",
+                       "width":  24,
+                       "height":  24,
+                       "sizeBytes":  3768
+                   },
+                   {
+                       "file":  "250px-Ash_Westbrook_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Ash_Westbrook_boss_NPC.png",
+                       "sha256":  "98F74393BCD817BCF22D7B28EA4F43A06A20B58B0E064239F92E25E09499BB57",
+                       "width":  250,
+                       "height":  204,
+                       "sizeBytes":  41860
+                   },
+                   {
+                       "file":  "250px-BattleBot_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-BattleBot_boss_NPC.png",
+                       "sha256":  "36922471924E9478AE6F099E0E1BFE5FE6C941405E2B76527D75F67233CB4786",
+                       "width":  250,
+                       "height":  206,
+                       "sizeBytes":  34180
+                   },
+                   {
+                       "file":  "250px-Brock_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Brock_boss_NPC.png",
+                       "sha256":  "D0814CC6C4A9B7A2F7D45DC617C345943C3BEA9D9839CB9991FABDC5404E38EA",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  49466
+                   },
+                   {
+                       "file":  "250px-Bruno_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Bruno_boss_NPC.png",
+                       "sha256":  "7C48862E78594694BBDB52CE523268784C68063707BF5F6D305AEADC9B3DECEA",
+                       "width":  250,
+                       "height":  144,
+                       "sizeBytes":  33904
+                   },
+                   {
+                       "file":  "250px-Bugsy_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Bugsy_boss_NPC.png",
+                       "sha256":  "2CF510ACCE8FCA18B3BB900906A3B84670A8A7F06F489291D0D5EC6FD8C50BB4",
+                       "width":  250,
+                       "height":  198,
+                       "sizeBytes":  104608
+                   },
+                   {
+                       "file":  "250px-Chuck_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Chuck_boss_NPC.png",
+                       "sha256":  "62B8FFD3E4507DC1FBBEBAD3E0D9FAEF9915160AF52E3A5A8F8AB19D2EDC889D",
+                       "width":  250,
+                       "height":  236,
+                       "sizeBytes":  31722
+                   },
+                   {
+                       "file":  "250px-Cie_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Cie_boss_NPC.png",
+                       "sha256":  "56EF3408C3966114BB5310826409F517643A981267DFC159323828C819B222B0",
+                       "width":  250,
+                       "height":  215,
+                       "sizeBytes":  118997
+                   },
+                   {
+                       "file":  "250px-Erika_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Erika_boss_NPC.png",
+                       "sha256":  "C320643661E6D9324A15775207E649973A675FFED1CFC5C42B813532DA330F0C",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  45929
+                   },
+                   {
+                       "file":  "250px-Pewdie_and_Diepy_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Pewdie_and_Diepy_boss_NPC.png",
+                       "sha256":  "7294D1D8379729E35192953DB5F9FC4FA4A5DE716AD5B056C9566B4BA377835A",
+                       "width":  250,
+                       "height":  245,
+                       "sizeBytes":  78499
+                   },
+                   {
+                       "file":  "250px-George_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-George_boss_NPC.png",
+                       "sha256":  "41A5FBF6B7363A6D2C30C24C8FE23F76863991ADDFB4E1514D6DFD9282B958AA",
+                       "width":  250,
+                       "height":  200,
+                       "sizeBytes":  24494
+                   },
+                   {
+                       "file":  "250px-Gingery_Jones_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Gingery_Jones_boss_NPC.png",
+                       "sha256":  "623A71C0F9C2903640E9F0D5E70C16C7778454F0834DEB2DA7CC53C633060269",
+                       "width":  250,
+                       "height":  238,
+                       "sizeBytes":  106988
+                   },
+                   {
+                       "file":  "250px-Entei_Guardian_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Entei_Guardian_boss_NPC.png",
+                       "sha256":  "2C997BE317DFF72E63369ADD9F3CD2EE589832376582131317C9897972D3F682",
+                       "width":  250,
+                       "height":  214,
+                       "sizeBytes":  45123
+                   },
+                   {
+                       "file":  "250px-Raikou_Guardian_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Raikou_Guardian_boss_NPC.png",
+                       "sha256":  "1FC2ABB90C10429335DFFAA9EFF8985660D6ACD12B6BA701F6698052B294C2C5",
+                       "width":  250,
+                       "height":  222,
+                       "sizeBytes":  31052
+                   },
+                   {
+                       "file":  "250px-Suicune_Guardian_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Suicune_Guardian_boss_NPC.png",
+                       "sha256":  "AFFB204B76E010E0B089F2B9CDA82E2DFA23BD02B3213CEE47F82D7DC27729DB",
+                       "width":  250,
+                       "height":  179,
+                       "sizeBytes":  45782
+                   },
+                   {
+                       "file":  "250px-Team_Rocket_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Team_Rocket_boss_NPC.png",
+                       "sha256":  "8B0EAD11E8D0DA113134F4A23671F92931539931905C4F375A828E6F460E606C",
+                       "width":  250,
+                       "height":  143,
+                       "sizeBytes":  36372
+                   },
+                   {
+                       "file":  "250px-Klohver_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Klohver_boss_NPC.png",
+                       "sha256":  "2068F1CCC2CBD3F749833456715D474162E7E6DD61A6770045BCE0440FA721DD",
+                       "width":  250,
+                       "height":  156,
+                       "sizeBytes":  89697
+                   },
+                   {
+                       "file":  "250px-Koichi_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Koichi_boss_NPC.png",
+                       "sha256":  "89429FC3DECB5A9815289C05146A94FC9034E20996D9DCED97BF874BFC058722",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  43953
+                   },
+                   {
+                       "file":  "250px-Lance_(Dragon\u0027s_Shrine)_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Lance_(Dragon\u0027s_Shrine)_boss_NPC.png",
+                       "sha256":  "B50613C0108AF996DB0C92C063A07A5AC0A25E22F94A5358060A6D452335207A",
+                       "width":  250,
+                       "height":  257,
+                       "sizeBytes":  136399
+                   },
+                   {
+                       "file":  "250px-Letrix_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Letrix_boss_NPC.png",
+                       "sha256":  "6D73FD6555E2A4B20FC43255B01AD4C2984EFD8B570B9BADF5A27BCD3CA5182D",
+                       "width":  250,
+                       "height":  162,
+                       "sizeBytes":  75253
+                   },
+                   {
+                       "file":  "250px-Link_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Link_boss_NPC.png",
+                       "sha256":  "64A8BE2F271D42E3FEB971FDFE95385B4EB0C65136173C0113BDB239E8831F54",
+                       "width":  250,
+                       "height":  218,
+                       "sizeBytes":  53057
+                   },
+                   {
+                       "file":  "Logan_boss_NPC.png",
+                       "source":  "./images/new-photos/Logan_boss_NPC.png",
+                       "sha256":  "C7BC6C6A919CD48AF9EDBB898D2D6DEB3F7095985A55EB4B2A99DF396BEBEDCF",
+                       "width":  218,
+                       "height":  168,
+                       "sizeBytes":  15629
+                   },
+                   {
+                       "file":  "250px-Lorelei_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Lorelei_boss_NPC.png",
+                       "sha256":  "A4CF3B0D1C4B76BCC0B27E8F18E7F9944F10EDBD14DE74C0824DE0D7BFBE1E4D",
+                       "width":  250,
+                       "height":  187,
+                       "sizeBytes":  74595
+                   },
+                   {
+                       "file":  "250px-Lt.Surge_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Lt.Surge_boss_NPC.png",
+                       "sha256":  "5DCB0083C1F55B8988268F4E6E154CA70EC558007DD11EFDD03FD0A1CECABF41",
+                       "width":  250,
+                       "height":  276,
+                       "sizeBytes":  83671
+                   },
+                   {
+                       "file":  "250px-Maribela_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Maribela_boss_NPC.png",
+                       "sha256":  "99DECD9F8B25279E79F380B53BCDFD67BE37FBF94A9796FB39088E7352342CEA",
+                       "width":  250,
+                       "height":  243,
+                       "sizeBytes":  62747
+                   },
+                   {
+                       "file":  "250px-Medusa_\u0026_Eldir_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Medusa_\u0026_Eldir_boss_NPC.png",
+                       "sha256":  "989EF63C8B7CE7DB73542B86B2BAA1934976CC6CEC3ECAC143722735BBDCADB0",
+                       "width":  250,
+                       "height":  170,
+                       "sizeBytes":  68911
+                   },
+                   {
+                       "file":  "250px-Misty_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Misty_boss_NPC.png",
+                       "sha256":  "8D87943E46FC1A8C15CCD85D75BFE76D20DD04A3483031540479A90E325F32B4",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  71231
+                   },
+                   {
+                       "file":  "250px-Morty_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Morty_boss_NPC.png",
+                       "sha256":  "1FF6703B385E776498A2148B8BBCCDCDAB750BE2CD0C1E3639CE8F0821A1DF3D",
+                       "width":  250,
+                       "height":  251,
+                       "sizeBytes":  105625
+                   },
+                   {
+                       "file":  "250px-Naero_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Naero_boss_NPC.png",
+                       "sha256":  "0126315C035479EE2413892EE48F3DCDFA793069F1B10C7FD01DF77BE5DD05D9",
+                       "width":  250,
+                       "height":  250,
+                       "sizeBytes":  52037
+                   },
+                   {
+                       "file":  "250px-Naruto_Fanboy_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Naruto_Fanboy_boss_NPC.png",
+                       "sha256":  "18EE4312F42EDDC4DC6F6A3EBD319797C7F62D1FAD78589F2E30FFEAD2000361",
+                       "width":  250,
+                       "height":  219,
+                       "sizeBytes":  110083
+                   },
+                   {
+                       "file":  "250px-Neroli_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Neroli_boss_NPC.png",
+                       "sha256":  "E10E3D67055F11824330B01B6B757DA8888699BD9E590C1FD165B8A263E9B42B",
+                       "width":  250,
+                       "height":  207,
+                       "sizeBytes":  92871
+                   },
+                   {
+                       "file":  "250px-Officer_Jenny_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Officer_Jenny_boss_NPC.png",
+                       "sha256":  "217F2418BDA622CC829CE9F3A9925E3EC28D6269C8414FCF8BCFA8D624A2ADC3",
+                       "width":  250,
+                       "height":  226,
+                       "sizeBytes":  19118
+                   },
+                   {
+                       "file":  "250px-Shamac_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Shamac_boss_NPC.png",
+                       "sha256":  "02A7015C6359CE48F1776184706B400F9FE681C74BF1D59442134D3710942689",
+                       "width":  250,
+                       "height":  207,
+                       "sizeBytes":  24895
+                   },
+                   {
+                       "file":  "250px-PreHax_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-PreHax_boss_NPC.png",
+                       "sha256":  "B77E6EA674935662EB562A8ADB843A9A3DF6625835959063337D30085B74BF8E",
+                       "width":  250,
+                       "height":  258,
+                       "sizeBytes":  72917
+                   },
+                   {
+                       "file":  "250px-Professor_Birch_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Professor_Birch_boss_NPC.png",
+                       "sha256":  "D45FFA5F772A1C5DCE8A21829FCBC97D3DB41DA887DA62EC272ADFEE03CD62B4",
+                       "width":  250,
+                       "height":  147,
+                       "sizeBytes":  46421
+                   },
+                   {
+                       "file":  "250px-Prof._Elm_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Prof._Elm_boss_NPC.png",
+                       "sha256":  "3C938AC2E502DBF0C5DB033355C3B1EE1651F23CC75D9F41DA8AC4D6996E71B2",
+                       "width":  250,
+                       "height":  220,
+                       "sizeBytes":  22318
+                   },
+                   {
+                       "file":  "250px-Professor_Oak_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Professor_Oak_boss_NPC.png",
+                       "sha256":  "247DD1FC818CD9D6D8991904BCE03D604A2EBD1B70081FD99E3258CD1DBCC5C4",
+                       "width":  250,
+                       "height":  164,
+                       "sizeBytes":  12386
+                   },
+                   {
+                       "file":  "250px-Professor_Rowan_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Professor_Rowan_boss_NPC.png",
+                       "sha256":  "106393B52139D95CB8AE57B482B5A5B94034F200BFD3CB1BC598AA5BE903C553",
+                       "width":  250,
+                       "height":  163,
+                       "sizeBytes":  67448
+                   },
+                   {
+                       "file":  "Sage_boss_NPC.png",
+                       "source":  "./images/new-photos/Sage_boss_NPC.png",
+                       "sha256":  "478DC3E140443534B81B12F12C7C577C74D3D9ED2CC13F5DB3CD2FC783F94A60",
+                       "width":  239,
+                       "height":  303,
+                       "sizeBytes":  12235
+                   },
+                   {
+                       "file":  "250px-Saphirr_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Saphirr_boss_NPC.png",
+                       "sha256":  "F347E665F1A3EA1CD5B4AF4D8ACD2D0F0339FF952F644576AA294668F7A250D9",
+                       "width":  250,
+                       "height":  233,
+                       "sizeBytes":  111611
+                   },
+                   {
+                       "file":  "250px-Shary_\u0026_Shaui_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Shary_\u0026_Shaui_boss_NPC.png",
+                       "sha256":  "D92867E25D4B3C1ABCE5E40C9D6B5C027C0703B966A2A6483156C3189F8463CC",
+                       "width":  250,
+                       "height":  308,
+                       "sizeBytes":  53198
+                   },
+                   {
+                       "file":  "250px-Spectify_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Spectify_boss_NPC.png",
+                       "sha256":  "C60A0206054DEB6EFA1431E504C35C886AB376490091C525216FF79C776B5809",
+                       "width":  250,
+                       "height":  198,
+                       "sizeBytes":  59388
+                   },
+                   {
+                       "file":  "250px-Steven_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Steven_boss_NPC.png",
+                       "sha256":  "5E173479C4A3953A480D5AC3C87ED9972AD98452FC071178CA3C97FCFACEBB9E",
+                       "width":  250,
+                       "height":  215,
+                       "sizeBytes":  85018
+                   },
+                   {
+                       "file":  "250px-Terminator_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Terminator_boss_NPC.png",
+                       "sha256":  "97668D570745E80AA6C1419A8A3C673F22285DBD8D58A0A77D48A7F4F8E34617",
+                       "width":  250,
+                       "height":  237,
+                       "sizeBytes":  74249
+                   },
+                   {
+                       "file":  "250px-The_Pumpkin_King_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-The_Pumpkin_King_boss_NPC.png",
+                       "sha256":  "E4BC54990082837C44B3A1B8D18EA540634AD4577F0A5B8C12086199565F8667",
+                       "width":  250,
+                       "height":  178,
+                       "sizeBytes":  87100
+                   },
+                   {
+                       "file":  "250px-Thor_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Thor_boss_NPC.png",
+                       "sha256":  "FE9F2CCBD26742093C9BD1C41AC8A3E11803B4037695CB456627A1FC488206B7",
+                       "width":  250,
+                       "height":  120,
+                       "sizeBytes":  44354
+                   },
+                   {
+                       "file":  "250px-Tigerous_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Tigerous_boss_NPC.png",
+                       "sha256":  "B969EB7982102B75B6C5D8CC51D38CE0CC1085792E5B76A1A6E4A40C5C1D50E5",
+                       "width":  250,
+                       "height":  232,
+                       "sizeBytes":  42908
+                   },
+                   {
+                       "file":  "250px-Toothless_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Toothless_boss_NPC.png",
+                       "sha256":  "7628408D7967F6A7EB00A4390F37BD628AECFA7A8AF40972A2F91CBBCC3A6EB0",
+                       "width":  250,
+                       "height":  145,
+                       "sizeBytes":  53117
+                   },
+                   {
+                       "file":  "250px-Urahara_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Urahara_boss_NPC.png",
+                       "sha256":  "1ED3B88CC73668E81D8579320DD20B6B9418D8166EDD3C826356CBDFBF6D8CEC",
+                       "width":  250,
+                       "height":  179,
+                       "sizeBytes":  65878
+                   },
+                   {
+                       "file":  "250px-Xylos_boss_NPC.png",
+                       "source":  "./images/new-photos/250px-Xylos_boss_NPC.png",
+                       "sha256":  "6E90B34F60E3AF3007C9AD2A610DF3EF5D40CFDF2873E415B4845EA4FB1E0EE2",
+                       "width":  250,
+                       "height":  184,
+                       "sizeBytes":  81650
+                   },
+                   {
+                       "file":  "poke-ball.png",
+                       "source":  "./item-icons/poke-ball.png",
+                       "sha256":  "A4C7B9E8FF5727D10E6F679BCF16A963A95B2A36480D3BD9156D9808BDF54DFF",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  256
+                   },
+                   {
+                       "file":  "flying-gem.png",
+                       "source":  "./item-icons/flying-gem.png",
+                       "sha256":  "1F2864024BC549C3751ECA27DAAA9967870EBB41FAF32494D433A5CEC96E7B5B",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  250
+                   },
+                   {
+                       "file":  "potion.png",
+                       "source":  "./item-icons/potion.png",
+                       "sha256":  "DB5A0FA2343C5761599D9EFD4514A30125164CED094B55F760A763ED0C9C64D5",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  300
+                   },
+                   {
+                       "file":  "fresh-water.png",
+                       "source":  "./item-icons/fresh-water.png",
+                       "sha256":  "C95C39C406B990DAE7010BCDF193A91C88A60CFF6E6F9E4060EBDCAED2E79E8C",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  281
+                   },
+                   {
+                       "file":  "dawn-stone.png",
+                       "source":  "./item-icons/dawn-stone.png",
+                       "sha256":  "7D234D687853296A6A4A185A9C27CC637D9DA917C70DF02770C815F455E6F211",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  263
+                   },
+                   {
+                       "file":  "dusk-stone.png",
+                       "source":  "./item-icons/dusk-stone.png",
+                       "sha256":  "A61AFC1D5FCF1BC25F70A3B496CE2EFDC37EE77FC386D2CF14C7442763693637",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  271
+                   },
+                   {
+                       "file":  "sun-stone.png",
+                       "source":  "./item-icons/sun-stone.png",
+                       "sha256":  "3542840D250E42276AD079D6CF7A3950D5DB7B67BB45DF1A5182F6A28FF2FAB4",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  304
+                   },
+                   {
+                       "file":  "level-ball.png",
+                       "source":  "./item-icons/level-ball.png",
+                       "sha256":  "07E6ABE67DEAC6DE46E1DEDF67F6AAA894F98428035E421CFDF93EF4CF137E4D",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  289
+                   },
+                   {
+                       "file":  "carbos.png",
+                       "source":  "./item-icons/carbos.png",
+                       "sha256":  "6EDB4DDEB884E50126DCC1147163CFA05C4091BED3D711C8CE70FD827AB87AC7",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  288
+                   },
+                   {
+                       "file":  "helix-fossil.png",
+                       "source":  "./item-icons/helix-fossil.png",
+                       "sha256":  "767985225C29056024506D43AE367ADB37438241714159A337A1C08A0DFBE8E7",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  319
+                   },
+                   {
+                       "file":  "dome-fossil.png",
+                       "source":  "./item-icons/dome-fossil.png",
+                       "sha256":  "2A8242C5B3D4F599A04863F0CEB0B469B3E2FA14442D0DD215420E334C61BB11",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  317
+                   },
+                   {
+                       "file":  "icicle-plate.png",
+                       "source":  "./item-icons/icicle-plate.png",
+                       "sha256":  "FBC2F53FCBEA43A2A1EFD26FAAB6D92CDB0901FD6FE5BEC8A94A7B9646217298",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  241
+                   },
+                   {
+                       "file":  "bug-gem.png",
+                       "source":  "./item-icons/bug-gem.png",
+                       "sha256":  "0210A56B5F80E5CA0B9AA1CC2A37622DE12902F50E827CBB8B48C9D88FD25496",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  250
+                   },
+                   {
+                       "file":  "nugget.png",
+                       "source":  "./item-icons/nugget.png",
+                       "sha256":  "6A1BFD5DA5C95284196724458BBDF2FEBE5597FE5635BBDA8D7E9649080D07F1",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  229
+                   },
+                   {
+                       "file":  "hyper-potion.png",
+                       "source":  "./item-icons/hyper-potion.png",
+                       "sha256":  "0AA7CAD60AB3BE1181B4A7DCB1B3718542676D281423370C557E78C4D88FE6B0",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  300
+                   },
+                   {
+                       "file":  "hard-stone.png",
+                       "source":  "./item-icons/hard-stone.png",
+                       "sha256":  "E76B5895EC2976CD5ABAE3E216B8C8EACF68EBD040D5FB697B42F37AF3CB70D4",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  256
+                   },
+                   {
+                       "file":  "leftovers.png",
+                       "source":  "./item-icons/leftovers.png",
+                       "sha256":  "3EA874AAA17BBCB682131876763CA2F9A896644F7A2B5D9C51EA234F7AACE558",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  264
+                   },
+                   {
+                       "file":  "iron.png",
+                       "source":  "./item-icons/iron.png",
+                       "sha256":  "35F21F00412458EC449390E02AFEE7D57D793D861D971FDA398E625F0DADF0AB",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  288
+                   },
+                   {
+                       "file":  "old-amber.png",
+                       "source":  "./item-icons/old-amber.png",
+                       "sha256":  "F91136C27E7C920574157A3E66C0B21B0707CC581207FC5904ED855E23002ACC",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  299
+                   },
+                   {
+                       "file":  "pixie-plate.png",
+                       "source":  "./item-icons/pixie-plate.png",
+                       "sha256":  "BA374C3451099FE36EFF4BE7225609841559137694D6D74469FA163BE09385F7",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  241
+                   },
+                   {
+                       "file":  "fighting-gem.png",
+                       "source":  "./item-icons/fighting-gem.png",
+                       "sha256":  "90B1220A406AB02A7BFD3BB5917BEEFAC59CCAA117A67398A7CA986A11DC6F13",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  250
+                   },
+                   {
+                       "file":  "sky-plate.png",
+                       "source":  "./item-icons/sky-plate.png",
+                       "sha256":  "328D47F7152DCBF7D67AF248A15262162CEC7B72F3AD9EB29AABE15B35390EA1",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  241
+                   },
+                   {
+                       "file":  "fire-gem.png",
+                       "source":  "./item-icons/fire-gem.png",
+                       "sha256":  "B43DC008ADA58CB724B7AA676CEF2FC73D8AD458B8C3F69151C47833D7FBB170",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  250
+                   },
+                   {
+                       "file":  "revival-herb.png",
+                       "source":  "./item-icons/revival-herb.png",
+                       "sha256":  "B66C5EAAE21A479E4DBB8C53314118750AB976D7EED6202017C0259F84878D1D",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  277
+                   },
+                   {
+                       "file":  "super-potion.png",
+                       "source":  "./item-icons/super-potion.png",
+                       "sha256":  "81280672B68B5F8C0E4BF7B7D39567CE170D840296F7812935F740203DA66FD5",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  300
+                   },
+                   {
+                       "file":  "reaper-cloth.png",
+                       "source":  "./item-icons/reaper-cloth.png",
+                       "sha256":  "04A58D75CD1FF0F0F4565FB5DD0B84A688882D59C3AB7A15A3612F7C06300763",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  282
+                   },
+                   {
+                       "file":  "nest-ball.png",
+                       "source":  "./item-icons/nest-ball.png",
+                       "sha256":  "28F5947A50B4E93C1FB1DF9F320F43C7A950FD125735F6EEA083D95B9F0EEE75",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  290
+                   },
+                   {
+                       "file":  "calcium.png",
+                       "source":  "./item-icons/calcium.png",
+                       "sha256":  "88DB349A1101FCF9668827DFDA16D43EAAD04BF14BDAFB8D8E3B11C211DA9838",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  288
+                   },
+                   {
+                       "file":  "flame-plate.png",
+                       "source":  "./item-icons/flame-plate.png",
+                       "sha256":  "7919E275FCC5B80807587B300837B0DD704F82CF7C30DAC39137FF371D0E16AA",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  241
+                   },
+                   {
+                       "file":  "dark-gem.png",
+                       "source":  "./item-icons/dark-gem.png",
+                       "sha256":  "1DD14269A04C76ED89DD03996CB60F3CFE05C3E72D31F3168F34CB62C3EA2609",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  250
+                   },
+                   {
+                       "file":  "stardust.png",
+                       "source":  "./item-icons/stardust.png",
+                       "sha256":  "D34D3E6EB8739AF2F321D5806D49ED2522BB3BF405A48F529182C5B606D292FF",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  282
+                   },
+                   {
+                       "file":  "rare-candy.png",
+                       "source":  "./item-icons/rare-candy.png",
+                       "sha256":  "E68AD7F41CBD5E0E1CE20FB5BE5068E2D976B1370F06B2CEF1C5C614A19E79AB",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  272
+                   },
+                   {
+                       "file":  "moon-stone.png",
+                       "source":  "./item-icons/moon-stone.png",
+                       "sha256":  "44757F9CC107F23CC6775C93EDC5B0EEA429F2E08C5E547EE325C699D77C2742",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  281
+                   },
+                   {
+                       "file":  "draco-plate.png",
+                       "source":  "./item-icons/draco-plate.png",
+                       "sha256":  "52E4665F0350EAC7AC7C8DCB24DCD8EF1ED9F0D8CE9D288A8E00C1ADD7795D85",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  241
+                   },
+                   {
+                       "file":  "dragon-gem.png",
+                       "source":  "./item-icons/dragon-gem.png",
+                       "sha256":  "857F6608C1CE1263B845CDD28865CB4BB9164E487B54C2C80ABEA04AD67A8928",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  250
+                   },
+                   {
+                       "file":  "revive.png",
+                       "source":  "./item-icons/revive.png",
+                       "sha256":  "8ED02F56FCD0A8D2525811FBC33D82AEBBE7AF902EC6752B4857DE821505A224",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  177
+                   },
+                   {
+                       "file":  "moon-ball.png",
+                       "source":  "./item-icons/moon-ball.png",
+                       "sha256":  "E09122C40555A45BBB871A8AE8833B37429A79E27B54D143B1104141028C5BF4",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  297
+                   },
+                   {
+                       "file":  "net-ball.png",
+                       "source":  "./item-icons/net-ball.png",
+                       "sha256":  "D18B14B1B9A7B6744396F61F0D817C8AE14F250DD8C74B222624BF4AB08AAB97",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  301
+                   },
+                   {
+                       "file":  "dread-plate.png",
+                       "source":  "./item-icons/dread-plate.png",
+                       "sha256":  "42141AED10B8D4FE0E63D0A13E3A9555B6FA2527C6F8AF43FF122ED4B439ED36",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  241
+                   },
+                   {
+                       "file":  "electric-gem.png",
+                       "source":  "./item-icons/electric-gem.png",
+                       "sha256":  "29634690042AB491D3525DE8F9CFC30989644A5292AA18698D376222147F73C0",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  250
+                   },
+                   {
+                       "file":  "earth-plate.png",
+                       "source":  "./item-icons/earth-plate.png",
+                       "sha256":  "FC82C71A700EEC95EC6D1197BA985ABB1C59076A3B04C03ECCB717668806C508",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  241
+                   },
+                   {
+                       "file":  "fairy-gem.png",
+                       "source":  "./item-icons/fairy-gem.png",
+                       "sha256":  "FCF32AE1693CF0AA347096C2E9B066AC0D002A6C3A92D9524231251260E789B8",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  309
+                   },
+                   {
+                       "file":  "star-piece.png",
+                       "source":  "./item-icons/star-piece.png",
+                       "sha256":  "8CFAD719F903E5497158B6B5CCCB0006A90D53E833D4016223DE87CE2532EE2B",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  226
+                   },
+                   {
+                       "file":  "fist-plate.png",
+                       "source":  "./item-icons/fist-plate.png",
+                       "sha256":  "9CB2A927412EAC7C366DB83D351A070840210777FCC793CFA2C531200E50D48E",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  241
+                   },
+                   {
+                       "file":  "ground-gem.png",
+                       "source":  "./item-icons/ground-gem.png",
+                       "sha256":  "08A34D8A20864169450711DAAAF41E72BC6B5381681657A0E3192152ED5627B0",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  250
+                   },
+                   {
+                       "file":  "soda-pop.png",
+                       "source":  "./item-icons/soda-pop.png",
+                       "sha256":  "674BA8C9308C9646D518011C98ED445B98EF1BA40D5BCD2873A555E30F24DFEC",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  280
+                   },
+                   {
+                       "file":  "paralyze-heal.png",
+                       "source":  "./item-icons/paralyze-heal.png",
+                       "sha256":  "FE3C35089C2BE77BB364C9DE2BDBDC8FA89D19A1BA2B3457186EA72C9FBC2C58",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  261
+                   },
+                   {
+                       "file":  "lure-ball.png",
+                       "source":  "./item-icons/lure-ball.png",
+                       "sha256":  "F9A372A03E16C327BB1E885E71638665AE4139E47F826123C6EDC2B1B39AC7DF",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  295
+                   },
+                   {
+                       "file":  "root-fossil.png",
+                       "source":  "./item-icons/root-fossil.png",
+                       "sha256":  "E9087083EB79A832727026F3D42DD32BB0CC3FB15B9BA572A0C1C707D06F87F6",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  360
+                   },
+                   {
+                       "file":  "claw-fossil.png",
+                       "source":  "./item-icons/claw-fossil.png",
+                       "sha256":  "958EE36D7C3835D67D0146219D8939F802C0EE1F00A5E26C1C78478043D0C4A7",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  338
+                   },
+                   {
+                       "file":  "meadow-plate.png",
+                       "source":  "./item-icons/meadow-plate.png",
+                       "sha256":  "6BE2FE1BBB8E6893CF6AB9BC7237143E3181CFDA7443449346ED1DFCF98D1B48",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  241
+                   },
+                   {
+                       "file":  "ice-gem.png",
+                       "source":  "./item-icons/ice-gem.png",
+                       "sha256":  "B27A5974375394AF4CEF6AFBCA40052A63AA525B55CE8F6D33B5C3A7C5B60890",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  250
+                   },
+                   {
+                       "file":  "protein.png",
+                       "source":  "./item-icons/protein.png",
+                       "sha256":  "8B5244E3CF15BF3ADD34428C664032FA64E76B6DD8DCBE069F4672D10095854F",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  288
+                   },
+                   {
+                       "file":  "splash-plate.png",
+                       "source":  "./item-icons/splash-plate.png",
+                       "sha256":  "AD1599AF4F245D8D10E9146919B3F9DB6565F7C7B93EF9A940905D015B386CB1",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  241
+                   },
+                   {
+                       "file":  "ghost-gem.png",
+                       "source":  "./item-icons/ghost-gem.png",
+                       "sha256":  "A1F379BECF041FE521DB6643135897B29EC90F056AA29F9B4DEB595734140397",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  250
+                   },
+                   {
+                       "file":  "fast-ball.png",
+                       "source":  "./item-icons/fast-ball.png",
+                       "sha256":  "5439C38BE642F79BBAEE30B0227C0A282E253E22E08C891BCBE23A3DEB8C2851",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  283
+                   },
+                   {
+                       "file":  "insect-plate.png",
+                       "source":  "./item-icons/insect-plate.png",
+                       "sha256":  "51B836EA1D5A284C663B116C51A5D5A5AFCE96D5A3D6863BFF500B0B7A2B3CA6",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  241
+                   },
+                   {
+                       "file":  "grass-gem.png",
+                       "source":  "./item-icons/grass-gem.png",
+                       "sha256":  "572402811A48B0C683F8F188D0BE7AB5E9834B26CB8D587930E0ED377DADBD7C",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  250
+                   },
+                   {
+                       "file":  "friend-ball.png",
+                       "source":  "./item-icons/friend-ball.png",
+                       "sha256":  "7D03FA4E1FA53160BE2A659213A49CD959A8DD8740D8CAEB3F2E877258FB993E",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  288
+                   },
+                   {
+                       "file":  "iron-plate.png",
+                       "source":  "./item-icons/iron-plate.png",
+                       "sha256":  "0BEC83AD23DEE09D79AB53D4783E88D58540C5FE4BDEFCA78BA2673C4FE9517E",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  241
+                   },
+                   {
+                       "file":  "full-restore.png",
+                       "source":  "./item-icons/full-restore.png",
+                       "sha256":  "A6928656A61F57A3619EFE7DEE701E6B37CBB6472EA234C0D82035E8620CA7B0",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  299
+                   },
+                   {
+                       "file":  "full-heal.png",
+                       "source":  "./item-icons/full-heal.png",
+                       "sha256":  "FC471F27E944E7CE3DC5894981C09FACCF9371940E6C2F1355A62A72B9A88466",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  271
+                   },
+                   {
+                       "file":  "everstone.png",
+                       "source":  "./item-icons/everstone.png",
+                       "sha256":  "A5E65C949695DDDDFF3E3C687F6A5F29078F410893270185E25414FCC8AFF0E0",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  250
+                   },
+                   {
+                       "file":  "oval-stone.png",
+                       "source":  "./item-icons/oval-stone.png",
+                       "sha256":  "8BE8D081352B631A53F08F8B15990E1D585959586038D6993BD30129662E9D67",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  254
+                   },
+                   {
+                       "file":  "hp-up.png",
+                       "source":  "./item-icons/hp-up.png",
+                       "sha256":  "9C0F6F1784AD96778E231C0D4C82DD9AFBE664701E98A8E56EE59B3C897100DA",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  286
+                   },
+                   {
+                       "file":  "sail-fossil.png",
+                       "source":  "./item-icons/sail-fossil.png",
+                       "sha256":  "2CA4B6721715EAA3A7E218F73663CFB74F2ADD1EDF70B3B678BCF8986005C543",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  394
+                   },
+                   {
+                       "file":  "macho-brace.png",
+                       "source":  "./item-icons/macho-brace.png",
+                       "sha256":  "C4B1F55753093504933DCB5A8D3FBC6FB31C78923FAD4976BEDB6B29E475E123",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  334
+                   },
+                   {
+                       "file":  "ice-heal.png",
+                       "source":  "./item-icons/ice-heal.png",
+                       "sha256":  "215AAB7F1F823E079E9E4A4F7870FE513A99CAA82475D3B4724CE598AC8968DF",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  261
+                   },
+                   {
+                       "file":  "repeat-ball.png",
+                       "source":  "./item-icons/repeat-ball.png",
+                       "sha256":  "FCA530EEB2036754CC2487CD0737E32BE57A2CA951B267637BEB87DE35A4D904",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  294
+                   },
+                   {
+                       "file":  "pp-max.png",
+                       "source":  "./item-icons/pp-max.png",
+                       "sha256":  "7797C708BC905CBE756F8C61E50E84FC953B6A4691ECB8B50796A4450DBF08D0",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  287
+                   },
+                   {
+                       "file":  "normal-gem.png",
+                       "source":  "./item-icons/normal-gem.png",
+                       "sha256":  "772F03D8C9DEE32FC2CA396B1A3B5A81B7E4CB7FF02C71BD7FFDB33C624238C9",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  250
+                   },
+                   {
+                       "file":  "ether.png",
+                       "source":  "./item-icons/ether.png",
+                       "sha256":  "43BCE9D5150562A80BD5CBDDB1E11135D70C1338F964F1CF5ABEF78A038E86DE",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  294
+                   },
+                   {
+                       "file":  "antidote.png",
+                       "source":  "./item-icons/antidote.png",
+                       "sha256":  "EFB20083FB01637EF6A1CB40F915F2B077A5F275ADA59348F4CB81C56AFC1581",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  261
+                   },
+                   {
+                       "file":  "ultra-ball.png",
+                       "source":  "./item-icons/ultra-ball.png",
+                       "sha256":  "4DBF6751968BD3B96D3036DA1A55E5A764C792E780A5FA5CD2391BC155224A10",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  287
+                   },
+                   {
+                       "file":  "zinc.png",
+                       "source":  "./item-icons/zinc.png",
+                       "sha256":  "E4FB055053A9E95782271676B98FEB549D6D697562F5D3285EABFC740AD9BC0A",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  288
+                   },
+                   {
+                       "file":  "jaw-fossil.png",
+                       "source":  "./item-icons/jaw-fossil.png",
+                       "sha256":  "12F09E78B582E483BA0A43535663CB8A88593F506CAE6AAA7727CC1EBC633065",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  404
+                   },
+                   {
+                       "file":  "spooky-plate.png",
+                       "source":  "./item-icons/spooky-plate.png",
+                       "sha256":  "12AD5B66B8943D359BDA401F8CB04E65CBCACA6B9E1F7073810869E61B5230E3",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  241
+                   },
+                   {
+                       "file":  "poison-gem.png",
+                       "source":  "./item-icons/poison-gem.png",
+                       "sha256":  "3AF90E3CD4411F5BDF34D98E1E479FF96D4DF9A1620B440443E8AECDD8B3E6CE",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  250
+                   },
+                   {
+                       "file":  "soft-sand.png",
+                       "source":  "./item-icons/soft-sand.png",
+                       "sha256":  "ADD60C77B9475E06647C443A323C0260A8DA406C1DE46D01B92BE6D70CD25508",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  278
+                   },
+                   {
+                       "file":  "stone-plate.png",
+                       "source":  "./item-icons/stone-plate.png",
+                       "sha256":  "65CF9D01C4B23BCE4B4F6C61FE2D54C05B95A6766850616B59548CC045B83C1B",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  241
+                   },
+                   {
+                       "file":  "psychic-gem.png",
+                       "source":  "./item-icons/psychic-gem.png",
+                       "sha256":  "DBE4637BCDB7812E387FA41277A1F9A0ED9D7F9FD9A9A5768F1BE3A739DC2993",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  250
+                   },
+                   {
+                       "file":  "elixir.png",
+                       "source":  "./item-icons/elixir.png",
+                       "sha256":  "4724FA3A2FADAAD57DAFD4C466A576E359141F75B0242B61944C6E2369D8988E",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  294
+                   },
+                   {
+                       "file":  "pp-up.png",
+                       "source":  "./item-icons/pp-up.png",
+                       "sha256":  "F2366259358D8CAA575DF973668CC3DAF7E49C47BA687D26129B0C547A7C2B33",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  293
+                   },
+                   {
+                       "file":  "toxic-plate.png",
+                       "source":  "./item-icons/toxic-plate.png",
+                       "sha256":  "DC050B4180424047DF0D11EDAA58417D54A2B9475C754A8C935C192665D0A73E",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  241
+                   },
+                   {
+                       "file":  "rock-gem.png",
+                       "source":  "./item-icons/rock-gem.png",
+                       "sha256":  "930E4E8F7C2819E4636365CB751338BA407153041F6A4CE6F0D84D823A62B9DE",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  250
+                   },
+                   {
+                       "file":  "burn-heal.png",
+                       "source":  "./item-icons/burn-heal.png",
+                       "sha256":  "B9CEAA0F24332B138DE4CCF9B632E7F70C12BBB2E7327F8E6B1DA3DFEF3FD2D2",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  261
+                   },
+                   {
+                       "file":  "zap-plate.png",
+                       "source":  "./item-icons/zap-plate.png",
+                       "sha256":  "BCCBA97E45978335D14A67B8E58419DF63581DDBA77A58DD81BA6CE99CDF17CE",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  241
+                   },
+                   {
+                       "file":  "steel-gem.png",
+                       "source":  "./item-icons/steel-gem.png",
+                       "sha256":  "8E71B9D6AFFD5F56C4AF58B202C9D98449A55B32A2DBF6A818AE847EC1903A85",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  241
+                   },
+                   {
+                       "file":  "great-ball.png",
+                       "source":  "./item-icons/great-ball.png",
+                       "sha256":  "4D0A614EEBB4AEF6B02A3620E4262F471B620CC8BC81CFEEBEB3CBB995727AC6",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  301
+                   },
+                   {
+                       "file":  "mind-plate.png",
+                       "source":  "./item-icons/mind-plate.png",
+                       "sha256":  "218AA776F911A00B8CBEC6D140CCC46A55689F34C333A13511EF2C6626ADB171",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  241
+                   },
+                   {
+                       "file":  "water-gem.png",
+                       "source":  "./item-icons/water-gem.png",
+                       "sha256":  "86496F1EE697836AEFC2B901F8A6E010E4B428B352D9A82A91878A989A72908D",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  250
+                   },
+                   {
+                       "file":  "awakening.png",
+                       "source":  "./item-icons/awakening.png",
+                       "sha256":  "2D45DBCA4DBFB4E54177EAEEB5D43A455DCAE92B9F3AA4DE03C8A698F2163F0B",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  261
+                   },
+                   {
+                       "file":  "big-nugget.png",
+                       "source":  "./item-icons/big-nugget.png",
+                       "sha256":  "71FD733088046793440CBF11F13B41AF928A2AEAAA4D4C49A0615B7E6515EE35",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  254
+                   },
+                   {
+                       "file":  "tiny-mushroom.png",
+                       "source":  "./item-icons/tiny-mushroom.png",
+                       "sha256":  "F854DD7C3EB7BDAC139F708AC4A8347F8D733E8F5A97E42C11F952C821818C08",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  222
+                   },
+                   {
+                       "file":  "heal-powder.png",
+                       "source":  "./item-icons/heal-powder.png",
+                       "sha256":  "F08F33E121EB5110CAD369537815975CA868200281F0C0F9FB842D20504C91F4",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  231
+                   },
+                   {
+                       "file":  "energy-powder.png",
+                       "source":  "./item-icons/energy-powder.png",
+                       "sha256":  "54DCE35EE3B31F17BF0D8FCAA267C047D9C680FC51398B6FF246F926B599CBA8",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  231
+                   },
+                   {
+                       "file":  "rare-bone.png",
+                       "source":  "./item-icons/rare-bone.png",
+                       "sha256":  "3DD383BB7F5CEF4BA687415EBCA0F649D9E05D09C898E31DEB2CAFCE8C2B9139",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  218
+                   },
+                   {
+                       "file":  "pearl.png",
+                       "source":  "./item-icons/pearl.png",
+                       "sha256":  "3D1EDD31A9EA7CAA00F4BE9C225BE60225BBB517123D229011B95DFA3B7D3584",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  225
+                   },
+                   {
+                       "file":  "big-mushroom.png",
+                       "source":  "./item-icons/big-mushroom.png",
+                       "sha256":  "EAD2BE680CA76512A83C432153BEBC62F51E9D406AEB1A7CAEA0A29C3E7F0F1B",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  262
+                   },
+                   {
+                       "file":  "skull-fossil.png",
+                       "source":  "./item-icons/skull-fossil.png",
+                       "sha256":  "2FCBE185E662C781526F7ECE0329C2DF6C0CE5E98F047C6BFEB770986D0B4777",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  351
+                   },
+                   {
+                       "file":  "big-pearl.png",
+                       "source":  "./item-icons/big-pearl.png",
+                       "sha256":  "55127E482888F2DE3DE46782B8096FE2AAA73A2878099F0FC7A051D7A93633B4",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  284
+                   },
+                   {
+                       "file":  "life-orb.png",
+                       "source":  "./item-icons/life-orb.png",
+                       "sha256":  "6A9AED6825C88C6ECCE1F96C7584C32DC82F18873E6550303D1AE620982C38EF",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  218
+                   },
+                   {
+                       "file":  "repel.png",
+                       "source":  "./item-icons/repel.png",
+                       "sha256":  "A4DDE3E9590E1DD5881FF62F82E8D9EA649E0DFCB25B71CE2452B9E5634FCA57",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  264
+                   },
+                   {
+                       "file":  "super-repel.png",
+                       "source":  "./item-icons/super-repel.png",
+                       "sha256":  "FE2A4353BD8F41CD41EA0D1843A15569B2D5EAA60406DAFB66CB06CC00353C69",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  264
+                   },
+                   {
+                       "file":  "max-repel.png",
+                       "source":  "./item-icons/max-repel.png",
+                       "sha256":  "5B49F2A07FE6C1C22A17A81EA0173D8B0E07380CD1BEF9AEA79B5910301D0103",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  264
+                   },
+                   {
+                       "file":  "max-ether.png",
+                       "source":  "./item-icons/max-ether.png",
+                       "sha256":  "B2B2F86E00B5E7B080E44305B9FAF6CE9BE242662046E689F128C2F0CEC9E960",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  294
+                   },
+                   {
+                       "file":  "max-potion.png",
+                       "source":  "./item-icons/max-potion.png",
+                       "sha256":  "61F408DAC10579ED9C02E5D353757D37CA029CB170A66247187AE8B7B7E522BB",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  299
+                   },
+                   {
+                       "file":  "exp-candy-xs.png",
+                       "source":  "./item-icons/exp-candy-xs.png",
+                       "sha256":  "1EE20FA96533F90E21BB0C9BB8B5E921FFCC5EA3977CF630CA41B7C54349E4FF",
+                       "width":  64,
+                       "height":  64,
+                       "sizeBytes":  563
+                   },
+                   {
+                       "file":  "exp-candy-s.png",
+                       "source":  "./item-icons/exp-candy-s.png",
+                       "sha256":  "A7945FBBCE9C8DAB0519F0BA04E9A5CBBA4BBE208C6C2E56BE437A7AB4E001C8",
+                       "width":  64,
+                       "height":  64,
+                       "sizeBytes":  762
+                   },
+                   {
+                       "file":  "exp-candy-m.png",
+                       "source":  "./item-icons/exp-candy-m.png",
+                       "sha256":  "57E5EA9B5076F5C49B49913ADE0382BF057F8677885FF43E6B42C7BC7227AAAA",
+                       "width":  64,
+                       "height":  64,
+                       "sizeBytes":  795
+                   },
+                   {
+                       "file":  "exp-candy-l.png",
+                       "source":  "./item-icons/exp-candy-l.png",
+                       "sha256":  "2B2C5B0A34C7A61A8B0D160499C0DBBEEA96AFF92CA51AEAD250142DCC1A7C14",
+                       "width":  64,
+                       "height":  64,
+                       "sizeBytes":  830
+                   },
+                   {
+                       "file":  "exp-candy-xl.png",
+                       "source":  "./item-icons/exp-candy-xl.png",
+                       "sha256":  "FF9E5C14B2F7EA6B82F6CC7E29368CCF6204229204DAD471ACD953557283B091",
+                       "width":  64,
+                       "height":  64,
+                       "sizeBytes":  1018
+                   },
+                   {
+                       "file":  "focus-sash.png",
+                       "source":  "./item-icons/focus-sash.png",
+                       "sha256":  "8A8AB615483640419CA3DDF42C88944CB93B3D5D8286F07717DFBF4F1B562727",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  278
+                   },
+                   {
+                       "file":  "air-balloon.png",
+                       "source":  "./item-icons/air-balloon.png",
+                       "sha256":  "3E2616FB6E51A20E10487B12BB9A24512383DDF1FC87CD87BEDF59DE7A46BD91",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  230
+                   },
+                   {
+                       "file":  "red-card.png",
+                       "source":  "./item-icons/red-card.png",
+                       "sha256":  "F4013628933157FAA84754EB66D379C23223C2637BA0D8261D4D13B4FEF58323",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  186
+                   },
+                   {
+                       "file":  "eject-button.png",
+                       "source":  "./item-icons/eject-button.png",
+                       "sha256":  "5904BEF74CF71DE4E3F09DE6FF9D22B1B8030F5AA9753CB8CF4DF9F7E7CC9468",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  259
+                   },
+                   {
+                       "file":  "escape-rope.png",
+                       "source":  "./item-icons/escape-rope.png",
+                       "sha256":  "8BDBDDA963626BD2B4458D38B4EA425AE272685F7084144FD6BE02CD296E909F",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  246
+                   },
+                   {
+                       "file":  "liechi-berry.png",
+                       "source":  "./item-icons/liechi-berry.png",
+                       "sha256":  "E6278B9B9DB67497CF5833C964B960453CB81A34B914B8AD27CF545FEC550FD1",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  302
+                   },
+                   {
+                       "file":  "ganlon-berry.png",
+                       "source":  "./item-icons/ganlon-berry.png",
+                       "sha256":  "4F51FEE468B67DB200A44A3920B27CD2C9215A5FD7507F6FF1F0F7652822AD54",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  294
+                   },
+                   {
+                       "file":  "salac-berry.png",
+                       "source":  "./item-icons/salac-berry.png",
+                       "sha256":  "822648E085456E3DF9DE8D342BB6969790EE7981492C4FFD0CBF68100F483A01",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  297
+                   },
+                   {
+                       "file":  "petaya-berry.png",
+                       "source":  "./item-icons/petaya-berry.png",
+                       "sha256":  "F955ACDB9B3BDC652400D17D469C9E7FA5A766EABF8B680DAEF2E6B751E439E8",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  329
+                   },
+                   {
+                       "file":  "apicot-berry.png",
+                       "source":  "./item-icons/apicot-berry.png",
+                       "sha256":  "E76593848F83824A10E36EFB40899D3B38F2C44A3E4DB0ED1CA54A4EDC09170A",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  280
+                   },
+                   {
+                       "file":  "electric-seed.png",
+                       "source":  "./item-icons/electric-seed.png",
+                       "sha256":  "CE8A6A71708E46D936D0AF418C16DD99C044688766D1D15E2998F3B07CC53C11",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  295
+                   },
+                   {
+                       "file":  "grassy-seed.png",
+                       "source":  "./item-icons/grassy-seed.png",
+                       "sha256":  "B52009C5C9AE941A7E8AA34902E9A82A4A64A1F8B712B9B83F6F5E745C35F39D",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  295
+                   },
+                   {
+                       "file":  "misty-seed.png",
+                       "source":  "./item-icons/misty-seed.png",
+                       "sha256":  "8715DE4DC748A2058F742594023C315D2C33C767B279A9D02746733F995BA5CB",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  294
+                   },
+                   {
+                       "file":  "psychic-seed.png",
+                       "source":  "./item-icons/psychic-seed.png",
+                       "sha256":  "977E0C3097DF380336E4CAD0FBA34D9A01451D7D30D85ECDBAB90F44070FA4D0",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  294
+                   },
+                   {
+                       "file":  "pomeg-berry.png",
+                       "source":  "./item-icons/pomeg-berry.png",
+                       "sha256":  "E2DC10911C7E3B498CA26ABAD6DC8CF8BBD667E41813BD81B72BC24B6824696B",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  257
+                   },
+                   {
+                       "file":  "kelpsy-berry.png",
+                       "source":  "./item-icons/kelpsy-berry.png",
+                       "sha256":  "268BE43D67D885C936380B7EC286348CF8ABD499E4981668EFF0AD8FB4501C6F",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  269
+                   },
+                   {
+                       "file":  "qualot-berry.png",
+                       "source":  "./item-icons/qualot-berry.png",
+                       "sha256":  "114DEB9DA05466EFD480C2F6F2779B140148C0845DE51ABE1A92AB83DC593922",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  280
+                   },
+                   {
+                       "file":  "hondew-berry.png",
+                       "source":  "./item-icons/hondew-berry.png",
+                       "sha256":  "6386B16DB2945BED60DA6ED8477E6FD8D56AA39B17370F1DC2D27F2265C25B4C",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  287
+                   },
+                   {
+                       "file":  "tamato-berry.png",
+                       "source":  "./item-icons/tamato-berry.png",
+                       "sha256":  "C4BE796FD85D0A125793B6DA625D410EAFF37F4E43EE643EC0C4D7916F2D3298",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  298
+                   },
+                   {
+                       "file":  "grepa-berry.png",
+                       "source":  "./item-icons/grepa-berry.png",
+                       "sha256":  "672F53F1C7C375F0C3A6931CD75CBF6EECAB1CCC63AC432FD218DC5A0CB288E7",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  264
+                   },
+                   {
+                       "file":  "toxic-orb.png",
+                       "source":  "./item-icons/toxic-orb.png",
+                       "sha256":  "A5F28FD5D39B328696648BAB2F3D1C7D60BF219C985627CB81E8AC8B04963EBB",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  249
+                   },
+                   {
+                       "file":  "master-ball.png",
+                       "source":  "./item-icons/master-ball.png",
+                       "sha256":  "A702E5700D83D28CFBDEFEB4CDB70E7EC82A4903133355B87FBAC5CAE4C98C9E",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  298
+                   },
+                   {
+                       "file":  "scope-lens.png",
+                       "source":  "./item-icons/scope-lens.png",
+                       "sha256":  "3FE0E87FBB7F1EE70578E7159DBC9FC62D7B7D364F764A20D99A17C1C6746D61",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  361
+                   },
+                   {
+                       "file":  "wide-lens.png",
+                       "source":  "./item-icons/wide-lens.png",
+                       "sha256":  "9E6C6A270B00666A4A5D954D0E751D51EAE9BB3DA250BF277B071407217E71D4",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  268
+                   },
+                   {
+                       "file":  "quick-claw.png",
+                       "source":  "./item-icons/quick-claw.png",
+                       "sha256":  "7495A24979A42B3995D079B4E4931580000DF56C9105A8380CA2B068B9D5192F",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  227
+                   },
+                   {
+                       "file":  "wise-glasses.png",
+                       "source":  "./item-icons/wise-glasses.png",
+                       "sha256":  "DFFCCB7B6634EE002B20AECB441E3746160EA767ADCCE6CAACE565B68BE1E211",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  223
+                   },
+                   {
+                       "file":  "muscle-band.png",
+                       "source":  "./item-icons/muscle-band.png",
+                       "sha256":  "5DD40CC2C6129B84B7A882E1ADFF80B6CFEA5F204E537DD4466BACA9403683A3",
+                       "width":  30,
+                       "height":  30,
+                       "sizeBytes":  315
+                   },
+                   {
+                       "file":  "pinsirite.png",
+                       "source":  "./item-icons/pinsirite.png",
+                       "sha256":  "FA3839A5ADF0F12BBC00B2AE4A85983E870605B1024A6D90B1F91427D35BD657",
+                       "width":  24,
+                       "height":  24,
+                       "sizeBytes":  342
+                   },
+                   {
+                       "file":  "beedrillite.png",
+                       "source":  "./item-icons/beedrillite.png",
+                       "sha256":  "0C7A629607A87D82897600FDDE3DF80A657C15259BC5C7237F53DC768130A1F1",
+                       "width":  24,
+                       "height":  24,
+                       "sizeBytes":  675
+                   },
+                   {
+                       "file":  "heracronite.png",
+                       "source":  "./item-icons/heracronite.png",
+                       "sha256":  "81C42AE6C546B8AD4F5A3A945926C87CA641132EA4E75BD0375CABD0658CD5C0",
+                       "width":  24,
+                       "height":  24,
+                       "sizeBytes":  378
+                   },
+                   {
+                       "file":  "beautifly-wings.png",
+                       "source":  "./item-icons/beautifly-wings.png",
+                       "sha256":  "6749871D3FED0803AC8E22DFF3F9A20F277F909DD114EF256A49C5E206E938CD",
+                       "width":  32,
+                       "height":  24,
+                       "sizeBytes":  2769
+                   },
+                   {
+                       "file":  "beedrill-wings.png",
+                       "source":  "./item-icons/beedrill-wings.png",
+                       "sha256":  "04E1157118C112F4606B9EADF679BBE66CA3C5C4B8A73EB684D1B81B3BBEC4A4",
+                       "width":  25,
+                       "height":  20,
+                       "sizeBytes":  2592
+                   },
+                   {
+                       "file":  "dustox-wings.png",
+                       "source":  "./item-icons/dustox-wings.png",
+                       "sha256":  "39FF04FB7D3916BA013E442EFFEF851B3CA5C33D5A453C61AD62647669DD8584",
+                       "width":  32,
+                       "height":  19,
+                       "sizeBytes":  2612
+                   },
+                   {
+                       "file":  "samurai-clothes-green.png",
+                       "source":  "./item-icons/samurai-clothes-green.png",
+                       "sha256":  "773AFFEDF5C43E7051574D1262490B34D2248A2FB8937638481839B9469230B2",
+                       "width":  20,
+                       "height":  18,
+                       "sizeBytes":  723
+                   },
+                   {
+                       "file":  "samurai-clothes-red.png",
+                       "source":  "./item-icons/samurai-clothes-red.png",
+                       "sha256":  "66AC9BAB24C9BEF25A24BC5E0F409852A027F18413FA83ABE98DB6F4A291D1FB",
+                       "width":  20,
+                       "height":  18,
+                       "sizeBytes":  684
+                   },
+                   {
+                       "file":  "golden-bug-net.png",
+                       "source":  "./item-icons/golden-bug-net.png",
+                       "sha256":  "403F0271622DBD5C34F513074077219FB8EC68806C5E3918F9DC6062C355A1C8",
+                       "width":  31,
+                       "height":  30,
+                       "sizeBytes":  1228
+                   },
+                   {
+                       "file":  "samurai-clothes-blue.png",
+                       "source":  "./item-icons/samurai-clothes-blue.png",
+                       "sha256":  "6D2B5C4FB42B6B69F3B6A096D2FEB8BC23079EF59A906B6E749D73AE286C9D69",
+                       "width":  20,
+                       "height":  18,
+                       "sizeBytes":  739
+                   },
+                   {
+                       "file":  "samurai-helmet.png",
+                       "source":  "./item-icons/samurai-helmet.png",
+                       "sha256":  "7E1302DA339EF0F36CCFEFBAF8E996D9625171FAEE8D39577D4D0FFD378E02A1",
+                       "width":  32,
+                       "height":  28,
+                       "sizeBytes":  1285
+                   },
+                   {
+                       "file":  "s-snom-hat.png",
+                       "source":  "./item-icons/s-snom-hat.png",
+                       "sha256":  "14F9AEA787CECD890AAC5BAFA31170DF6240349E1E7D6D0BC57D20626FD599C6",
+                       "width":  17,
+                       "height":  14,
+                       "sizeBytes":  397
+                   },
+                   {
+                       "file":  "volcarona-wings.png",
+                       "source":  "./item-icons/volcarona-wings.png",
+                       "sha256":  "AD04DA7154290EA88BD5F016428B945D2020D316D6B0251C69C50EDF847BCC31",
+                       "width":  37,
+                       "height":  34,
+                       "sizeBytes":  3447
+                   },
+                   {
+                       "file":  "electric-tm.jpg",
+                       "source":  "./item-icons/electric-tm.jpg",
+                       "sha256":  "99649E67999A71EF727FFBFBC2366C5302865981142CB6BA80274655ECA8393A",
+                       "width":  738,
+                       "height":  387,
+                       "sizeBytes":  3624
+                   },
+                   {
+                       "file":  "50.png",
+                       "source":  "./images/pokemon/50.png",
+                       "sha256":  "EA2BEB66D724155983DC47C4B5D0CEBCB5780D7268DAAA06274FED7E31C2BEB8",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  439
+                   },
+                   {
+                       "file":  "51.png",
+                       "source":  "./images/pokemon/51.png",
+                       "sha256":  "7D0D4439F30ACC3206AE9EEE72EE490A7DEC544D603E57172CD8A822449FD282",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  663
+                   },
+                   {
+                       "file":  "529.png",
+                       "source":  "./images/pokemon/529.png",
+                       "sha256":  "DAEEFE1B4718D7B224149895065D62E578E78CE3BE5F73294D90FAAEF878064F",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  778
+                   },
+                   {
+                       "file":  "74.png",
+                       "source":  "./images/pokemon/74.png",
+                       "sha256":  "708B807B310802C460B9B70FA69F6C7CE3F10EEAB7C467FF54E8FF0D0B01FCDD",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  516
+                   },
+                   {
+                       "file":  "111.png",
+                       "source":  "./images/pokemon/111.png",
+                       "sha256":  "991F0EDD76CB1C4EAE2B0BE83851078A0C3F60799F6DB56A5F168F564DECD857",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  851
+                   },
+                   {
+                       "file":  "304.png",
+                       "source":  "./images/pokemon/304.png",
+                       "sha256":  "A2C2046CBE1DBEB849787C7A0E93215A41FA7024C596F63A416B719029C6DDCA",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  453
+                   },
+                   {
+                       "file":  "75.png",
+                       "source":  "./images/pokemon/75.png",
+                       "sha256":  "58920694B2313B2E33002B4F616A6E9F196319CDDFBBD80438DAFC95FBFAD5E9",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  825
+                   },
+                   {
+                       "file":  "328.png",
+                       "source":  "./images/pokemon/328.png",
+                       "sha256":  "619BC5668818009C5B3EA0EBC9F3AB280A7D23662884D43741E0880F632E66D2",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  478
+                   },
+                   {
+                       "file":  "95.png",
+                       "source":  "./images/pokemon/95.png",
+                       "sha256":  "85B38372CA190F64C8D562A69A50C444D116E8F01D3F19891D66DF11D8977AE3",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  1077
+                   },
+                   {
+                       "file":  "436.png",
+                       "source":  "./images/pokemon/436.png",
+                       "sha256":  "AA140A26E100888809D8C7308C7C700C14727D3F0CA2A450E88525674AFDECAF",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  429
+                   },
+                   {
+                       "file":  "679.png",
+                       "source":  "./images/pokemon/679.png",
+                       "sha256":  "86A80988B8980B2BB1236EAB7F67695AA3F94DE2980FF21604F311898E6C5EE7",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  598
+                   },
+                   {
+                       "file":  "618.png",
+                       "source":  "./images/pokemon/618.png",
+                       "sha256":  "E156BBB19D4DCBF926BEC7DD6A69BE58276FB362575939138F11AA754A51852D",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  650
+                   },
+                   {
+                       "file":  "246.png",
+                       "source":  "./images/pokemon/246.png",
+                       "sha256":  "3DB5DABE76EE64395DC52660E9AD9F3DD4E9EBC74B33757B13AA544E5A607F3C",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  467
+                   },
+                   {
+                       "file":  "343.png",
+                       "source":  "./images/pokemon/343.png",
+                       "sha256":  "2EB501CBFF58E38FAD206415BF405DB086FEC13B0038E07F4356E4729FE42412",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  470
+                   },
+                   {
+                       "file":  "299.png",
+                       "source":  "./images/pokemon/299.png",
+                       "sha256":  "B9F6E396298A38CBB5689C8B88F93B75FB8D634B1CF40232D7BE196AF13981E8",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  559
+                   },
+                   {
+                       "file":  "524.png",
+                       "source":  "./images/pokemon/524.png",
+                       "sha256":  "B95C8B72B6EC94B470C1AC1B8E55B7147854C4C9FF4C17C6C386435779ECD1BD",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  398
+                   },
+                   {
+                       "file":  "231.png",
+                       "source":  "./images/pokemon/231.png",
+                       "sha256":  "F84AA5CEDC9F857F0D418DE3815161376B45B3575F47041AED3FE79CD83CA900",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  468
+                   },
+                   {
+                       "file":  "449.png",
+                       "source":  "./images/pokemon/449.png",
+                       "sha256":  "9C0B91298C5625CDFBC6CDF363EBC392C2C6E0163B2CFD5A1F10AE571F9A0F05",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  666
+                   },
+                   {
+                       "file":  "27.png",
+                       "source":  "./images/pokemon/27.png",
+                       "sha256":  "05A2F476EC44CF1F74524A5580EFAB7DC7D3F3248C0A546821FFC80AAF141F8F",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  586
+                   },
+                   {
+                       "file":  "92.png",
+                       "source":  "./images/pokemon/92.png",
+                       "sha256":  "EAED759213FAB01F32B8814D7A2AE8E12CE5D8501001888AD8315DA3286DFE3C",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  798
+                   },
+                   {
+                       "file":  "10091.png",
+                       "source":  "./images/pokemon/10091.png",
+                       "sha256":  "5BD8F5231CE7892F8E60312842ECFF5595D04053CB55793A83D1A950CFD8E765",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  555
+                   },
+                   {
+                       "file":  "10115.png",
+                       "source":  "./images/pokemon/10115.png",
+                       "sha256":  "8014169A429D86175EB71FEF867BCBF6A7AA5A405E31CAA5D14745D1D22613DE",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  833
+                   },
+                   {
+                       "file":  "781.png",
+                       "source":  "./images/pokemon/781.png",
+                       "sha256":  "B63FCF4E5C4189BFE4623B7681D410A2C3E07F863B7FCBC567F775883035BA7E",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  1105
+                   },
+                   {
+                       "file":  "708.png",
+                       "source":  "./images/pokemon/708.png",
+                       "sha256":  "824BDBE160CBB6B79982C345EA51C1BA7FFBF2F4737A2CA7313C08CD88A3A1E4",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  527
+                   },
+                   {
+                       "file":  "479.png",
+                       "source":  "./images/pokemon/479.png",
+                       "sha256":  "CD5209037083AD8D5AF86AF199625E9CD59FA7704E296874D4872DF2A08E98FA",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  544
+                   },
+                   {
+                       "file":  "769.png",
+                       "source":  "./images/pokemon/769.png",
+                       "sha256":  "BBA39C79C45075F45C91B644EEC2DBC8CD02242323C499B78C413532F12CC388",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  406
+                   },
+                   {
+                       "file":  "10109.png",
+                       "source":  "./images/pokemon/10109.png",
+                       "sha256":  "1D49DACEEC7CCFAFF81213C877D48ABA4FAD03FD95442EBDEB0D7133E072748D",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  554
+                   },
+                   {
+                       "file":  "374.png",
+                       "source":  "./images/pokemon/374.png",
+                       "sha256":  "D18B1A22EF56814CCAC13FED1C756FE4372CADA6CE0C930BE082F862672E66FA",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  516
+                   },
+                   {
+                       "file":  "632.png",
+                       "source":  "./images/pokemon/632.png",
+                       "sha256":  "122B06AA228F08E319EB8D2290F40D1FE329CB118AFAD3CFB6BDA5B477925F47",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  586
+                   },
+                   {
+                       "file":  "749.png",
+                       "source":  "./images/pokemon/749.png",
+                       "sha256":  "4949DEB765992ED308DEAE08E37DC45769045861CBB6B6AB2CA8F01FA37E5244",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  653
+                   },
+                   {
+                       "file":  "744.png",
+                       "source":  "./images/pokemon/744.png",
+                       "sha256":  "C7F6E7694A4490B8B7B69A7B4326A6C0B8629B6B018A01ABFD5D7391CCE5CA31",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  607
+                   },
+                   {
+                       "file":  "777.png",
+                       "source":  "./images/pokemon/777.png",
+                       "sha256":  "A616979DC6748985D1E9FE3663640E5143FFC10769BC380FE25A8B7875340DAF",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  462
+                   },
+                   {
+                       "file":  "10112.png",
+                       "source":  "./images/pokemon/10112.png",
+                       "sha256":  "6EBAF73473E1525B9A9306D4ADFDD19C6093CADC16AA04282C83594B3D499816",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  618
+                   },
+                   {
+                       "file":  "10107.png",
+                       "source":  "./images/pokemon/10107.png",
+                       "sha256":  "677BABA3A683C9087C54C63811F5F4F7BDA5C316B64694F01C075C829C3FE7B2",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  614
+                   },
+                   {
+                       "file":  "228.png",
+                       "source":  "./images/pokemon/228.png",
+                       "sha256":  "22C0F4D63C9A906C3153E5B9A0329023AD47B9BCB57B347561CF4CBEC36F4130",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  535
+                   },
+                   {
+                       "file":  "725.png",
+                       "source":  "./images/pokemon/725.png",
+                       "sha256":  "E6E3DB9D3A7597725149B398DFB6504FB45A407CB1F6F42CF4B4BE33E007E54F",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  583
+                   },
+                   {
+                       "file":  "322.png",
+                       "source":  "./images/pokemon/322.png",
+                       "sha256":  "3FEA53B428EB1AC44D3E4C9261B19446299F454B79F20649CD3E72644C0DB0E3",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  578
+                   },
+                   {
+                       "file":  "757.png",
+                       "source":  "./images/pokemon/757.png",
+                       "sha256":  "EB7E51DCBAE2FDC1784213271065B5B7BF71078271B1C030A30DBB2D10CC2F34",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  634
+                   },
+                   {
+                       "file":  "434.png",
+                       "source":  "./images/pokemon/434.png",
+                       "sha256":  "A26F27AFFE5A9BCFF152556CD8513A618D17625997ED28265EE292AD68F63253",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  604
+                   },
+                   {
+                       "file":  "776.png",
+                       "source":  "./images/pokemon/776.png",
+                       "sha256":  "FFB4CAE866A3E70692864FC11936A8D5512FA4A5A685819853409AAC81D1E24C",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  1038
+                   },
+                   {
+                       "file":  "10101.png",
+                       "source":  "./images/pokemon/10101.png",
+                       "sha256":  "F303E0B1499E53B5FD65416713FB2B06530B8A2AC360D71E4D35BC44985460DA",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  546
+                   },
+                   {
+                       "file":  "10103.png",
+                       "source":  "./images/pokemon/10103.png",
+                       "sha256":  "C7CE3BBA391B338F372D798608B573BBB9C2263E030DE480BDD3F8806EE0D3B4",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  627
+                   },
+                   {
+                       "file":  "739.png",
+                       "source":  "./images/pokemon/739.png",
+                       "sha256":  "4FC2F565AFCB53F6B78E9045C996741A9BA46F70A0FC7DEED8FED8F6FE28877B",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  740
+                   },
+                   {
+                       "file":  "728.png",
+                       "source":  "./images/pokemon/728.png",
+                       "sha256":  "8C560C3CB7A6EE4459091021687756B554FF40287C51A2CE6D46DD528D81813C",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  498
+                   },
+                   {
+                       "file":  "90.png",
+                       "source":  "./images/pokemon/90.png",
+                       "sha256":  "96B68448C1541873A87E06CA71CB0B8A6231EBC1464284022939070C564256D4",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  532
+                   },
+                   {
+                       "file":  "361.png",
+                       "source":  "./images/pokemon/361.png",
+                       "sha256":  "9AF7CC95041F6AAEB0FC44C71EEC1B1105F2213A4620DA9C82F4A436D619B0D1",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  544
+                   },
+                   {
+                       "file":  "459.png",
+                       "source":  "./images/pokemon/459.png",
+                       "sha256":  "35C19ED52A51D2B82ED634AD9DE4DD4D31D6DE19BBFAB7B72D7D7154DBE86860",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  807
+                   },
+                   {
+                       "file":  "582.png",
+                       "source":  "./images/pokemon/582.png",
+                       "sha256":  "95EBA44EC6B302416D0F96E2F0AB0C4FB3B5FF2747956470E88BE03056809465",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  454
+                   },
+                   {
+                       "file":  "10114.png",
+                       "source":  "./images/pokemon/10114.png",
+                       "sha256":  "0FAEB1094E546556CF525978169F05A360C1FD8298B866685F679A5D74B28AF6",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  1155
+                   },
+                   {
+                       "file":  "761.png",
+                       "source":  "./images/pokemon/761.png",
+                       "sha256":  "444F90402DF832C747EC96D967508C484093E8FB3617D1E9C00246F25B98982E",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  374
+                   },
+                   {
+                       "file":  "753.png",
+                       "source":  "./images/pokemon/753.png",
+                       "sha256":  "8BD4E0FD140E2B834582F125B50701786EAECCD62D5CFDAAB1EA27323A21ABF9",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  482
+                   },
+                   {
+                       "file":  "548.png",
+                       "source":  "./images/pokemon/548.png",
+                       "sha256":  "3DC344776ACCA04786B31C0AB4D242A75B8B8FBEF7E6AE1F265DED5F089BE24E",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  497
+                   },
+                   {
+                       "file":  "204.png",
+                       "source":  "./images/pokemon/204.png",
+                       "sha256":  "40E0BDBAA232367C1F0CA76210918D1FA6663B7110EC13F0664B7E29DA8AF83D",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  569
+                   },
+                   {
+                       "file":  "722.png",
+                       "source":  "./images/pokemon/722.png",
+                       "sha256":  "C1F0DBCF698B3E866161A90EA106E0DBEE7B147875BB3E3874BD4677F82BEE97",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  451
+                   },
+                   {
+                       "file":  "540.png",
+                       "source":  "./images/pokemon/540.png",
+                       "sha256":  "3994D8F898143F1026D1D2A63A4BB7D8DB14B931E36BDE1CBE710452974994DA",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  499
+                   },
+                   {
+                       "file":  "13.png",
+                       "source":  "./images/pokemon/13.png",
+                       "sha256":  "599F25195879E0B4CD4FAFDC8BBB79EA4C5A761BC4AA185D9D87B5591E4781A3",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  465
+                   },
+                   {
+                       "file":  "10105.png",
+                       "source":  "./images/pokemon/10105.png",
+                       "sha256":  "5B74A7E112E8D7BDBB046F3B6E7DAB6AF909BC9691D1DF64395C20AC7D6D311D",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  409
+                   },
+                   {
+                       "file":  "56.png",
+                       "source":  "./images/pokemon/56.png",
+                       "sha256":  "2A4CB4EF1EA6E9509814E1643C354FEAB1D61A9BDF73AD9B674007B8EDBEC7CF",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  768
+                   },
+                   {
+                       "file":  "307.png",
+                       "source":  "./images/pokemon/307.png",
+                       "sha256":  "124C484E2E8C1FEA95999812DB64FB639350A2E337300FA082A49833252E4174",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  611
+                   },
+                   {
+                       "file":  "619.png",
+                       "source":  "./images/pokemon/619.png",
+                       "sha256":  "A619EFF067E7FEA3CA0AE59E9667BA8844C85ACDB4D99FBBA63BE4D1D2AD2FC2",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  597
+                   },
+                   {
+                       "file":  "766.png",
+                       "source":  "./images/pokemon/766.png",
+                       "sha256":  "FD4B14938FA0B93B971856F34F5944562C579B62FCFC12C53E53A16AECB7890D",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  909
+                   },
+                   {
+                       "file":  "559.png",
+                       "source":  "./images/pokemon/559.png",
+                       "sha256":  "4719721BBA878BCE1DC7DCBB98A92DF5F502813EE79C86679F65D76CF4DFC5C7",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  528
+                   },
+                   {
+                       "file":  "759.png",
+                       "source":  "./images/pokemon/759.png",
+                       "sha256":  "C1E74D1700152A5073BB419A636002894E7B4FC77D32091E9CDA7233B2A48028",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  459
+                   },
+                   {
+                       "file":  "734.png",
+                       "source":  "./images/pokemon/734.png",
+                       "sha256":  "DC613B0136A610100661A3C72A508287A415DDFDCDE6553D5B239D4E6D3293D0",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  531
+                   },
+                   {
+                       "file":  "10100.png",
+                       "source":  "./images/pokemon/10100.png",
+                       "sha256":  "A14F82A686A62A7E39820554A8B6EC585E7E7534ADAF70D2AC48969335D224C5",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  812
+                   },
+                   {
+                       "file":  "35.png",
+                       "source":  "./images/pokemon/35.png",
+                       "sha256":  "AC0619BB1469083B1E122753C5B7D23E07A7191EBA999B32E9667F4A166E0D38",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  580
+                   },
+                   {
+                       "file":  "764.png",
+                       "source":  "./images/pokemon/764.png",
+                       "sha256":  "D2B1A6AA36BE449F4E37FDCF401BCB05FD702F637D5227D9B61E20C9DD15EF9C",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  795
+                   },
+                   {
+                       "file":  "39.png",
+                       "source":  "./images/pokemon/39.png",
+                       "sha256":  "1BD0EDC862890DA037247C6247161A7147628F49B367160458B7CBF7D18D924F",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  492
+                   },
+                   {
+                       "file":  "755.png",
+                       "source":  "./images/pokemon/755.png",
+                       "sha256":  "3B1E358CFD1D48F991C93BC81461D880E6EE19206C3BB40BABFCA3E4C702E713",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  422
+                   },
+                   {
+                       "file":  "765.png",
+                       "source":  "./images/pokemon/765.png",
+                       "sha256":  "A9EE9BE06CA549C4AD1C904CFC22BE8D9BC5F286D311AC8C3151931FAFFC18A6",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  918
+                   },
+                   {
+                       "file":  "280.png",
+                       "source":  "./images/pokemon/280.png",
+                       "sha256":  "B8A0CC4FF47F7AF19B0C68FE139A0396AD50C2D06219897020334665FCF529E7",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  460
+                   },
+                   {
+                       "file":  "175.png",
+                       "source":  "./images/pokemon/175.png",
+                       "sha256":  "C6D6E296BC54D56FB30F5A1632A6B610E679EA468EF8CC9A94EB34DED904757E",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  443
+                   },
+                   {
+                       "file":  "339.png",
+                       "source":  "./images/pokemon/339.png",
+                       "sha256":  "8383C70EEDD6536FE0DA6F2E43A6B08C0539B7604461452A2C597B452C08F562",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  492
+                   },
+                   {
+                       "file":  "688.png",
+                       "source":  "./images/pokemon/688.png",
+                       "sha256":  "A543039106EE774A73AD8EABC9D92524301F7F44EAE7A52D8B5A4550E8E13FAF",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  662
+                   },
+                   {
+                       "file":  "270.png",
+                       "source":  "./images/pokemon/270.png",
+                       "sha256":  "0507EFE246B54CD29C61171034F5948BFD2987B486801EF8F022A63C38BA12E1",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  509
+                   },
+                   {
+                       "file":  "747.png",
+                       "source":  "./images/pokemon/747.png",
+                       "sha256":  "6A125A3C9FF2E6F22196AA5056C77842433C4A7A0E48DC6AA1BB99F56B666729",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  655
+                   },
+                   {
+                       "file":  "771.png",
+                       "source":  "./images/pokemon/771.png",
+                       "sha256":  "F563FF11CD9964FFE51D4BB5F06EFC466D1523E7183B53B2621DDF79A9234D07",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  381
+                   },
+                   {
+                       "file":  "120.png",
+                       "source":  "./images/pokemon/120.png",
+                       "sha256":  "3E483AF1CBBA86361B0E3781EB76C02D1D33F211687B1C799E977F075F89130C",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  623
+                   },
+                   {
+                       "file":  "283.png",
+                       "source":  "./images/pokemon/283.png",
+                       "sha256":  "3DBBDC85441E202FB29141A76DFBAA6C4C112C1DC3733CDF6C743D012D57E09B",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  422
+                   },
+                   {
+                       "file":  "767.png",
+                       "source":  "./images/pokemon/767.png",
+                       "sha256":  "5ACC3F5D63A03C512C8EE220028B79575FFE7AB2B9B2DA0CAFDD9C3C6C85080D",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  504
+                   },
+                   {
+                       "file":  "780.png",
+                       "source":  "./images/pokemon/780.png",
+                       "sha256":  "51AA4712E71660FA945EEFDC033EFFACB6FC39E226EB047483B66073B226AB87",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  973
+                   },
+                   {
+                       "file":  "704.png",
+                       "source":  "./images/pokemon/704.png",
+                       "sha256":  "139A0CC9FF4133695046ABF00EBA0C6847143C056B98A49ABBA5626045885AC1",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  389
+                   },
+                   {
+                       "file":  "116.png",
+                       "source":  "./images/pokemon/116.png",
+                       "sha256":  "06E09900F3DF2C114A8B0740FCFCB0F03DDE691FF7B1166DCBA9954ECD31CCDC",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  454
+                   },
+                   {
+                       "file":  "782.png",
+                       "source":  "./images/pokemon/782.png",
+                       "sha256":  "B05CBCC3636909726ADCC548189013014CDE861167F5078E90B8DDA397F4BEF4",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  556
+                   },
+                   {
+                       "file":  "690.png",
+                       "source":  "./images/pokemon/690.png",
+                       "sha256":  "65C562B2725B9557A61B0B993EE6881750F4D6E5DF0A7B17B802A24B82A146BB",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  541
+                   },
+                   {
+                       "file":  "333.png",
+                       "source":  "./images/pokemon/333.png",
+                       "sha256":  "2E6C1BB6DE4BAD197C4BAB5DF47AAF8EB6A080B19FD96CCC27242986272A57F1",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  633
+                   },
+                   {
+                       "file":  "736.png",
+                       "source":  "./images/pokemon/736.png",
+                       "sha256":  "A75214375A42CB0EC9CEA2286BAE58D585162035BE7FD8480C1EB01BDDB0C8F8",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  14210
+                   },
+                   {
+                       "file":  "751.png",
+                       "source":  "./images/pokemon/751.png",
+                       "sha256":  "AC5B753489DB7E78B56B98CEEBC38D5431AE79EBD5599555377CC11DE53B2C86",
+                       "width":  92,
+                       "height":  92,
+                       "sizeBytes":  9053
+                   },
+                   {
+                       "file":  "214.png",
+                       "source":  "./images/pokemon/214.png",
+                       "sha256":  "61064E7A06B3F3BB6793D32F96673B3759074CF865AE245A4454269C2D4CE4B0",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  778
+                   },
+                   {
+                       "file":  "127.png",
+                       "source":  "./images/pokemon/127.png",
+                       "sha256":  "AE9E6C8C5D5ED0534D63064C133F26BF6A43D3CBCCFA39DD9808A7D443672AA2",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  1002
+                   },
+                   {
+                       "file":  "123.png",
+                       "source":  "./images/pokemon/123.png",
+                       "sha256":  "6E3B0710D037F586093F2C2A49E9C920C8C11E695F1E8A17B742FEC8586EA577",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  822
+                   },
+                   {
+                       "file":  "543.png",
+                       "source":  "./images/pokemon/543.png",
+                       "sha256":  "03E48859A7E02F254B68567A9367DBF1B3F3584B35350D08F773FA1406906A07",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  589
+                   },
+                   {
+                       "file":  "616.png",
+                       "source":  "./images/pokemon/616.png",
+                       "sha256":  "4E0119A3D3C43C30A91098723514B3A2FE9893496502E380E8DB81E14AE9971F",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  544
+                   },
+                   {
+                       "file":  "353.png",
+                       "source":  "./images/pokemon/353.png",
+                       "sha256":  "285F1412565BCCC780BFCA049B905C81B97883F5127DFC51978E91CB500BF565",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  478
+                   },
+                   {
+                       "file":  "562.png",
+                       "source":  "./images/pokemon/562.png",
+                       "sha256":  "78AB97F18015021C1724F9CCE0FB6F572CAC42347C641DDC1CB942C9C483F259",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  495
+                   },
+                   {
+                       "file":  "338.png",
+                       "source":  "./images/pokemon/338.png",
+                       "sha256":  "C824706D09E79EA6E50AE545BDBA2116B58E9DFF4B4DEC3CFB0FE0AB94C2BEE1",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  952
+                   },
+                   {
+                       "file":  "104.png",
+                       "source":  "./images/pokemon/104.png",
+                       "sha256":  "F46526010DB2711AC9263145A192E13C305CECC45CF1D302F2B1231C070FA323",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  588
+                   },
+                   {
+                       "file":  "58.png",
+                       "source":  "./images/pokemon/58.png",
+                       "sha256":  "59FD8C6642FEADF9EC48D688679A53043731242D3FABF9ADF6692E7C0CC287E7",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  687
+                   },
+                   {
+                       "file":  "220.png",
+                       "source":  "./images/pokemon/220.png",
+                       "sha256":  "A9BAC7B3643501E53C77935D5ABB2E83DED7EBA968095710C65C051883F8F0B9",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  356
+                   },
+                   {
+                       "file":  "412.png",
+                       "source":  "./images/pokemon/412.png",
+                       "sha256":  "EE102391F303C2300CFB9F6E814F2FD3B300EC218BDD73D31A8E47520557975F",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  475
+                   },
+                   {
+                       "file":  "588.png",
+                       "source":  "./images/pokemon/588.png",
+                       "sha256":  "7A855F2231BA8F46CC5FACAB3CFBAC61505F34052354848740028448C0452A78",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  523
+                   },
+                   {
+                       "file":  "114.png",
+                       "source":  "./images/pokemon/114.png",
+                       "sha256":  "A449F3CBC4610D6112B5B9FDF66E651227030159E7E4A80B83104EB0F8B3F0C4",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  669
+                   },
+                   {
+                       "file":  "66.png",
+                       "source":  "./images/pokemon/66.png",
+                       "sha256":  "2456B1A2888F23BB942ED3D08CB2D6AB89A8806BBDC42E5A91557D9DD9356272",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  671
+                   },
+                   {
+                       "file":  "594.png",
+                       "source":  "./images/pokemon/594.png",
+                       "sha256":  "8A5E15A8109390C808A50E4D1C718F7694EF4613DCCB5C42E925A3C0D9D4011A",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  711
+                   },
+                   {
+                       "file":  "138.png",
+                       "source":  "./images/pokemon/138.png",
+                       "sha256":  "EF59A56892A039A1049EF092E6A13B9638C2D13CBA70766E2CA155980FE46E98",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  563
+                   },
+                   {
+                       "file":  "140.png",
+                       "source":  "./images/pokemon/140.png",
+                       "sha256":  "3A2B452EC3AEF2520C0B6C1B816A6050DB2896D43FE678B2A08D2B7FAD22342D",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  396
+                   },
+                   {
+                       "file":  "142.png",
+                       "source":  "./images/pokemon/142.png",
+                       "sha256":  "D983E2E373898AAFCFCD92F0EF9D7A80570B3A68E9E2FB6B0D9E724C41ED6D38",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  1047
+                   },
+                   {
+                       "file":  "347.png",
+                       "source":  "./images/pokemon/347.png",
+                       "sha256":  "17E245C60F95D2F29355184088C754CFF3F7A708D72FBF32A43F672EDA47B17E",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  680
+                   },
+                   {
+                       "file":  "345.png",
+                       "source":  "./images/pokemon/345.png",
+                       "sha256":  "67749C7778D4DBC6786C3CBB740B137C8DDB469FC28470DC450FDA9A3E4471DB",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  785
+                   },
+                   {
+                       "file":  "408.png",
+                       "source":  "./images/pokemon/408.png",
+                       "sha256":  "E00C4F59BFE269051547BF607C2F747DDC82238440B663D8C8B48F3DEAF2C1AC",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  724
+                   },
+                   {
+                       "file":  "410.png",
+                       "source":  "./images/pokemon/410.png",
+                       "sha256":  "CA7B7BE5C99EBD3E3FB205B642EACA16C3BFA2C6F325526B2B6B8B62D0D855B7",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  534
+                   },
+                   {
+                       "file":  "696.png",
+                       "source":  "./images/pokemon/696.png",
+                       "sha256":  "763A49D4025EB977714B67A68676CEEFB7CFBD0DBD0F5B2E984E5F5C563DB053",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  2988
+                   },
+                   {
+                       "file":  "698.png",
+                       "source":  "./images/pokemon/698.png",
+                       "sha256":  "11DAD5248C9A740A672B6865E1AC673C2E1D0BE8823D46C6C577D3EE8884A291",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  585
+                   },
+                   {
+                       "file":  "778.png",
+                       "source":  "./images/pokemon/778.png",
+                       "sha256":  "6207835E48F86FDEDED3D90932B22562C889375B13E532C6B0A40E270A6A0A6A",
+                       "width":  96,
+                       "height":  96,
+                       "sizeBytes":  464
+                   }
+               ]
+}
