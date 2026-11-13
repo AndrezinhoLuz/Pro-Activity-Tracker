@@ -1,5 +1,5 @@
 export type Kind='digging'|'excavation'|'pokestops'|'mushrooms'|'bug'|'celadon'|'news'|'boss';
-export type BossTier='tier1'|'tier2'|'tier3';
+export type BossTier='All'|'tier1'|'tier2'|'tier3';
 export type Activity={id:string;name:string;kind:Kind;region:string;location:string;reward:string;cooldownMs?:number;reset?:'daily'|'weekly';wiki:string;requirement?:string;navigationHelp?:string;note?:string;bossId?:string};
 export type Settings={dailyReset:string;timezone:string;clock24:boolean;theme:'dark'|'light'|'system';accent:string;notifications:Record<Kind,boolean>;startWithWindows:boolean;shortcut:string;updateFeedUrl:string;backgroundImage:string;mini:{width:number;height:number;x:number;y:number;selectedActivity?:string;selectedKind?:Kind;selectedRegion?:string;selectedBossTier?:BossTier;alwaysOnTop?:boolean}};
 export type Progress={records:Record<string,{doneAt?:number}>;excavationLog:{at:number;site:string;found:string}[];bugLog:{at:number;rank:string;reward:string}[];celadonTask:string;celadonStreak:number;celadonDay:number;newsTask:string;newsStreak:number;newsDay:number;weeklyBosses:{week:string;defeated:string[]};settings:Settings};
