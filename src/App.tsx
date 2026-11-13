@@ -82,26 +82,24 @@ function NewsRewardLine({reward}:{reward:string}){const options=reward.split(/\s
 function ItemTiles({items,quantities={}}:any){return <div className="loot-grid">{items.map((name:string)=>{const listedQuantity=quantities[name]||name.match(/(?:×|x)\s*[\d–-]+(?:\s*each)?$/i)?.[0];return <span className="loot-chip" key={name}><ItemIcon name={name}/><span>{formatTmName(name)}{listedQuantity&&<small className="item-quantity">Drop quantity ×{listedQuantity}</small>}</span></span>})}</div>}
 function ExcavationItemTiles({items}:any){return <div className="loot-grid excavation-item-grid">{items.map((name:string)=>{const points=excavationItemPoints[name];const label=points===undefined||points===null?'Threshold not listed':`Safe at ${points.toLocaleString()}+ DP`;return <span className="loot-chip excavation-item-chip" key={name}><ItemIcon name={name}/><span className="excavation-item-label">{formatTmName(name)}<small>{label}</small></span></span>})}</div>}function SpeciesTiles({names,membersOnly}:any){const icons=pokemonImages as Record<string,{dex:number;src:string}>;return <div className="loot-grid">{names.map((name:string)=>{const p=icons[name];const src=photoAssets.pokemon[name]||p?.src;return <span className={membersOnly&&diggingMembersOnly.has(name)?"loot-chip members-only":"loot-chip"} key={name}>{src?<img className="pokemon-image" src={src} alt="" loading="lazy"/>:<span className="item-photo-missing" role="img" aria-label={`Photo missing for ${name}`} title={`Photo missing for ${name}`}><ImageOff size={12}/><small>Photo missing</small></span>}<span>{name}</span></span>})}</div>}
 function ActivityCard({a,state,remaining,doneAt,onMark,onUnmark,onWiki,onNavigationWiki,weeklyBossLimitReached}:any){const site=excavationSites.find(x=>x.id===a.id);const loot=drops[a.id];const boss=a.bossId?bossData.find(x=>x.id===a.bossId):undefined;return <article className="card"><div className="card-main"><span className={`status-dot ${state}`}/><div className="card-text"><div className="card-title">{boss&&<BossPortrait boss={boss}/>}<button onClick={onWiki}>{a.name} <span>↗</span></button><span className={`pill ${state}`}>{state==='available'?'AVAILABLE':state==='cooldown'?'ON COOLDOWN':'EDIT TIMING'}</span></div><div className="location"><MapPin size={13}/>{a.region}<span>·</span>{a.location}</div>{a.kind!=='bug'&&<div className="reward"><span>REWARD</span>{formatTmName(a.reward)}</div>}{a.requirement&&<div className="requirement">REQUIREMENT · {a.requirement}</div>}{a.navigationHelp&&<NavigationHelp text={a.navigationHelp} onWiki={onNavigationWiki} />}{a.note&&<div className="note-hint">{a.note}</div>}{(loot||site||a.kind==='pokestops')&&<details className="drop-info"><summary>Items and Pokemon that can drop</summary><div className="drop-copy">{loot&&<><h4>Items</h4><ItemTiles items={loot.items}/><h4>Pokemon</h4><SpeciesTiles names={loot.pokemon} membersOnly/></>}{a.kind==='pokestops'&&<><h4>Items</h4><ItemTiles items={pokestopItems} quantities={pokestopItemQuantities}/></>}{site&&<><div className="site-points"><b>Site unlock requirement</b><span>{site.requiredDiscoveries===0?'No Discovery Point unlock requirement':site.requiredDiscoveries.toLocaleString()+' Discovery Points'}</span><small>{site.unlockInfo}</small><b>Item safety thresholds</b><span>Shown on each item</span><small>Thresholds below indicate when drops stop breaking.</small></div><h4>Normal Rock items and safety points</h4><ExcavationItemTiles items={site.items}/><h4>Pokemon</h4><SpeciesTiles names={site.pokemon}/>{site.specialPokemon&&<><h4>Fossil revival Pokemon (6,000+ Discoveries)</h4><SpeciesTiles names={site.specialPokemon}/></>}{site.shinyPokemon.length>0&&<><h4>Shiny Rock Pokemon</h4><SpeciesTiles names={site.shinyPokemon}/></>}{site.shinyItems.length>0&&<><h4>Shiny Rock items (no Discovery Points required)</h4><ItemTiles items={site.shinyItems}/></>}</>}</div></details>}{boss&&<><BossStrategyDetails bossId={boss.id}/><BossRewardDetails boss={boss}/></>}</div><div className="card-side"><div className="timer-label">{state==='available'?'READY TO GO':state==='cooldown'?'AVAILABLE IN':'TIMING NOT SET'}</div><div className={`timer ${state}`}>{remaining===null?'Unknown':countdown(remaining)}</div>{doneAt&&<small>Last done {new Date(doneAt).toLocaleString()}</small>}{doneAt?<button className="done-btn undo-btn" onClick={onUnmark}><Undo2 size={15}/> Undo mark</button>:<button className="done-btn" disabled={a.kind==='boss'&&weeklyBossLimitReached} title={a.kind==='boss'&&weeklyBossLimitReached?'Weekly boss limit reached (20/20)':''} onClick={onMark}><Check size={15}/> Mark as done</button>}</div></div></article>}
-function BossStrategyDetails({bossId,compact=false}:{bossId:string;compact?:boolean}){
-  const strategy=bossStrategies[bossId];
-  if(!strategy)return null;
-  const isBanette=strategy.label.toLowerCase().includes('banette');
-  if(compact)return <div className="boss-strategy mini-boss-strategy">
-    <span className={`boss-strategy-label${isBanette?' boss-strategy-label--banette':''}`}>{strategy.label}</span>
-  </div>;
+function BossStrategyDetails({bossId, compact = false}: { bossId: string; compact?: boolean }) {
+  const strategy = bossStrategies[bossId];
+  if (!strategy) return null;
+  const isBanette = strategy.label.toLowerCase().includes('banette');
+  if (compact) return <div className={`mini-boss-strategy${isBanette ? ' mini-boss-strategy--banette' : ''}`}>{strategy.label}</div>;
   return <details className="boss-strategy">
     <summary>
-      <span className={`boss-strategy-label${isBanette?' boss-strategy-label--banette':''}`}>{strategy.label}</span>
-      {strategy.notes&&strategy.notes.map((note,i)=><span key={i} className="boss-strategy-note">· {note}</span>)}
+      <span className={`boss-strategy-label${isBanette ? ' boss-strategy-label--banette' : ''}`}>{strategy.label}</span>
+      {strategy.notes && strategy.notes.map((note, i) => <span key={i} className="boss-strategy-note">· {note}</span>)}
     </summary>
     <div className="boss-strategy-content">
       <p className="boss-strategy-approach">{strategy.approach}</p>
-      {strategy.team&&<ul>{strategy.team.map((item,index)=><li key={index}>{item}</li>)}</ul>}
-      {strategy.usesDefault&&<>
+      {strategy.team && <ul>{strategy.team.map((item, index) => <li key={index}>{item}</li>)}</ul>}
+      {strategy.usesDefault && <>
         <h4>Default sequence</h4>
-        <ol>{(isBanette?defaultBannetBossStrategy:defaultBossStrategy).steps.map((item,index)=><li key={index}>{item}</li>)}</ol>
+        <ol>{(isBanette ? defaultBannetBossStrategy : defaultBossStrategy).steps.map((item, index) => <li key={index}>{item}</li>)}</ol>
       </>}
-      {strategy.notes&&<ul className="boss-strategy-notes-list">{strategy.notes.map((item,index)=><li key={index}>{item}</li>)}</ul>}
+      {strategy.notes && <ul className="boss-strategy-notes-list">{strategy.notes.map((item, index) => <li key={index}>{item}</li>)}</ul>}
     </div>
   </details>
 }

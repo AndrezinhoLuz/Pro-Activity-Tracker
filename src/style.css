@@ -199,15 +199,10 @@ body[data-theme=light] .navigation-help>span b,body[data-theme=light] .navigatio
 .boss-strategy-content h4{margin:9px 0 4px;color:#aeb9c8;font-size:9px;text-transform:uppercase;letter-spacing:.5px}
 .boss-strategy-content ul,.boss-strategy-content ol{margin:5px 0;padding-left:19px}
 .boss-strategy-content li{margin:3px 0}
-.mini-boss-strategy{width:100%;max-width:none;margin:3px 0 0;background:#0e1721}
-.mini-boss-strategy summary{padding:4px 6px;font-size:9px}
-.mini-boss-strategy .boss-strategy-content{padding:4px 7px;font-size:9px;line-height:1.4}
-.mini-boss-strategy .boss-strategy-content h4{font-size:8px}
-.mini-boss-strategy .boss-strategy-content ul,.mini-boss-strategy .boss-strategy-content ol{padding-left:15px}
-body[data-theme=light] .boss-strategy{background:#fff;border-color:#d6dfe8}
-body[data-theme=light] .boss-strategy-content{border-color:#d6dfe8;color:#526174}
-body[data-theme=light] .boss-strategy-content h4{color:#344256}
-body[data-theme=light] .mini-boss-strategy{background:#fff}
+.mini-boss-strategy{display:inline-flex;align-items:center;width:max-content;max-width:100%;margin:3px 0 0;padding:2px 6px;border:1px solid color-mix(in srgb,#e4bd70 45%,#34414b);border-radius:999px;background:color-mix(in srgb,#e4bd70 13%,#101721);color:#e4bd70;font-size:9px;font-weight:700;line-height:1.3}
+.mini-boss-strategy--banette{border-color:color-mix(in srgb,var(--accent) 45%,#34414b);background:color-mix(in srgb,var(--accent) 13%,#101721);color:var(--accent)}
+body[data-theme=light] .mini-boss-strategy{background:color-mix(in srgb,#e4bd70 12%,#fff);border-color:color-mix(in srgb,#e4bd70 45%,#ccd7e2);color:#8f6c26}
+body[data-theme=light] .mini-boss-strategy--banette{background:color-mix(in srgb,var(--accent) 12%,#fff);color:color-mix(in srgb,var(--accent) 75%,#223344)}
 .boss-difficulty{border-top:1px solid #253141;padding:10px 0}
 .boss-difficulty:first-child{border-top:0;padding-top:0}
 .boss-difficulty h4{margin:0 0 7px;color:#dbe5f3;font-size:11px;text-transform:capitalize}
