@@ -2161,8 +2161,8 @@
           "tier3": 15
         },
         "money": {
-          "minimum": 20000,
-          "maximum": 40000
+          "minimum": 40000,
+          "maximum": 60000
         },
         "pveCoins": 5,
         "items": [
@@ -5273,14 +5273,6 @@
     "wikiUrl": "https://wiki.pokemonrevolution.net/Maribela_(boss)",
     "difficulties": [
       {
-        "difficulty": "easy",
-        "tierChances": {},
-        "money": {},
-        "items": [],
-        "pokemon": [],
-        "unavailableMessage": "This difficulty does not exist, please look under Medium/Hard."
-      },
-      {
         "difficulty": "medium",
         "tierChances": {
           "tier1": 80,
@@ -5434,8 +5426,15 @@
     "difficulties": [
       {
         "difficulty": "easy",
-        "tierChances": {},
-        "money": {},
+        "tierChances": {
+          "tier1": 85,
+          "tier2": 10,
+          "tier3": 5
+        },
+        "money": {
+          "minimum": 5000,
+          "maximum": 10000
+        },
         "pveCoins": 0,
         "items": [
           {
@@ -5505,9 +5504,16 @@
       },
       {
         "difficulty": "medium",
-        "tierChances": {},
-        "money": {},
-        "pveCoins": 0,
+        "tierChances": {
+          "tier1": 80,
+          "tier2": 10,
+          "tier3": 10
+        },
+        "money": {
+          "minimum": 12000,
+          "maximum": 30000
+        },
+        "pveCoins": 3,
         "items": [
           {
             "name": "Super Repel",
@@ -5601,9 +5607,16 @@
       },
       {
         "difficulty": "hard",
-        "tierChances": {},
-        "money": {},
-        "pveCoins": 0,
+        "tierChances": {
+          "tier1": 60,
+          "tier2": 25,
+          "tier3": 15
+        },
+        "money": {
+          "minimum": 40000,
+          "maximum": 60000
+        },
+        "pveCoins": 5,
         "items": [
           {
             "name": "Super Repel",
@@ -7506,8 +7519,15 @@
     "difficulties": [
       {
         "difficulty": "easy",
-        "tierChances": {},
-        "money": {},
+        "tierChances": {
+          "tier1": 85,
+          "tier2": 10,
+          "tier3": 5
+        },
+        "money": {
+          "minimum": 5000,
+          "maximum": 10000
+        },
         "pveCoins": 0,
         "items": [
           {
@@ -7577,9 +7597,16 @@
       },
       {
         "difficulty": "medium",
-        "tierChances": {},
-        "money": {},
-        "pveCoins": 0,
+        "tierChances": {
+          "tier1": 80,
+          "tier2": 10,
+          "tier3": 10
+        },
+        "money": {
+          "minimum": 12000,
+          "maximum": 30000
+        },
+        "pveCoins": 3,
         "items": [
           {
             "name": "Tamato Berry",
@@ -7648,9 +7675,16 @@
       },
       {
         "difficulty": "hard",
-        "tierChances": {},
-        "money": {},
-        "pveCoins": 0,
+        "tierChances": {
+          "tier1": 60,
+          "tier2": 25,
+          "tier3": 15
+        },
+        "money": {
+          "minimum": 20000,
+          "maximum": 40000
+        },
+        "pveCoins": 5,
         "items": [
           {
             "name": "Tamato Berry",
@@ -8820,8 +8854,15 @@
     "difficulties": [
       {
         "difficulty": "easy",
-        "tierChances": {},
-        "money": {},
+        "tierChances": {
+          "tier1": 85,
+          "tier2": 10,
+          "tier3": 5
+        },
+        "money": {
+          "minimum": 5000,
+          "maximum": 10000
+        },
         "pveCoins": 0,
         "items": [
           {
@@ -10542,8 +10583,15 @@
     "difficulties": [
       {
         "difficulty": "easy",
-        "tierChances": {},
-        "money": {},
+        "tierChances": {
+          "tier1": 85,
+          "tier2": 10,
+          "tier3": 5
+        },
+        "money": {
+          "minimum": 5000,
+          "maximum": 10000
+        },
         "pveCoins": 0,
         "items": [
           {
@@ -11334,8 +11382,15 @@
     "difficulties": [
       {
         "difficulty": "easy",
-        "tierChances": {},
-        "money": {},
+        "tierChances": {
+          "tier1": 85,
+          "tier2": 10,
+          "tier3": 5
+        },
+        "money": {
+          "minimum": 5000,
+          "maximum": 10000
+        },
         "pveCoins": 0,
         "items": [
           {
@@ -11395,9 +11450,16 @@
       },
       {
         "difficulty": "medium",
-        "tierChances": {},
-        "money": {},
-        "pveCoins": 0,
+        "tierChances": {
+          "tier1": 80,
+          "tier2": 10,
+          "tier3": 10
+        },
+        "money": {
+          "minimum": 12000,
+          "maximum": 30000
+        },
+        "pveCoins": 3,
         "items": [
           {
             "name": "Focus Sash",
@@ -11471,9 +11533,16 @@
       },
       {
         "difficulty": "hard",
-        "tierChances": {},
-        "money": {},
-        "pveCoins": 0,
+        "tierChances": {
+          "tier1": 60,
+          "tier2": 25,
+          "tier3": 15
+        },
+        "money": {
+          "minimum": 20000,
+          "maximum": 40000
+        },
+        "pveCoins": 5,
         "items": [
           {
             "name": "Focus Sash",
@@ -11558,8 +11627,15 @@
     "difficulties": [
       {
         "difficulty": "easy",
-        "tierChances": {},
-        "money": {},
+        "tierChances": {
+          "tier1": 85,
+          "tier2": 10,
+          "tier3": 5
+        },
+        "money": {
+          "minimum": 5000,
+          "maximum": 10000
+        },
         "pveCoins": 0,
         "items": [
           {
@@ -11649,9 +11725,16 @@
       },
       {
         "difficulty": "medium",
-        "tierChances": {},
-        "money": {},
-        "pveCoins": 0,
+        "tierChances": {
+          "tier1": 80,
+          "tier2": 10,
+          "tier3": 10
+        },
+        "money": {
+          "minimum": 12000,
+          "maximum": 30000
+        },
+        "pveCoins": 3,
         "items": [
           {
             "name": "Thunder Stone",
@@ -11745,9 +11828,16 @@
       },
       {
         "difficulty": "hard",
-        "tierChances": {},
-        "money": {},
-        "pveCoins": 0,
+        "tierChances": {
+          "tier1": 60,
+          "tier2": 25,
+          "tier3": 15
+        },
+        "money": {
+          "minimum": 20000,
+          "maximum": 40000
+        },
+        "pveCoins": 5,
         "items": [
           {
             "name": "Thunder Stone",
